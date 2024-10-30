@@ -1,0 +1,751 @@
+INFO - 2024-10-02 09:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 09:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 09:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 09:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 09:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 09:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:13:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 10:13:30 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 10:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 10:19:22 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 10:19:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 10:19:25 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 10:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:26:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:26:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 10:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 11:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 13:53:42 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 13:53:50 --> Error: Class "App\Models\TaiLieuThamKhaoModel" not found
+[Method: GET, Route: tai-lieu]
+in APPPATH\Controllers\TaiLieuThamKhaoController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\TaiLieuThamKhaoController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 13:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:56:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 13:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:06:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:09:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:15:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:15:39 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = 'user_66ed9e90165352.72242937';
+INFO - 2024-10-02 14:15:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:24:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 14:32:05 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 14:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:37:32 --> SELECT COUNT(*) AS dem FROM NhomChucNang_ChucNang WHERE maChucNang = 'tacvu_66fcf68e6229c3.62263243'
+INFO - 2024-10-02 14:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 14:40:17 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/them_quyen_cho_nhom/1]
+in APPPATH\Views\admin\nhomquyen\them_quyen_cho_nhom.php on line 3.
+ 1 APPPATH\Views\admin\nhomquyen\them_quyen_cho_nhom.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\PhpstormProjects\\TrungTamCNTT\\app\\Views\\admin\\nhomquyen\\them_quyen_cho_nhom.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\TacVuController.php(147): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TacVuController->them_quyen_cho_nhom()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 14:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 14:40:43 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$1"
+[Method: GET, Route: admin/them_quyen_cho_nhom/$1]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 14:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 14:42:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$1"
+[Method: GET, Route: admin/them_quyen_cho_nhom/$1]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 14:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:43:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:58:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:58:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 14:58:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:05:25 --> UPDATE ChucNangTruyCap SET tenChucNang = 'Xem Danh Sách Tài Liệu Tham Khảo', urlChucNang = '/admin/danh_sach_tai_lieu_tham_khao' WHERE (maChucNang = 'tacvu_66fcfe4f45d344.15106326');
+INFO - 2024-10-02 15:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 15:06:48 --> mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause' in C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+#6 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+#7 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\PhpstormProjects\TrungTamCNTT\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-02 15:06:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+[Method: GET, Route: admin/danh_sach_tai_lieu_tham_khao]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:06:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:06:48 --> [Caused by] mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 15:06:58 --> mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause' in C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+#6 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+#7 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\PhpstormProjects\TrungTamCNTT\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-02 15:06:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+[Method: GET, Route: admin/danh_sach_tai_lieu_tham_khao]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:06:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:06:58 --> [Caused by] mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 15:09:39 --> mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause' in C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+#6 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+#7 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\PhpstormProjects\TrungTamCNTT\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-02 15:09:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+[Method: GET, Route: admin/danh_sach_tai_lieu_tham_khao]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:09:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:09:39 --> [Caused by] mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 15:09:44 --> mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause' in C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+#6 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+#7 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\PhpstormProjects\TrungTamCNTT\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-02 15:09:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+[Method: GET, Route: admin/danh_sach_tai_lieu_tham_khao]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:09:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:09:44 --> [Caused by] mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 15:10:03 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 15:10:12 --> mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause' in C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+#6 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+#7 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\PhpstormProjects\TrungTamCNTT\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-02 15:10:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+[Method: GET, Route: admin/danh_sach_tai_lieu_tham_khao]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:10:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:10:12 --> [Caused by] mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:10:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-10-02 15:13:33 --> mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause' in C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\PhpstormProjects\TrungTamCNTT\app\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+#6 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+#7 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\PhpstormProjects\TrungTamCNTT\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\PhpstormProjects\TrungTamCNTT\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-02 15:13:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+[Method: GET, Route: admin/danh_sach_tai_lieu_tham_khao]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:13:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-02 15:13:33 --> [Caused by] mysqli_sql_exception: Unknown column 'DanhMucTaiLieuThamKhao.MaDanhMucTL' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\TaiLieuThamKhaoModel.php(13): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\TaiLieuThamKhaoController.php(23): App\Models\TaiLieuThamKhaoModel->layDanhSachTaiLieuThamKhao()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:20:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 15:20:10 --> ErrorException: Undefined variable $ds_tacvu
+[Method: GET, Route: admin/danh_sach_tai_lieu_tham_khao]
+in APPPATH\Views\admin\tailieuthamkhao\ds_tailieuthamkhao.php on line 21.
+ 1 APPPATH\Views\admin\tailieuthamkhao\ds_tailieuthamkhao.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\PhpstormProjects\\TrungTamCNTT\\app\\Views\\admin\\tailieuthamkhao\\ds_tailieuthamkhao.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\TaiLieuThamKhaoController.php(29): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 15:24:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 15:25:29 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:40:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:40:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 15:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 15:59:43 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: GET, Route: admin/danh_sach_tai_lieu_tham_khao]
+in SYSTEMPATH\Database\BaseConnection.php on line 913.
+ 1 SYSTEMPATH\Model.php(705): CodeIgniter\Database\BaseConnection->table()
+ 2 SYSTEMPATH\Model.php(911): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\TaiLieuThamKhaoController.php(24): CodeIgniter\Model->__call()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 15:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-02 16:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-02 16:58:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/ds_thumuc_chitiet/folder_detail.php"
+[Method: GET, Route: admin/tailieuthamkhao/folder/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\TaiLieuThamKhaoController.php(74): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuThamKhaoController->folderDetail()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-02 16:59:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

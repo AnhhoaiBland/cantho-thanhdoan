@@ -1,0 +1,58 @@
+INFO - 2024-05-11 22:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-11 23:00:25 --> [DEPRECATED] strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\block\show_thu_view_block.php on line 154.
+ 1 APPPATH\Views\block\show_thu_view_block.php(154): strip_tags(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('block/show_thu_view_block', [], true)
+ 5 APPPATH\Views\Page_thuVien.php(59): view('block/show_thu_view_block', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Page_thuVien', [], true)
+ 9 APPPATH\Controllers\DaPhuongTienController.php(211): view('Page_thuVien', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaPhuongTienController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-11 23:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 23:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 23:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 23:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 23:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 23:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-11 23:04:13 --> [DEPRECATED] strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\block\show_thu_view_block.php on line 154.
+ 1 APPPATH\Views\block\show_thu_view_block.php(154): strip_tags(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('block/show_thu_view_block', [], true)
+ 5 APPPATH\Views\Page_thuVien.php(59): view('block/show_thu_view_block', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Page_thuVien', [], true)
+ 9 APPPATH\Controllers\DaPhuongTienController.php(218): view('Page_thuVien', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_video()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaPhuongTienController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-11 23:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-11 23:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-11 23:04:24 --> [DEPRECATED] strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\block\show_thu_view_block.php on line 154.
+ 1 APPPATH\Views\block\show_thu_view_block.php(154): strip_tags(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('block/show_thu_view_block', [], true)
+ 5 APPPATH\Views\Page_thuVien.php(59): view('block/show_thu_view_block', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Page_thuVien', [], true)
+ 9 APPPATH\Controllers\DaPhuongTienController.php(211): view('Page_thuVien', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaPhuongTienController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-11 23:04:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

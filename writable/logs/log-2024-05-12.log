@@ -1,0 +1,235 @@
+INFO - 2024-05-12 10:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-12 10:01:59 --> [DEPRECATED] strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\block\show_thu_view_block.php on line 154.
+ 1 APPPATH\Views\block\show_thu_view_block.php(154): strip_tags(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('block/show_thu_view_block', [], true)
+ 5 APPPATH\Views\Page_thuVien.php(59): view('block/show_thu_view_block', [...])
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Page_thuVien', [], true)
+ 9 APPPATH\Controllers\DaPhuongTienController.php(211): view('Page_thuVien', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaPhuongTienController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-12 10:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:12:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:12:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:14:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:14:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:15:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:17:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:17:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:18:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-12 10:26:46 --> ErrorException: Undefined array key "anhTieuDe"
+[Method: GET, Route: thu-vien-anh]
+in APPPATH\Views\block\show_thu_view_block.php on line 45.
+ 1 APPPATH\Views\block\show_thu_view_block.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\Page_thuVien.php(59): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\DaPhuongTienController.php(211): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-12 10:27:32 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: thu-vien-anh]
+in APPPATH\Views\block\show_thu_view_block.php on line 50.
+ 1 APPPATH\Views\block\show_thu_view_block.php(50): date()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\Page_thuVien.php(59): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\DaPhuongTienController.php(212): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-12 10:27:34 --> TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given
+[Method: GET, Route: thu-vien-anh]
+in APPPATH\Views\block\show_thu_view_block.php on line 50.
+ 1 APPPATH\Views\block\show_thu_view_block.php(50): date()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\Page_thuVien.php(59): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\DaPhuongTienController.php(212): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-12 10:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:30:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 10:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 12:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 12:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 12:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 12:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 12:57:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 12:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 12:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-12 13:14:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "show_thu_view_block.php"
+[Method: GET, Route: thu-vien-anh]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\DaPhuongTienController.php(236): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-12 13:14:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "show_thu_view_block.php"
+[Method: GET, Route: thu-vien-anh]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\DaPhuongTienController.php(236): view()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-12 13:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 13:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-12 13:40:27 --> ErrorException: Array to string conversion
+[Method: GET, Route: thu-vien-anh]
+in APPPATH\Views\block\show_thu_view_block.php on line 55.
+ 1 APPPATH\Views\block\show_thu_view_block.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\Page_thuVien.php(4): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\DaPhuongTienController.php(236): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-12 13:40:30 --> ErrorException: Array to string conversion
+[Method: GET, Route: thu-vien-anh]
+in APPPATH\Views\block\show_thu_view_block.php on line 55.
+ 1 APPPATH\Views\block\show_thu_view_block.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\Page_thuVien.php(4): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\DaPhuongTienController.php(236): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-12 13:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-12 13:41:00 --> ErrorException: Array to string conversion
+[Method: GET, Route: thu-vien-anh]
+in APPPATH\Views\block\show_thu_view_block.php on line 55.
+ 1 APPPATH\Views\block\show_thu_view_block.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\Page_thuVien.php(4): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\DaPhuongTienController.php(236): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-12 13:41:16 --> ErrorException: Array to string conversion
+[Method: GET, Route: thu-vien-anh]
+in APPPATH\Views\block\show_thu_view_block.php on line 55.
+ 1 APPPATH\Views\block\show_thu_view_block.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\block\\show_thu_view_block.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\Page_thuVien.php(4): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_thuVien.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\DaPhuongTienController.php(236): view()
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaPhuongTienController->thu_vien_anh()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-12 13:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 16:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 22:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-12 22:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

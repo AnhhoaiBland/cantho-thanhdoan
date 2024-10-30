@@ -1,0 +1,368 @@
+ERROR - 2024-10-24 13:53:56 --> mysqli_sql_exception: Table 'thanhdoan.baidang' doesn't exist in C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\phama\OneDrive\Desktop\ThanhDoan\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\OneDrive\Desktop\ThanhDoan\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\OneDrive\Desktop\ThanhDoan\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#6 C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#7 C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\OneDrive\Desktop\ThanhDoan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\OneDrive\Desktop\ThanhDoan\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-10-24 13:53:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'thanhdoan.baidang' doesn't exist
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 13:53:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'thanhdoan.baidang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 13:53:56 --> [Caused by] mysqli_sql_exception: Table 'thanhdoan.baidang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-24 13:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 13:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 13:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 14:01:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/fonts/icomoon/style.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:01:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/css/bootstrap.min.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:01:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/jquery-3.3.1.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:01:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/popper.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:01:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/css/style.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:01:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/bootstrap.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:01:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/images/handle_cert.png]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-24 14:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 14:21:14 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/fonts/icomoon/style.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:21:14 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/popper.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:21:14 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/jquery-3.3.1.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:21:14 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/css/style.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:21:14 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/css/bootstrap.min.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:21:14 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/bootstrap.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 14:21:14 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/images/handle_cert.png]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-24 14:31:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 14:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 15:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 15:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-24 15:48:57 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/fonts/icomoon/style.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 15:48:57 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/css/bootstrap.min.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 15:48:57 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/css/style.css]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 15:48:57 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/jquery-3.3.1.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 15:48:57 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/popper.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 15:48:57 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/js/bootstrap.min.js]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-10-24 15:48:57 --> ErrorException: Undefined array key 0
+[Method: GET, Route: cate/public/footer/images/handle_cert.png]
+in APPPATH\Views\block\show_baiviet_theo_category.php on line 147.
+ 1 APPPATH\Views\block\show_baiviet_theo_category.php(147): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\OneDrive\\Desktop\\ThanhDoan\\app\\Views\\block\\show_baiviet_theo_category.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(296): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_blog_danh_mucPlus()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-24 15:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-24 15:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

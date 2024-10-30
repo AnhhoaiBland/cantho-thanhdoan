@@ -1,0 +1,936 @@
+INFO - 2024-05-14 10:29:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:29:03 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_662e592f8041f9.74247303');
+INFO - 2024-05-14 10:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:30:00 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_663841f2d5f130.20038171');
+INFO - 2024-05-14 10:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:31:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:31:09 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_662e64573c5570.33981405');
+INFO - 2024-05-14 10:31:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:31:12 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_6632680dc2c6f7.42405242');
+INFO - 2024-05-14 10:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:38:45 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 43.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(43): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-14 10:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:39:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:40:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2024-05-14 10:40:23 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\admin\baidang\ds_baidang.php on line 45.
+ 1 APPPATH\Views\admin\baidang\ds_baidang.php(45): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\ds_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\ds_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(24): view('admin\\baidang\\ds_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-14 10:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:50:54 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_6632efa4eb4f04.55374436');
+INFO - 2024-05-14 10:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:52:49 --> UPDATE BaiDang SET trangThai = '1', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_662e592f8041f9.74247303');
+INFO - 2024-05-14 10:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 10:56:37 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/baiDang_662e64573c5570.33981405]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(68): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 10:57:01 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/baiDang_662e64573c5570.33981405]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaiDangController.php(68): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 10:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 10:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:12:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:18:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:18:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:26 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_6632fe4c4949f2.00801955');
+INFO - 2024-05-14 11:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:28 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_6632fe86770b53.54679483');
+INFO - 2024-05-14 11:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:30 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_662e64573c5570.33981405');
+INFO - 2024-05-14 11:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:32 --> UPDATE BaiDang SET trangThai = '2', nguoiDungDuyetBai = 'admin', thoiGianDuyetBai = CURRENT_DATE WHERE (maBaiDang = 'baiDang_662e592f8041f9.74247303');
+INFO - 2024-05-14 11:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 11:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 11:52:02 --> ErrorException: unlink(C:\OSPanel\domains\phunu.cantho.gov.vietnam\writable\debugbar/debugbar_1715662212.715039.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink()
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format()
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 11:54:28 --> ErrorException: Undefined variable $boSuTap
+[Method: GET, Route: admin/hopthu]
+in APPPATH\Views\admin\thugopy\ds_thugopy.php on line 35.
+ 1 APPPATH\Views\admin\thugopy\ds_thugopy.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\thugopy\\ds_thugopy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThuGopYController.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->hopthu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 11:54:37 --> ErrorException: Undefined array key "trangThai"
+[Method: GET, Route: admin/hopthu]
+in APPPATH\Views\admin\thugopy\ds_thugopy.php on line 35.
+ 1 APPPATH\Views\admin\thugopy\ds_thugopy.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\thugopy\\ds_thugopy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThuGopYController.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->hopthu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 11:56:52 --> ErrorException: Undefined array key "trangThai"
+[Method: GET, Route: admin/hopthu]
+in APPPATH\Views\admin\thugopy\ds_thugopy.php on line 35.
+ 1 APPPATH\Views\admin\thugopy\ds_thugopy.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\thugopy\\ds_thugopy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThuGopYController.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->hopthu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 11:57:15 --> ErrorException: Undefined array key "trangThai"
+[Method: GET, Route: admin/hopthu]
+in APPPATH\Views\admin\thugopy\ds_thugopy.php on line 35.
+ 1 APPPATH\Views\admin\thugopy\ds_thugopy.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\thugopy\\ds_thugopy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThuGopYController.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->hopthu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 11:57:15 --> ErrorException: Undefined array key "trangThai"
+[Method: GET, Route: admin/hopthu]
+in APPPATH\Views\admin\thugopy\ds_thugopy.php on line 35.
+ 1 APPPATH\Views\admin\thugopy\ds_thugopy.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\thugopy\\ds_thugopy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThuGopYController.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->hopthu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 11:57:16 --> ErrorException: Undefined array key "trangThai"
+[Method: GET, Route: admin/hopthu]
+in APPPATH\Views\admin\thugopy\ds_thugopy.php on line 35.
+ 1 APPPATH\Views\admin\thugopy\ds_thugopy.php(35): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\thugopy\\ds_thugopy.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThuGopYController.php(25): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->hopthu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 11:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 15:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 18:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 21:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 22:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:38:41 --> admin
+INFO - 2024-05-14 23:38:41 --> /admin/dstacvu
+INFO - 2024-05-14 23:38:41 --> 1
+INFO - 2024-05-14 23:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 23:43:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "Nguyễn Thanh Đầy"
+[Method: GET, Route: admin/view_thugopy/Nguy%E1%BB%85n%20Thanh%20%C4%90%E1%BA%A7y]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 23:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:43:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 23:43:22 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$mathugopy"
+[Method: GET, Route: admin/view_thugopy/$mathugopy]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 23:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 23:45:39 --> ParseError: syntax error, unexpected single-quoted string ""
+[Method: GET, Route: admin/hopthu]
+in APPPATH\Controllers\ThuGopYController.php on line 52.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 23:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 23:45:46 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$mathugopy"
+[Method: GET, Route: admin/view_thugopy/$mathugopy]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 23:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 23:45:54 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$mathugopy"
+[Method: GET, Route: admin/view_thugopy/$mathugopy]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 23:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-14 23:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 23:50:01 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$mathugopy"
+[Method: GET, Route: admin/view_thugopy/$mathugopy]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 23:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-14 23:52:51 --> ParseError: syntax error, unexpected token "exit", expecting "," or ";"
+[Method: GET, Route: admin/hopthu]
+in APPPATH\Controllers\ThuGopYController.php on line 53.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 23:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-05-14 23:52:59 --> mysqli_sql_exception: Unknown column 'thu_6631e3eb447cc5.24745038' in 'where clause' in C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Models\ThuGopYModel.php(17): App\Models\BaseModel->executeQuery()
+#5 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Controllers\ThuGopYController.php(52): App\Models\ThuGopYModel->getThuGopYID()
+#6 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(933): App\Controllers\ThuGopYController->view_thugopy()
+#7 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\OSPanel\domains\phunu.cantho.gov.vietnam\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-05-14 23:52:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'thu_6631e3eb447cc5.24745038' in 'where clause'
+[Method: GET, Route: admin/view_thugopy/thu_6631e3eb447cc5.24745038]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\ThuGopYModel.php(17): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\ThuGopYController.php(52): App\Models\ThuGopYModel->getThuGopYID()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->view_thugopy()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 23:52:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'thu_6631e3eb447cc5.24745038' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\ThuGopYModel.php(17): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\ThuGopYController.php(52): App\Models\ThuGopYModel->getThuGopYID()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->view_thugopy()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-14 23:52:59 --> [Caused by] mysqli_sql_exception: Unknown column 'thu_6631e3eb447cc5.24745038' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\ThuGopYModel.php(17): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\ThuGopYController.php(52): App\Models\ThuGopYModel->getThuGopYID()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThuGopYController->view_thugopy()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-14 23:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

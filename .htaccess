@@ -1,0 +1,14 @@
+Options -Indexes
+
+RewriteEngine On
+
+# Remove index.php from URL
+RewriteCond %{HTTP:X-Requested-With} !^XMLHttpRequest$
+RewriteCond %{THE_REQUEST} ^[^/]*/index\.php [NC]
+RewriteRule ^index\.php(.*)$ $1 [R=301,NS,L]
+
+# DirectoryIndex
+DirectoryIndex index.php
+
+# Unconditionally rewrite everything to the "public" subdirectory
+RewriteRule (.*) public/$1 [L]

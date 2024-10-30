@@ -1,0 +1,241 @@
+INFO - 2024-05-15 16:22:56 --> SET @searchKeyword = ''; SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl.maTaiLieu, tl.tenTaiLieu, tl.soHieuTL, dmtl.tenDanhMucTaiLieu, tl.moTa, tl.ngayTao, tl.ngayCapNhat, tl.duongDanTaiVe, tl.thoiGianBanHanh FROM TaiLieu tl LEFT JOIN DanhMucTaiLieu dmtl ON tl.maDanhMucTaiLieu = dmtl.maDanhMucTaiLieu WHERE ((tl.tenTaiLieu LIKE CONCAT('%', @searchKeyword, '%') COLLATE utf8mb4_unicode_ci OR tl.soHieuTL LIKE CONCAT('%', @searchKeyword, '%') COLLATE utf8mb4_unicode_ci) OR tl.thoiGianBanHanh LIKE CONCAT('%', @searchThoiGianBanHanh, '%') COLLATE utf8mb4_unicode_ci OR dmtl.tenDanhMucTaiLieu LIKE CONCAT('%', @searchTenDanhMucTaiLieu, '%') COLLATE utf8mb4_unicode_ci OR @searchKeyword IS NULL);
+ERROR - 2024-05-15 16:22:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl...' at line 1 in C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Models\TaiLieuModel.php(14): App\Models\BaseModel->executeQuery()
+#5 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Controllers\TaiLieuController.php(47): App\Models\TaiLieuModel->tim_tailieu()
+#6 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(933): App\Controllers\TaiLieuController->timTaiLieu()
+#7 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\OSPanel\domains\phunu.cantho.gov.vietnam\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-05-15 16:22:56 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl...' at line 1
+[Method: POST, Route: file/timTaiLieu]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\TaiLieuModel.php(14): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\TaiLieuController.php(47): App\Models\TaiLieuModel->tim_tailieu()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->timTaiLieu()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-15 16:22:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\TaiLieuModel.php(14): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\TaiLieuController.php(47): App\Models\TaiLieuModel->tim_tailieu()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->timTaiLieu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-15 16:22:56 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\TaiLieuModel.php(14): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\TaiLieuController.php(47): App\Models\TaiLieuModel->tim_tailieu()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->timTaiLieu()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-15 16:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 16:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 16:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 16:51:07 --> SET @searchKeyword = ''; SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl.maTaiLieu, tl.tenTaiLieu, tl.soHieuTL, dmtl.tenDanhMucTaiLieu, tl.moTa, tl.ngayTao, tl.ngayCapNhat, tl.duongDanTaiVe, tl.thoiGianBanHanh FROM TaiLieu tl LEFT JOIN DanhMucTaiLieu dmtl ON tl.maDanhMucTaiLieu = dmtl.maDanhMucTaiLieu WHERE ((tl.tenTaiLieu LIKE CONCAT('%', @searchKeyword, '%') COLLATE utf8mb4_unicode_ci OR tl.soHieuTL LIKE CONCAT('%', @searchKeyword, '%') COLLATE utf8mb4_unicode_ci) OR tl.thoiGianBanHanh LIKE CONCAT('%', @searchThoiGianBanHanh, '%') COLLATE utf8mb4_unicode_ci OR dmtl.tenDanhMucTaiLieu LIKE CONCAT('%', @searchTenDanhMucTaiLieu, '%') COLLATE utf8mb4_unicode_ci OR @searchKeyword IS NULL);
+ERROR - 2024-05-15 16:51:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl...' at line 1 in C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\MySQLi\Connection.php(308): mysqli->query()
+#1 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Models\TaiLieuModel.php(14): App\Models\BaseModel->executeQuery()
+#5 C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Controllers\TaiLieuController.php(47): App\Models\TaiLieuModel->tim_tailieu()
+#6 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(933): App\Controllers\TaiLieuController->timTaiLieu()
+#7 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\OSPanel\domains\phunu.cantho.gov.vietnam\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\OSPanel\domains\phunu.cantho.gov.vietnam\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+CRITICAL - 2024-05-15 16:51:07 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl...' at line 1
+[Method: POST, Route: file/timTaiLieu]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\TaiLieuModel.php(14): App\Models\BaseModel->executeQuery()
+ 3 APPPATH\Controllers\TaiLieuController.php(47): App\Models\TaiLieuModel->tim_tailieu()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->timTaiLieu()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-15 16:51:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\TaiLieuModel.php(14): App\Models\BaseModel->executeQuery()
+ 5 APPPATH\Controllers\TaiLieuController.php(47): App\Models\TaiLieuModel->tim_tailieu()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->timTaiLieu()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-15 16:51:07 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET @searchThoiGianBanHanh = ''; SET @searchTenDanhMucTaiLieu = ''; SELECT tl...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\TaiLieuModel.php(14): App\Models\BaseModel->executeQuery()
+ 6 APPPATH\Controllers\TaiLieuController.php(47): App\Models\TaiLieuModel->tim_tailieu()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->timTaiLieu()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-15 19:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:53:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:55:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:56:54 --> admin
+INFO - 2024-05-15 19:56:54 --> /admin/ds_taikhoan
+INFO - 2024-05-15 19:56:54 --> 1
+INFO - 2024-05-15 19:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:49 --> admin
+INFO - 2024-05-15 19:57:49 --> /admin/ds_taikhoan
+INFO - 2024-05-15 19:57:49 --> 1
+INFO - 2024-05-15 19:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 19:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:00:49 --> admin
+INFO - 2024-05-15 20:00:49 --> /admin/lock_user
+INFO - 2024-05-15 20:00:49 --> 1
+INFO - 2024-05-15 20:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-15 20:01:58 --> ErrorException: unlink(C:\OSPanel\domains\phunu.cantho.gov.vietnam\writable\debugbar/debugbar_1715777907.234335.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink()
+ 3 SYSTEMPATH\Debug\Toolbar.php(520): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format()
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-15 20:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:02:38 --> admin
+INFO - 2024-05-15 20:02:38 --> /admin/unlock_user
+INFO - 2024-05-15 20:02:38 --> 1
+INFO - 2024-05-15 20:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:02:40 --> admin
+INFO - 2024-05-15 20:02:40 --> /admin/lock_user
+INFO - 2024-05-15 20:02:40 --> 1
+INFO - 2024-05-15 20:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:03:35 --> admin
+INFO - 2024-05-15 20:03:35 --> /admin/dstacvu
+INFO - 2024-05-15 20:03:35 --> 1
+INFO - 2024-05-15 20:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:19:44 --> admin
+INFO - 2024-05-15 20:19:44 --> /admin/dstacvu
+INFO - 2024-05-15 20:19:44 --> 1
+INFO - 2024-05-15 20:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:22:24 --> admin
+INFO - 2024-05-15 20:22:24 --> /admin/dstacvu
+INFO - 2024-05-15 20:22:24 --> 1
+INFO - 2024-05-15 20:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-15 20:22:34 --> admin
+INFO - 2024-05-15 20:22:34 --> /admin/dstacvu
+INFO - 2024-05-15 20:22:34 --> 1
+INFO - 2024-05-15 22:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

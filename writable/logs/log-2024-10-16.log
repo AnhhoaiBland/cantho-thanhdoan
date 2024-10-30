@@ -1,0 +1,13 @@
+INFO - 2024-10-16 22:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-10-16 22:07:37 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "${element.imageURL}"
+[Method: GET, Route: upload/media/images/$%7Belement.imageURL%7D]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-10-16 22:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-10-16 22:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

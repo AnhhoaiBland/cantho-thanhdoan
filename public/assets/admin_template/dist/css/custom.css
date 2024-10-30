@@ -1,0 +1,19 @@
+body{
+	font-size: 0.85rem;
+}
+.btn{
+	font-size: 1rem;
+	padding: 0.3rem 0.57rem;
+}
+.table td, .table th{
+	padding: 3px 5px;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+	padding: 8px 10px;
+}
+table.dataTable.no-footer {
+	border-bottom: 1px solid #ccc;
+}
+table.dataTable {
+	border-collapse: collapse;
+}

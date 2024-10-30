@@ -1,0 +1,161 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+#optNgonNgu {
+    display: none;
+}
+
+.nav_top {
+    background-color: #11286e;
+
+}
+
+nav a {
+    color: white;
+}
+
+.logo>img {
+    width: 110%;
+}
+
+.tenToChuc {
+    font-size: 25px;
+}
+
+.khauHieu {
+    font-size: 18px;
+}
+
+.navbar-nav {
+    flex-wrap: wrap;
+}
+
+.block_ChuyenMuc {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.block_title {
+    background-color: #033e8c;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.block_title a {
+    text-decoration: none;
+}
+
+.container_navBar {
+    margin: auto;
+    width: 80%;
+}
+
+
+
+
+.khauHieu {
+    margin-top: 5px;
+
+}
+
+
+
+
+
+.tieu_de_thuvien {
+        font-weight: bold;
+        font-size: 17px;
+        color: #033e8c;
+        position: relative;
+    }
+    .tieu_de_thuvien::after{
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        color: #033e8c;
+    }
+
+@media screen and (max-width: 995px) {
+
+    .container_navBar {
+        margin: auto;
+        width: 90%;
+    }
+
+    .element-to-hide-960 {
+        display: none;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    .tenToChuc {
+        font-size: 20px;
+    }
+
+    .khauHieu {
+        font-size: 13px;
+
+    }
+
+    .nav-item {
+        margin: 2px;
+        width: 100%;
+        padding: 2px;
+
+    }
+
+    .nav-item:active {
+        background-color: #045fd8;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .logo>img {
+        width: 100%;
+    }
+
+    .tenToChuc {
+        font-size: 12px;
+    }
+
+    .khauHieu {
+        font-size: 11px;
+    }
+
+    .footer_top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_boot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+}

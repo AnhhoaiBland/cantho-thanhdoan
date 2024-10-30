@@ -1,0 +1,84 @@
+INFO - 2024-04-30 23:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:26:23 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:28:23 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:28:25 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin1';
+INFO - 2024-04-30 23:28:27 --> SELECT * FROM NguoiDung where maNguoiDung = 'thanhday';
+INFO - 2024-04-30 23:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:30:03 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:30:10 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin1';
+INFO - 2024-04-30 23:30:10 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:34:39 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:36:55 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:36:57 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:36:58 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:37:00 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin1';
+INFO - 2024-04-30 23:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:37:17 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:37:35 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:38:31 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:39:08 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:39:11 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:39:52 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:41:10 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:41:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:41:18 --> SELECT * FROM NguoiDung where maNguoiDung = 'user_6631096ac1d2c8.';
+INFO - 2024-04-30 23:43:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:43:43 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:43:52 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:55:09 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+CRITICAL - 2024-04-30 23:55:25 --> TypeError: openssl_encrypt(): Argument #1 ($data) must be of type string, null given
+[Method: POST, Route: admin/add_user]
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 99.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(99): openssl_encrypt()
+ 2 APPPATH\Controllers\UserController.php(69): CodeIgniter\Encryption\Handlers\OpenSSLHandler->encrypt()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->add_user()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-04-30 23:55:41 --> TypeError: openssl_encrypt(): Argument #1 ($data) must be of type string, null given
+[Method: POST, Route: admin/add_user]
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 99.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(99): openssl_encrypt()
+ 2 APPPATH\Controllers\UserController.php(69): CodeIgniter\Encryption\Handlers\OpenSSLHandler->encrypt()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->add_user()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-04-30 23:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-30 23:56:27 --> TypeError: openssl_encrypt(): Argument #1 ($data) must be of type string, null given
+[Method: POST, Route: admin/add_user]
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 99.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(99): openssl_encrypt()
+ 2 APPPATH\Controllers\UserController.php(69): CodeIgniter\Encryption\Handlers\OpenSSLHandler->encrypt()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->add_user()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-04-30 23:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:56:31 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:56:42 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:56:47 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';
+INFO - 2024-04-30 23:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-30 23:56:57 --> SELECT * FROM NguoiDung where maNguoiDung = 'admin';

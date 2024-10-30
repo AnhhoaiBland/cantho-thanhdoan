@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ece6e7c-48d3-4b74-8fb4-39fe6e6de2a3" name="Changes" comment="Chức năng quản lý tài liệu tham khảo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/document/test_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726023244.145551.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726023244.310405.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726023244.325158.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726041956.974568.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726041957.129418.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726041999.143762.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726041999.272064.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042007.095250.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042007.284402.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042111.419468.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042111.952064.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042111.975158.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042131.501522.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042305.492414.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042305.548953.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042305.560630.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042838.368359.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726042842.343823.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726043915.348753.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726043915.647556.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/debugbar/debugbar_1726043915.686016.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session00gosucgng517qjhqq6sl1c376nd53pv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session023u758l49hldsv17ujl61c5upvobrg8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session03bto1u7jms4lbdf34od7ta1smq15cp5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session062jrui32vs96q5q1vprdcg2trndnjb3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session0dl3el2othj29kr7e9iu9tpmf9ptlgl4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session0dtf6ckiijh0vh4joj0mpbe94v1vll4m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session0r7t28d99hver62f1gccdct4u2hirqjk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session0rebvspjfk9gh6k907e9802lnvnlmd2b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session0tj4o87vtm8v9glmi79mhmn81odgcer7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session10k7h8t04mb7fcn2ncl8q2df63hfcqpu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session140i53h26oplok51bo09it3qo11f6588" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session142t48btm9p0jlgikm8s7qgk485rh6at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session19j432co2m658eludchd7h2t75l0kae0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session1k1l2v8f6qf7t1choekl1bkh2rsanhna" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session1lv2f8v5m54v8rfpukqpauthhpic8eau" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session1mb49nc4a4lvj24fmph8oo3lfv178g8r" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session1p1rppkv489g30m40ahlmsb8a4lnuucd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session1pk2j1ceoknr7c6f4qe9f5uk6fv9thra" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session1q7ijqagk1b51gf64mhggrg28acc9leg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session1shg07u7iuv9uul3072hr43aij04b04d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session24vso4r1cd439pkjrq7magtodctnqars" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session25scmk8shgu2s2lln1g10m00pri1i2fo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session2a7v68u47up7q4riqea1qd75gltdtg5b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session2f52ujfuhhh10f74vbduk7nkeltnjk0b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session2grtrunu2c3f631in12bp4e4463mlkdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session2lpmt9gu71ne8af99krrsqovqcgrmd9c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session2mho2fbino91f7dvn8nkchjnoe0cp9g9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session2oa0tgsic79ag7fp5o93r250nvfllr44" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session2sj47pedt7j5il5hi6rfcsepgrc5hcmn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session2u1v0178r2lp7e7f3mp63q3uvd8s7fkp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session36p87v8pjmuumoc2dtg768jjj7l0glj0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session3dto1fcrn02jp59fcvfklqq0aqk5slhl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session3kgldvtjhkpo5vkuidtc7t723nbduq6l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session3m52u1lpsna0hbogc477gqsagcmdv11h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session3o1b4p9cvgfa9hr96u0u9ktm7ar1peis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session3v69roao8v5h9pbq8fei9eqke3hs1hv8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session41n1fh34iunn8rd34k68t1fkq33av4iq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session433hsli2cn1tio1cau79fpg7ki4bdgj6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session45lls7t654f0bvm5vboo8moba7l1hktp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session471hm35f4suj3jd30l68q0ockdskj547" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session4a0vjcn9rbbmt7no26bd116g741d55kd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session4a4r93j9cvqd3u6i2vim4i9lhlsjhrt2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session4ak1q46p55olv9fuol0i5dc73c9bvhh7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session4f7m6vu03jcsnssv0tlriuciap7qvu4j" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session4mfmqfvii3g0pn19q2vqpcniih0bu542" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session4nnivok263a69ldhn89u8thujpe8thll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session4spruicprf3s8q06qrf4n0kg7564e39c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session549ioh73vv4q3j5u7lrr0knmr1d9lr77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session59jjgop9jgur1l0jt4rg9nn84md08fo1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session5ba1dhs9mbgmb82qk953jrv8duo2br2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session5dv771kakuqmoe7ju2ej7cmtqhtvlqb3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session5ihtf9tk00o4mrsjv0143847f7899i1s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session5ijgqtre407d0476l30udrvf7tmt71ab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session5k0i6detosc6mkri5fo82p16g56rnj9l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session5km1o1b87ar7726rnvpnvdmi8a0lbd0h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session5kvuc75t4umfcfvjnb7choeela9sbpsd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session5o9qku2s3lattj5og6a4hmd9bp1mp9sb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session6dc39r9u8m0jlfsorn3qs2jme79s9c17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session6h0me91hd7b4cikvtn84v5tttvlat94u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session6mn3kvfh9rjsio29ovpf25pgittpm7vs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session6nhvaodqlnoujib1mtk48h9tlfjkfijm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session723t0kmsab2ovbnfokp4jd5c102dht2s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session7527dj1lj3u2dku2rp0jmal7t2jll7at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session7b19e683g9uvi9g9b7hoatdav085pd86" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session7bfdt9r4rudj2lj23594mtb200ppu0vl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session7bkbfgk4vhpn4v88ujtsoc4ol1ikl716" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session7g6m9feimp9hmq41fjou61bcdppk79i1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session7m2995tucdiol97ngelvd4sq2pk0j31d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session7q0bm9i3o2vrkmqiu4vbqe3kd387ej1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session7rh9pvfo5nu5jole10cjea28q543379q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session81s9qnlm7igq5sletolku93jb16dtq1k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session83rcb8fq6u279jqaflme52cq0k1f3s4e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session84a4651kjur9ubd617jcrp5nqvi0tndq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session86ih32vq4baqacovd6ekuo96gi6bo65m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session87qd70elrflldj5bvqluiig4dlfcfj77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session8ao4khrdrojtabi8c2qjtuhutipn95pa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session8cggkbtk5jj3hjuodv97f3rnc16rmfpq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session8ghrag9njfq7fute4ldbsotn1ghobr7m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session8glaevul12rt2tjgbfmqgruinm0ch7kr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session8r45k68jmav7c09qf6cag05q2vpb40l0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session8sif57n78bqfs7js7fmk8176m8kcgre2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session8vg50u0bvem95fsuvtb35jp3rl7atftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session93oe6lv2rn95lrg34nlnqkfdt8dtlek6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session96vmgt71rk53l7o8q7h7mlje5ofv9eej" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session98g1913n8s01sdj5a43skrjlttn8dte7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9e5ersbe8mqquc3u5dl1hg5klq3llqqs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9g1v71e528bur6anbtj6k939j1khke6o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9gqq91a5isgtidbtoakp3sq3rb5hjr4j" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9hnmur4hp9u08pfbomg9sifjo21jr9sv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9k4kglhu84l81uof96g7jr5r6tqgdu83" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9l8lp6vuhnpncmjq80ejdsd6sc4cn0df" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9lnalio2a885gjus69e8ggp28nicj5ms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9n964uot10ljkn1qfo564rs1i4njnugi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9oac1s690fv8t8i09oibe2ivkmoab0sg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9p7b5sqcikc30jickoq8kug3gc9tdcdk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_session9r6hrlusru7vtnuvuhl64nupbvpgki17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiona50k61nso7rl4ujqp1gdulh7rjlb8nu5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiona72jotni39fdur1fkkg39oub9mssbeid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiona9c554ljsmhosrop3hs19356274vu86n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionaa1enucag016prbhmn361slgnpv72h5a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionae441c4icfiqbkfp9ll3nc0ntfjcnidj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionae5jjqvg7oti6ouarg93sdi2batudt9i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionaec68r5tpfmmnae1rgaht2735ld6qrkf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionagrcnlkf9a19t1ul1vin5iegq2onh2ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionalmuhecp2jtrsdkvi2lqtav0e4jnlscu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionanagoca5c4j6r1jabh52u065q1rb5nke" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionap7frrm1gh0eikb5grqls0ujkc5vdl1l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionarv1itn867lm3eenabddundfvbdqqkbl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionasbcksq1it98rhp3mdps8da2l3dtkqpv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionb1qk78r1k40jg2n2ir0ius13r6kgmbde" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionb2nrju5i29psldd6ba7rd39kbtkefrpe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionb3aktlu9p7ljfj85e31vcu95eid9jn6k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionb6g42pqb77vqbosoeokbf3d3s2prt0gg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionb8ieakq40mimd8os0u97q4tnm6oktlfj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionbe603dcfo9op7nlli6kevfekafmn3ols" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionbepjn1k7ip3dv0ultmsn25jf12jauqve" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionbp661ssplt02fipjth2n0jrdgdcp444d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionbu43g54jjfson1vspu3amdoq1g5dmcdi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionc2pd74snst9homg0925ept69mabsu6qo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionc79mqq8et74hc2itnkh0oaj1q44o0oh3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionc7bu1lgr95de1c42uqkaf5m0v50ifner" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionc9r9marp92j7dbsi8au7drihhcjlhu8g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionccs347rnchk79cuapr5m77u40efsfqca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioncf2d62hvvn57hc0b7561djcdfm8gm82l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioncg37880e4bl7ak229j7qk2lsauq0pfrd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioncn7iugjnl3spkvcb0rqchvrvg6d6f33f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioncn8mifptc2vf2p580lqk9j9i0nh9tk3u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioncocu6r2uhamt12uj8lb2llntn009b4m9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioncs6lk5t7kepu31fpaog9auktimquk6h0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiond0dmstkgi4k64qehrv1qp46urjg8t9vq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiondjiqgmatm6bnb7skk3a0c4789npq71g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiondr8dkmf2ob8uch3070j34mbbggosbsom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiondss876rrp0hhrdh8tmf2fnleumsr9eo3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessione2cjmcl7srrqlhq9g5590joi30s70j6t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessione5l4ipq8seqfnmld1lo13qimenmmb3b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessione6l0qblagisg8j01nq8pfk370uqm35va" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessione9cr8pr1ianrhel9d0u0u5qkj29re0ia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioneghggg4j1l2otq5lk8dal68upm161hf9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionehnb1io2poht3pr3l84knu8c3b2iireo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioneiiktj78bijbimib2sd44k8hgcqq86qn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionemh55hqrk717cq2hjvrje0gta13oli8g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionen2hqomsfbdfklf592ftjc9n6g57ubeb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioneooe1ammnv911b8l0l7dgkbo1glq0g5q" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionepm76klutu6u8htsqlrmicuc81fuk4uv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionet5v9bddk4ij63mbk7369a6ln787p29c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionf1jt3v7okmnms41ngjv594s6l5bmmjj9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionf3tq1inm2v1cknaldnvj7vi2ik79gt6u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionf72e7r93lj6pvv7b1oi3go875lj04ble" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionfdb9vmbih6avjn8c790rctc36bq37puk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionfduaggr3qo46g17t9bfm1v18o927uqb5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionfkh5ecqj724jee4d6q5haq0g6rik0nee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionfki896j4ao2egtbve4qi87dlj4as6df9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionfq7e0uob15h7bhuua5h9mtfr0ncvek59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionftmq6h6al9p367fgd8iijqapr8k8gvkq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionfungkvdocbdp6nktij8q0ttat2c2oevq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiong0s366q3f486irvaeh223kv2a6ahhnia" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiong2tfm3tl8h8em1qac5l6d01oa6h65mlg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiongbjmetfdvo92tifntmrlir0ijrq6di2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiongm4soigd0ks9df7c39o35s1l9uvit7lp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiongqr2uk0eqi5fke7jpv67jfb0u426egu4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiongv9mcfm6u2ismrft8k3iqf87jti410u4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionh0m6p7i9qeqnofeq2annmtto201a991i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionh25r6a3ofnfjn9pkl5457da5650djslq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionhe5tc28116g2rt73948d0qpgjuf9jfn2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionhhk07bk812t2vj739c2fkmgo8h6p6jmr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionhm5t8ukichm2gs1s0pvadp56lo9mnsl6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioni0rirmo2r4c68ukp08nd8qnhg0skb0jp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioni620ruua8k7f091sekhrran8e054l69j" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionih4gbaf64g3fgqivqcocbm5u80fflnd7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionihembietp4u4n15eur4s6fhlob1mvemj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionilbef5smt0vdrtmoq7msmvcctteb27nu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionintnbae17grhb124mvb6asi2vhui3355" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionipjuejmkfll4a79lidi5g0o3465ocpu7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioniqi2apo82cca4q5o520hd4njan7sl0b6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionirqnkgs6ht52dl9mnmue1rshpcj73qkk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessioniusc8ah541eh90i220qup5lhf1amhcvj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionj04n91u9cgkr2ssstfbdc3n2vspkh0of" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionj38f2rkrei91nnn3aosvepor9otq7lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionje30fov7qrlv6di6450aiqt4n6q8qp9l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionjgvqg034tbo4n2e8do6h6hufd5ppg3oi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionjrbq9a7r9pk0210l4bjel7sh1fuk2lim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionjufus5talofm9phf3k0qapl3u8jmaooo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionk0g74jivmapvc8h80aohfjmnf147mig5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionk2hj5p32ru3giu2b9ld9c6qofsniqke8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionk456q2vrepsts10tda55icmlgg43v1r3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionkd84vcl2vkqdqb68fsqd7mee0ekaspn6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionkehtime3vsdms6d42vpae3f1mtvddlfi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionkjvslk4kdsrrli8q1fpar310pr4r5gto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionkqfn3bjeec22kcq41ch0hh1g0ms7c3or" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionkrm1r85apvoqpeola0dlg7r0cg2el2g6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionksp4br36fci9g64vi0jtn493lpjr5o7m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionkug4vuv844r4a8klkdn5c46pkj0885rm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionl1bjo428mp2nd2jenbfe5hhrhn2fc339" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionl1hdbl9kbdp68apsdds1glv22e93jg5n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionl7evvp5arjb42773rianms6elj1e0f87" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionld5idmkc4osorbik2fovapr9uqudllll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionllugefo0p2is75tmbgfotrrulg2ub29s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionlopg3hig61r6am4uun59f2mnhub61rs5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionm60kdojfr5ukgc72toq882334l0e5e28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionm6bb7lgcdd0ja2niu6sagtf7shshg9nh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionm7pt6ovlt312ctvh7tsgog1ee5kof4mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionmc6q4c2jfs7s370fe1armu6g2jd2rvnt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionmmg9h9mu0mlnrv6cnqvrh69grclamjrn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionmo0lmq5uotg6s1jnejjt2ji2rmqg7gk3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionmt0ielj5ilu44s6mlg0pc01hud1gid59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionmvhafn2er73ienfa38jd4ui3narippbh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionn3eb9v4209bp429s6hrg8a1mec742rqv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionn4nuobru9qvesjr9uvjlriamblju4bah" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionn7a0ka7cso3s2gsr157q4opspfc7hmuf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionnglfipuuahqdmtp0446a7sbokdtssejl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionngqjq2o6vvntus801n99d5bqu8jn7fs4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionnh25olc568skr2phdhhl98nddavik1po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionnhn4sgqaqfiek4q9kdffcrpaakqvq57n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionnkp90p4jbied50aespe03so9sn6gn6fb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionnldk8h4tv6mfohllmt3ukbh279rgbivh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionnsddv5r620gpo65mjoj3676a09oqu27k" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiono4rcdomtqjampi6fl0uu1val8nupmddr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiono9c768ur8mifm50orh8m9b0s3vcp6n5m" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionoa4in5lg6lbvp73ol1v84jn703lrbkfi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionoc1cd83c52gbvmio3v3gu1cbaffkupgr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionog84hj2770rh2jctthkph7bu63adcj1j" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionojcf87res9d5q4570p8aega4u107rah1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiononhp4nr05k9n3lq5gj07qdk0cgekf4el" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionoqnjaof48ov08vh3psfrbvfurpai8t0o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionp1rpes27321t5svplb5ol3se092utdb1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionp1usoh0op0cisrvnd0o1mi7uiqbhf12b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionpc51cb2k6k0js2toj5kpphkugodt1dum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionph6mucjreb9b5j0lqdk040q0pcakdtok" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionphp54ilah3suik64atj8v2t49jk63dk7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionpsciat18pbsufjbu624gg22ppk0k2mlh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionptqposrfjo3m9ffdelorqmp8tuv05lkr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionq2titstmoorr59aiv5g5h1fgidhca953" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionq7c7jm07qvurgbhtkh5l4dmp7l3hdt6c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionq9atvbs84vh2hm80k3p78uv7lhvv93mb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionqclr11cjs2rrh3alpn3mju5k4hfbklva" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionqdae75igsvr9hiuigco1on9s3fputuak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionqe1811uteqm62nrj24aq49ebm2eccc2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionqlgq08gd800g04c7v7bfjth2418jfrif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionqmgpml8eii45uda15l6jg8tujqv2t9ho" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionqooi049sl5ogvnm67kktbo5qs0hkjpgs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionqpqhbd1s6pk3tpun6ufac44d69dhqpq3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionrj1rf660afrq93dnsg1m54fesbf5cqin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionrjn56aqoph0pj33r52ccdjk2qa777u2e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionrnge0hf3b1k1ukmmc819vt6kljd1dh6n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionrp2d9mrfbeotvj2ke95m775u2f7983sr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionrr32v5hhq15c8rdmql06m8kv3os5t0al" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionrrqirjped7a7bf1240nufnl4v6j7fcpc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionrumo0if43lpu3cml50ck52vovs8b09hc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessions06bgt9vhjr523ucfdh27j88up1v2ra3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessions1sd49ov6bhkgfhi5q00tji74fooad3d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionsahgeair8m8eap6ffb1rnlqlkphtlpui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionsongv56s4mribter91s0vtgeua4e3lrm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionsruaj7u0foeflclj8qgro7g0eu5733hv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionss0foje4jtkjmp59m57uqbsioj27tvcm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionsus2tdricho6b0f44bu631q3d7q5mtip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiont3b7t9llqm51iuqonm56b8e6n9q30541" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiont62euvuo94vdsaa719hu3ppnf4jq1b6e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiont86hurqverdigljp2a0njp14t08lhk1t" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiontdqnb41v9m78vjhr59e5rvqcuiqcmj08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiontkmefbk04drmvc13sil3bqs8p51ra5ur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiontso1sajn3tiah732g6l7j1ef5bb9am7l" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessiontu7nt6ioln9f675mcsfo086uocvdotvv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionu6snrvi2a4ib0rq935ood4m02utr1b5n" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionuh38p6508pol3lcueekm39tj12ek4qsu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionuq5r7558kued2epgtc3nephjb6k81u4e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionur2k211ise8j45cc3as9dbjuqeksls4f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionv0e2u495vrp2ul9h2lvvv8l686t4012s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionv6to4v25vsdjpo48iqnavosgptvq58da" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionvaubbj5l64d0i8q35d5am71rit0i03mt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionvg49npolem9mf0gd3hmlrg96f833uhfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionvq0haedvvuodav5lpujkd1dmrratc9s3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/writable/session/ci_sessionvte298vdk7u6uac8dcl4shpikj3hmvh4" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/public/assets/select2/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="release_V8" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AnhhoaiBland&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AnhhoaiBland/TrungTamCNTT.git&quot;,
+    &quot;accountId&quot;: &quot;044105d9-93e9-4b23-b66e-429e5088f60f&quot;
+  }
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\Program Files\Ampps\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/fidry/cpu-core-counter" />
+      <path value="$PROJECT_DIR$/vendor/clue/ndjson-react" />
+      <path value="$PROJECT_DIR$/vendor/react/cache" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/react/dns" />
+      <path value="$PROJECT_DIR$/vendor/react/child-process" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/react/event-loop" />
+      <path value="$PROJECT_DIR$/vendor/react/stream" />
+      <path value="$PROJECT_DIR$/vendor/react/socket" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/kint-php/kint" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/nexusphp/cs-config" />
+      <path value="$PROJECT_DIR$/vendor/mikey179/vfsstream" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/evenement/evenement" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/friendsofphp/php-cs-fixer" />
+      <path value="$PROJECT_DIR$/vendor/codeigniter/coding-standard" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2luvloGMK26gr1VS6v1ApzLE5Qf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;AnhHoai__V8&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ece6e7c-48d3-4b74-8fb4-39fe6e6de2a3" name="Changes" comment="" />
+      <created>1726042929757</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726042929757</updated>
+      <workItem from="1726042930844" duration="280000" />
+      <workItem from="1726043219950" duration="98000" />
+      <workItem from="1726043325511" duration="71000" />
+      <workItem from="1726043476660" duration="412000" />
+      <workItem from="1727836350451" duration="1035000" />
+      <workItem from="1728016143836" duration="9000" />
+      <workItem from="1728542714683" duration="26000" />
+      <workItem from="1728545224331" duration="55000" />
+      <workItem from="1728789461466" duration="27000" />
+      <workItem from="1729126600127" duration="5919000" />
+      <workItem from="1729137056075" duration="656000" />
+      <workItem from="1729146880180" duration="2645000" />
+      <workItem from="1729645264840" duration="600000" />
+    </task>
+    <task id="LOCAL-00001" summary="Template_V1">
+      <option name="closed" value="true" />
+      <created>1726043690160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726043690160</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Template_V1">
+      <option name="closed" value="true" />
+      <created>1726043821094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726043821094</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Chức năng quản lý tài liệu tham khảo">
+      <option name="closed" value="true" />
+      <created>1729127534124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729127534124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="release_V8" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Template_V1" />
+    <MESSAGE value="Code_Release_v7" />
+    <MESSAGE value="Chức năng quản lý tài liệu tham khảo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chức năng quản lý tài liệu tham khảo" />
+  </component>
+</project>

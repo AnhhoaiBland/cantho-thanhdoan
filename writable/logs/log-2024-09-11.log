@@ -1,0 +1,240 @@
+INFO - 2024-09-11 09:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:27:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 09:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-11 07:36:11 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-11 07:36:11 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Users\phama\Downloads\web_hoiphunu\system\Helpers\number_helper.php:139
+Stack trace:
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Helpers\number_helper.php(58): format_number()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\BaseExceptionHandler.php(154): number_to_size()
+#2 C:\Users\phama\Downloads\web_hoiphunu\app\Views\errors\html\error_exception.php(409): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\BaseExceptionHandler.php(266): include('...')
+#4 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+#2 C:\Users\phama\Downloads\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 139.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-11 07:36:16 --> Error: Class "Locale" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\CodeIgniter.php on line 190.
+ 1 SYSTEMPATH\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+ 2 SYSTEMPATH\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+ 3 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-11 07:36:16 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\Users\phama\Downloads\web_hoiphunu\system\Helpers\number_helper.php:139
+Stack trace:
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Helpers\number_helper.php(58): format_number()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\BaseExceptionHandler.php(154): number_to_size()
+#2 C:\Users\phama\Downloads\web_hoiphunu\app\Views\errors\html\error_exception.php(409): CodeIgniter\Debug\BaseExceptionHandler::describeMemory()
+#3 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\BaseExceptionHandler.php(266): include('...')
+#4 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\BaseExceptionHandler.php(269): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\ExceptionHandler.php(114): CodeIgniter\Debug\BaseExceptionHandler->render()
+#6 C:\Users\phama\Downloads\web_hoiphunu\system\Debug\Exceptions.php(163): CodeIgniter\Debug\ExceptionHandler->handle()
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#8 {main}
+  thrown
+【Previous Exception】
+Error
+Class "Locale" not found
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(299): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(66): CodeIgniter\Boot::initializeCodeIgniter()
+#2 C:\Users\phama\Downloads\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#3 {main}
+[Method: GET, Route: /]
+in SYSTEMPATH\Helpers\number_helper.php on line 139.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-09-11 15:00:26 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php(186): mysqli->real_connect()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\Downloads\web_hoiphunu\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#6 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#7 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\Downloads\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+#4 C:\Users\phama\Downloads\web_hoiphunu\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#5 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#6 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\phama\Downloads\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2024-09-11 15:00:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+ 4 APPPATH\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-11 15:02:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php(186): mysqli->real_connect()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\Downloads\web_hoiphunu\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#6 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#7 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\Downloads\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+#4 C:\Users\phama\Downloads\web_hoiphunu\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#5 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#6 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\phama\Downloads\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2024-09-11 15:02:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+ 4 APPPATH\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ERROR - 2024-09-11 15:02:27 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php(186): mysqli->real_connect()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+#5 C:\Users\phama\Downloads\web_hoiphunu\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#6 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#7 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\phama\Downloads\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\Users\phama\Downloads\web_hoiphunu\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\phama\Downloads\web_hoiphunu\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\phama\Downloads\web_hoiphunu\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+#4 C:\Users\phama\Downloads\web_hoiphunu\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#5 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#6 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\phama\Downloads\web_hoiphunu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\phama\Downloads\web_hoiphunu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#10 C:\Users\phama\Downloads\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#11 {main}
+CRITICAL - 2024-09-11 15:02:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery()
+ 4 APPPATH\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-11 15:03:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "block/block_slideshow.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Views\Page_TrangChu.php(8): view()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\Downloads\\web_hoiphunu\\app\\Views\\Page_TrangChu.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\HomeController.php(32): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-09-11 15:04:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "block/block_slideshow.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 3 APPPATH\Views\Page_TrangChu.php(8): view()
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\phama\\Downloads\\web_hoiphunu\\app\\Views\\Page_TrangChu.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 7 APPPATH\Controllers\HomeController.php(32): view()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-09-11 15:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 15:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 15:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 15:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 15:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 15:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 15:20:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-11 15:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

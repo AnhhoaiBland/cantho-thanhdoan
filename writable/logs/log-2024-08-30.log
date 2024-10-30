@@ -1,0 +1,45 @@
+ERROR - 2024-08-30 16:32:14 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'db_hoi_phu_tp_ct2' in C:\wamp64\www\web_hoiphunu\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\wamp64\www\web_hoiphunu\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'DB_hoi_phu_tp_C...', 3306, '', 0)
+#1 C:\wamp64\www\web_hoiphunu\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\web_hoiphunu\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\web_hoiphunu\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#4 C:\wamp64\www\web_hoiphunu\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery('SELECT *, (SELE...')
+#5 C:\wamp64\www\web_hoiphunu\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#6 C:\wamp64\www\web_hoiphunu\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#7 C:\wamp64\www\web_hoiphunu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#8 C:\wamp64\www\web_hoiphunu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\web_hoiphunu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\web_hoiphunu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'db_hoi_phu_tp_ct2' in C:\wamp64\www\web_hoiphunu\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\web_hoiphunu\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\web_hoiphunu\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\web_hoiphunu\app\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELE...')
+#3 C:\wamp64\www\web_hoiphunu\app\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery('SELECT *, (SELE...')
+#4 C:\wamp64\www\web_hoiphunu\app\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+#5 C:\wamp64\www\web_hoiphunu\system\CodeIgniter.php(933): App\Controllers\HomeController->index()
+#6 C:\wamp64\www\web_hoiphunu\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#7 C:\wamp64\www\web_hoiphunu\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\web_hoiphunu\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\web_hoiphunu\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\wamp64\www\web_hoiphunu\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-08-30 16:32:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_hoi_phu_tp_ct2'
+[Method: GET, Route: /]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\BaseModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT *, (SELECT tenDangNhap FROM NguoiDung WHERE BaiDang.maNguoiDung = NguoiDung.maNguoiDung) AS tenNguoiDung, (SELECT tenChuyenMuc FROM ChuyenMuc WHERE ChuyenMuc.maChuyenMuc = BaiDang.maChuyenMuc) AS tenChuyenMuc FROM BaiDang WHERE trangThai = \'2\' ORDER BY ngayDang DESC LIMIT 6;')
+ 3 APPPATH\Models\BaiDangModel.php(84): App\Models\BaseModel->executeQuery('SELECT *, (SELECT tenDangNhap FROM NguoiDung WHERE BaiDang.maNguoiDung = NguoiDung.maNguoiDung) AS tenNguoiDung, (SELECT tenChuyenMuc FROM ChuyenMuc WHERE ChuyenMuc.maChuyenMuc = BaiDang.maChuyenMuc) AS tenChuyenMuc FROM BaiDang WHERE trangThai = \'2\' ORDER BY ngayDang DESC LIMIT 6;')
+ 4 APPPATH\Controllers\HomeController.php(25): App\Models\BaiDangModel->layDanhSachtop6new()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-30 16:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

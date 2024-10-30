@@ -1,0 +1,249 @@
+INFO - 2024-05-02 15:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:48:38 --> admin
+INFO - 2024-05-02 15:48:38 --> /admin/del_baidang
+INFO - 2024-05-02 15:48:38 --> 0
+INFO - 2024-05-02 15:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:48:58 --> admin
+INFO - 2024-05-02 15:48:58 --> /admin/ds_taikhoan
+INFO - 2024-05-02 15:48:58 --> 1
+INFO - 2024-05-02 15:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:49:17 --> admin
+INFO - 2024-05-02 15:49:17 --> /admin/dstacvu
+INFO - 2024-05-02 15:49:17 --> 1
+INFO - 2024-05-02 15:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:49:35 --> admin
+INFO - 2024-05-02 15:49:35 --> /admin/capnhattacvu
+INFO - 2024-05-02 15:49:35 --> 1
+INFO - 2024-05-02 15:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:49:38 --> admin
+INFO - 2024-05-02 15:49:38 --> /admin/ds_taikhoan
+INFO - 2024-05-02 15:49:38 --> 1
+INFO - 2024-05-02 15:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:49:43 --> admin
+INFO - 2024-05-02 15:49:43 --> /admin/del_baidang
+INFO - 2024-05-02 15:49:43 --> 1
+INFO - 2024-05-02 15:49:43 --> baiDang_663303e1e9a436.60088521
+CRITICAL - 2024-05-02 15:50:27 --> ErrorException: Undefined variable $ds_loai
+[Method: GET, Route: tailieu_vanban]
+in APPPATH\Views\Page_vanBan_taiLieu.php on line 34.
+ 1 APPPATH\Views\Page_vanBan_taiLieu.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_vanBan_taiLieu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\TaiLieuController.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->tailieu_vanban()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-02 15:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 15:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 16:07:54 --> ErrorException: Undefined variable $ds_loai
+[Method: GET, Route: tailieu_vanban]
+in APPPATH\Views\Page_vanBan_taiLieu.php on line 34.
+ 1 APPPATH\Views\Page_vanBan_taiLieu.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_vanBan_taiLieu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\TaiLieuController.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->tailieu_vanban()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-02 16:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 16:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 16:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 16:38:14 --> admin
+INFO - 2024-05-02 16:38:14 --> /admin/add_category
+INFO - 2024-05-02 16:38:14 --> 1
+INFO - 2024-05-02 16:38:14 --> 
+INFO - 2024-05-02 16:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-02 16:53:40 --> ErrorException: Undefined variable $ds_loai
+[Method: GET, Route: tailieu_vanban]
+in APPPATH\Views\Page_vanBan_taiLieu.php on line 34.
+ 1 APPPATH\Views\Page_vanBan_taiLieu.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\Page_vanBan_taiLieu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\TaiLieuController.php(20): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\TaiLieuController->tailieu_vanban()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-02 17:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:03:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:03:18 --> admin
+INFO - 2024-05-02 17:03:18 --> /admin/dstacvu
+INFO - 2024-05-02 17:03:18 --> 1
+INFO - 2024-05-02 17:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:03:41 --> admin
+INFO - 2024-05-02 17:03:41 --> /admin/dstacvu
+INFO - 2024-05-02 17:03:41 --> 1
+INFO - 2024-05-02 17:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:06:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:08:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:09:14 --> admin
+INFO - 2024-05-02 17:09:14 --> /admin/themtacvuchonloaind
+INFO - 2024-05-02 17:09:14 --> 1
+INFO - 2024-05-02 17:09:14 --> dòng 1
+INFO - 2024-05-02 17:09:14 --> dòng 2
+INFO - 2024-05-02 17:09:14 --> dòng 3
+INFO - 2024-05-02 17:09:14 --> dòng 4
+INFO - 2024-05-02 17:09:14 --> dòng 4
+INFO - 2024-05-02 17:09:14 --> dòng 5
+INFO - 2024-05-02 17:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:10:05 --> admin
+INFO - 2024-05-02 17:10:05 --> /admin/themtacvuchonloaind
+INFO - 2024-05-02 17:10:05 --> 1
+INFO - 2024-05-02 17:10:05 --> dòng 1
+INFO - 2024-05-02 17:10:05 --> dòng 2
+INFO - 2024-05-02 17:10:05 --> dòng 3
+INFO - 2024-05-02 17:10:05 --> dòng 4
+INFO - 2024-05-02 17:10:05 --> dòng 5
+INFO - 2024-05-02 17:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:10:58 --> admin
+INFO - 2024-05-02 17:10:58 --> /admin/ds_taikhoan
+INFO - 2024-05-02 17:10:58 --> 1
+INFO - 2024-05-02 17:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:12:17 --> admin
+INFO - 2024-05-02 17:12:17 --> /admin/change_pass_user
+INFO - 2024-05-02 17:12:17 --> 1
+INFO - 2024-05-02 17:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:12:33 --> admin
+INFO - 2024-05-02 17:12:33 --> /admin/ds_taikhoan
+INFO - 2024-05-02 17:12:33 --> 1
+INFO - 2024-05-02 17:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:12:55 --> admin
+INFO - 2024-05-02 17:12:55 --> /admin/add_user
+INFO - 2024-05-02 17:12:55 --> 1
+INFO - 2024-05-02 17:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:17 --> testcontent
+INFO - 2024-05-02 17:13:17 --> /admin/dstacvu
+INFO - 2024-05-02 17:13:17 --> 0
+INFO - 2024-05-02 17:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:38 --> admin
+INFO - 2024-05-02 17:13:38 --> /admin/dstacvu
+INFO - 2024-05-02 17:13:38 --> 1
+INFO - 2024-05-02 17:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:13:59 --> testcontent
+INFO - 2024-05-02 17:13:59 --> /admin/dstacvu
+INFO - 2024-05-02 17:13:59 --> 0
+INFO - 2024-05-02 17:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:14:35 --> testcontent
+INFO - 2024-05-02 17:14:35 --> /admin/dstacvu
+INFO - 2024-05-02 17:14:35 --> 0
+INFO - 2024-05-02 17:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:21:38 --> testcontent
+INFO - 2024-05-02 17:21:38 --> /admin/dstacvu
+INFO - 2024-05-02 17:21:38 --> 0
+INFO - 2024-05-02 17:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:21:44 --> admin
+INFO - 2024-05-02 17:21:44 --> /admin/dstacvu
+INFO - 2024-05-02 17:21:44 --> 1
+INFO - 2024-05-02 17:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:56 --> admin
+INFO - 2024-05-02 17:25:56 --> /admin/dstacvu
+INFO - 2024-05-02 17:25:56 --> 1
+INFO - 2024-05-02 17:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:25:58 --> admin
+INFO - 2024-05-02 17:25:58 --> /admin/dstacvu
+INFO - 2024-05-02 17:25:58 --> 1
+INFO - 2024-05-02 17:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:35 --> testcontent
+INFO - 2024-05-02 17:26:35 --> /admin/add_category
+INFO - 2024-05-02 17:26:35 --> 0
+INFO - 2024-05-02 17:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:28:41 --> testcontent
+INFO - 2024-05-02 17:28:41 --> /admin/dstacvu
+INFO - 2024-05-02 17:28:41 --> 0
+INFO - 2024-05-02 17:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:28:46 --> admin
+INFO - 2024-05-02 17:28:46 --> /admin/dstacvu
+INFO - 2024-05-02 17:28:46 --> 1
+INFO - 2024-05-02 17:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:29:12 --> admin
+INFO - 2024-05-02 17:29:12 --> /admin/ds_taikhoan
+INFO - 2024-05-02 17:29:12 --> 1
+INFO - 2024-05-02 17:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:29:24 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:30:39 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:30:39 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:30:39 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:30:42 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:33:48 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:33:49 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:33:49 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:33:49 --> SELECT *, (select tenLoaiNguoiDung from  LoaiNguoiDung where LoaiNguoiDung.maLoaiND = NguoiDung.maLoaiND) as tenLoaiND FROM NguoiDung where maNguoiDung = '$mathugopy';
+INFO - 2024-05-02 17:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-02 17:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

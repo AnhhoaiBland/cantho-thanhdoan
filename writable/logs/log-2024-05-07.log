@@ -1,0 +1,1610 @@
+INFO - 2024-05-07 15:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 15:17:11 --> TypeError: CodeIgniter\Log\Logger::info(): Argument #1 ($message) must be of type Stringable|string, array given, called in C:\OSPanel\domains\phunu.cantho.gov.vietnam\app\Controllers\ThongTinWebController.php on line 40
+[Method: POST, Route: admin/luuthongtinweb]
+in SYSTEMPATH\Log\Logger.php on line 233.
+ 1 APPPATH\Controllers\ThongTinWebController.php(40): CodeIgniter\Log\Logger->info()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->luuthongtinweb()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 15:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:17:58 --> {"pageHeading":"TRANG THÔNG ĐIỆN TỬ CỦA HỘI LIÊN HIỆP PHỤ NỮ THÀNH PHỐ CẦN THƠ","slogan":"Phụ nữ thành phố Cần Thơ Đoàn kết - Đổi mới - Bình đẳng - Hội nhập!","address":"Số 26 Trần văn Hoài, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ","phoneNumber":"02923. 820. 883","email":"Ethan9565@proton.me","faxNumber":"02923.820.883","facebook":"https://www.facebook.com/phunu.cantho","map":"    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.898165919149!2d105.77120457586362!3d10.02526177259789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08824517ba9c7%3A0xd72ef59531ace72a!2zSOG7mWkgbGnDqm4gaGnhu4dwIFBo4bulIG7hu68gVFAgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1715005299549!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>","responsiblePerson":"Nguyễn Thanh Đầy","tableData":[{"tenLienKet":"ghfgh","duongDanLK":"fghfgh"},{"tenLienKet":"fghfgh","duongDanLK":"fghfgh"}]}
+INFO - 2024-05-07 15:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:18:35 --> {"pageHeading":"TRANG THÔNG ĐIỆN TỬ CỦA HỘI LIÊN HIỆP PHỤ NỮ THÀNH PHỐ CẦN THƠ","slogan":"Phụ nữ thành phố Cần Thơ Đoàn kết - Đổi mới - Bình đẳng - Hội nhập!","address":"Số 26 Trần văn Hoài, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ","phoneNumber":"02923. 820. 883","email":"Ethan9565@proton.me","faxNumber":"02923.820.883","facebook":"https://www.facebook.com/phunu.cantho","map":"    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.898165919149!2d105.77120457586362!3d10.02526177259789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08824517ba9c7%3A0xd72ef59531ace72a!2zSOG7mWkgbGnDqm4gaGnhu4dwIFBo4bulIG7hu68gVFAgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1715005299549!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>","responsiblePerson":"Nguyễn Thanh Đầy","tableData":[{"tenLienKet":"cxvcxv","duongDanLK":"https://hoilhpn.org.vn/web/guestdfdsfdsf"},{"tenLienKet":"cxvcxv","duongDanLK":"https://hoilhpn.org.vn/web/guestdfsđf"}]}
+INFO - 2024-05-07 15:19:33 --> {"pageHeading":"TRANG THÔNG ĐIỆN TỬ CỦA HỘI LIÊN HIỆP PHỤ NỮ THÀNH PHỐ CẦN THƠ","slogan":"Phụ nữ thành phố Cần Thơ Đoàn kết - Đổi mới - Bình đẳng - Hội nhập!","address":"Số 26 Trần văn Hoài, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ","phoneNumber":"02923. 820. 883","email":"Ethan9565@proton.me","faxNumber":"02923.820.883","facebook":"https://www.facebook.com/phunu.cantho","map":"    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.898165919149!2d105.77120457586362!3d10.02526177259789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08824517ba9c7%3A0xd72ef59531ace72a!2zSOG7mWkgbGnDqm4gaGnhu4dwIFBo4bulIG7hu68gVFAgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1715005299549!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>","responsiblePerson":"Nguyễn Thanh Đầy","tableData":[{"tenLienKet":"cxvcxv","duongDanLK":"https://hoilhpn.org.vn/web/guestdfdsfdsf"},{"tenLienKet":"cxvcxv","duongDanLK":"https://hoilhpn.org.vn/web/guestdfsđf"}]}
+INFO - 2024-05-07 15:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:19:46 --> {"pageHeading":"TRANG THÔNG ĐIỆN TỬ CỦA HỘI LIÊN HIỆP PHỤ NỮ THÀNH PHỐ CẦN THƠ","slogan":"Phụ nữ thành phố Cần Thơ Đoàn kết - Đổi mới - Bình đẳng - Hội nhập!","address":"Số 26 Trần văn Hoài, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ","phoneNumber":"02923. 820. 883","email":"Ethan9565@proton.me","faxNumber":"02923.820.883","facebook":"https://www.facebook.com/phunu.cantho","map":"    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.898165919149!2d105.77120457586362!3d10.02526177259789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08824517ba9c7%3A0xd72ef59531ace72a!2zSOG7mWkgbGnDqm4gaGnhu4dwIFBo4bulIG7hu68gVFAgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1715005299549!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>","responsiblePerson":"Nguyễn Thanh Đầy","tableData":[]}
+INFO - 2024-05-07 15:19:58 --> {"pageHeading":"TRANG THÔNG ĐIỆN TỬ CỦA HỘI LIÊN HIỆP PHỤ NỮ THÀNH PHỐ CẦN THƠ","slogan":"Phụ nữ thành phố Cần Thơ Đoàn kết - Đổi mới - Bình đẳng - Hội nhập!","address":"Số 26 Trần văn Hoài, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ","phoneNumber":"02923. 820. 883","email":"Ethan9565@proton.me","faxNumber":"02923.820.883","facebook":"https://www.facebook.com/phunu.cantho","map":"    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.898165919149!2d105.77120457586362!3d10.02526177259789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08824517ba9c7%3A0xd72ef59531ace72a!2zSOG7mWkgbGnDqm4gaGnhu4dwIFBo4bulIG7hu68gVFAgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1715005299549!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>","responsiblePerson":"Nguyễn Thanh Đầy","tableData":[{"tenLienKet":"dsfsddsf","duongDanLK":"dsfdsf"},{"tenLienKet":"sdfsd","duongDanLK":"dsfsd"}]}
+INFO - 2024-05-07 15:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:21:09 --> "{\"pageHeading\":\"TRANG TH\u00d4NG \u0110I\u1ec6N T\u1eec C\u1ee6A H\u1ed8I LI\u00caN HI\u1ec6P PH\u1ee4 N\u1eee TH\u00c0NH PH\u1ed0 C\u1ea6N TH\u01a0\",\"slogan\":\"Ph\u1ee5 n\u1eef th\u00e0nh ph\u1ed1 C\u1ea7n Th\u01a1 \u0110o\u00e0n k\u1ebft - \u0110\u1ed5i m\u1edbi - B\u00ecnh \u0111\u1eb3ng - H\u1ed9i nh\u1eadp!\",\"address\":\"S\u1ed1 26 Tr\u1ea7n v\u0103n Ho\u00e0i, ph\u01b0\u1eddng Xu\u00e2n Kh\u00e1nh, qu\u1eadn Ninh Ki\u1ec1u, TP.C\u1ea7n Th\u01a1\",\"phoneNumber\":\"02923. 820. 883\",\"email\":\"Ethan9565@proton.me\",\"faxNumber\":\"02923.820.883\",\"facebook\":\"https:\/\/www.facebook.com\/phunu.cantho\",\"map\":\"    <iframe src=\\\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3928.898165919149!2d105.77120457586362!3d10.02526177259789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08824517ba9c7%3A0xd72ef59531ace72a!2zSOG7mWkgbGnDqm4gaGnhu4dwIFBo4bulIG7hu68gVFAgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1715005299549!5m2!1svi!2s\\\" width=\\\"600\\\" height=\\\"450\\\" style=\\\"border:0;\\\" allowfullscreen=\\\"\\\" loading=\\\"lazy\\\" referrerpolicy=\\\"no-referrer-when-downgrade\\\"><\/iframe>\",\"responsiblePerson\":\"Nguy\u1ec5n Thanh \u0110\u1ea7y\",\"tableData\":[{\"tenLienKet\":\"dsfsd\",\"duongDanLK\":\"dsfsd\"},{\"tenLienKet\":\"dsfdsf\",\"duongDanLK\":\"dsfdsf\"}]}"
+INFO - 2024-05-07 15:21:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:21:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 15:21:54 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/luuthongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->luuthongtinweb()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 15:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:24:10 --> {"pageHeading":"TRANG THÔNG ĐIỆN TỬ CỦA HỘI LIÊN HIỆP PHỤ NỮ THÀNH PHỐ CẦN THƠ","slogan":"Phụ nữ thành phố Cần Thơ Đoàn kết - Đổi mới - Bình đẳng - Hội nhập!","address":"Số 26 Trần văn Hoài, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ","phoneNumber":"02923. 820. 883","email":"Ethan9565@proton.me","faxNumber":"02923.820.883","facebook":"https://www.facebook.com/phunu.cantho","map":"    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.898165919149!2d105.77120457586362!3d10.02526177259789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08824517ba9c7%3A0xd72ef59531ace72a!2zSOG7mWkgbGnDqm4gaGnhu4dwIFBo4bulIG7hu68gVFAgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1715005299549!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>","responsiblePerson":"Nguyễn Thanh Đầy","tableData":[]}
+INFO - 2024-05-07 15:24:16 --> {"pageHeading":"TRANG THÔNG ĐIỆN TỬ CỦA HỘI LIÊN HIỆP PHỤ NỮ THÀNH PHỐ CẦN THƠ","slogan":"Phụ nữ thành phố Cần Thơ Đoàn kết - Đổi mới - Bình đẳng - Hội nhập!","address":"Số 26 Trần văn Hoài, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ","phoneNumber":"02923. 820. 883","email":"Ethan9565@proton.me","faxNumber":"02923.820.883","facebook":"https://www.facebook.com/phunu.cantho","map":"    <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.898165919149!2d105.77120457586362!3d10.02526177259789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a08824517ba9c7%3A0xd72ef59531ace72a!2zSOG7mWkgbGnDqm4gaGnhu4dwIFBo4bulIG7hu68gVFAgQ-G6p24gVGjGoQ!5e0!3m2!1svi!2s!4v1715005299549!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>","responsiblePerson":"Nguyễn Thanh Đầy","tableData":[{"tenLienKet":"dsfdsf","duongDanLK":"dsfsdf"},{"tenLienKet":"sdfds","duongDanLK":"dfs"}]}
+INFO - 2024-05-07 15:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 15:24:55 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/luuthongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->luuthongtinweb()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 15:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 15:25:46 --> TypeError: Cannot access offset of type string on string
+[Method: POST, Route: admin/luuthongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->luuthongtinweb()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 15:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:35:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 15:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:38:21 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:38:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:38:24 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:41:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:41:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:41:48 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:41:56 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:43:34 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:44:00 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:44:21 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:44:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:44:47 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:48:29 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 15:48:36 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 15:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 17:05:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 17:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-07 17:09:09 --> [DEPRECATED] htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 59.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(59): htmlspecialchars(null)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/cauhinhthongtinweb/thongtinweb', [], true)
+ 5 APPPATH\Controllers\ThongTinWebController.php(29): view('admin/cauhinhthongtinweb/thongtinweb', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ThongTinWebController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-05-07 17:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:13:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 17:32:04 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:33:57 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:33:58 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:33:59 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:33:59 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:33:59 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:00 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:01 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:01 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:02 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:02 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:03 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:04 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:05 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:05 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:06 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:06 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:11 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:12 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:34:15 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 17:34:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:34:17 --> admin
+INFO - 2024-05-07 17:34:17 --> /admin/ds_taikhoan
+INFO - 2024-05-07 17:34:17 --> 1
+CRITICAL - 2024-05-07 17:34:19 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(31): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 17:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 17:37:32 --> admin
+INFO - 2024-05-07 17:37:32 --> /admin/ds_taikhoan
+INFO - 2024-05-07 17:37:32 --> 1
+CRITICAL - 2024-05-07 17:37:59 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 32.
+ 1 APPPATH\Controllers\ThongTinWebController.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:38:18 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(32): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:40:32 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 30.
+ 1 APPPATH\Controllers\ThongTinWebController.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:41:21 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 32.
+ 1 APPPATH\Controllers\ThongTinWebController.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:41:59 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(33): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 17:46:38 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 81.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(42): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 17:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 17:56:17 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 33.
+ 1 APPPATH\Controllers\ThongTinWebController.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 17:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:01:55 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 79.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(34): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:01:57 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 79.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(34): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:02:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:04:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/luuthongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 52.
+ 1 APPPATH\Controllers\ThongTinWebController.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->luuthongtinweb()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:04:51 --> ErrorException: Trying to access array offset on value of type null
+[Method: POST, Route: admin/luuthongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 52.
+ 1 APPPATH\Controllers\ThongTinWebController.php(52): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->luuthongtinweb()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:04:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 21.
+ 1 APPPATH\Controllers\ThongTinWebController.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:05:04 --> admin
+INFO - 2024-05-07 18:05:04 --> /admin/ds_taikhoan
+INFO - 2024-05-07 18:05:04 --> 1
+CRITICAL - 2024-05-07 18:05:04 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/ds_taikhoan]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:05:06 --> admin
+INFO - 2024-05-07 18:05:06 --> /admin/ds_taikhoan
+INFO - 2024-05-07 18:05:06 --> 1
+CRITICAL - 2024-05-07 18:05:06 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/ds_taikhoan]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:05:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 21.
+ 1 APPPATH\Controllers\ThongTinWebController.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:05:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 21.
+ 1 APPPATH\Controllers\ThongTinWebController.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:05:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 21.
+ 1 APPPATH\Controllers\ThongTinWebController.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:05:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 21.
+ 1 APPPATH\Controllers\ThongTinWebController.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:05:09 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\ThongTinWebController.php on line 21.
+ 1 APPPATH\Controllers\ThongTinWebController.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:19 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(35): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(35): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(35): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(35): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:22 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(35): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:23 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(35): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:24 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin]
+in APPPATH\Controllers\BaseController.php on line 272.
+ 1 APPPATH\Controllers\BaseController.php(272): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: bv/cac-cap-hoi-lhpn-thanh-pho-can-tho-tap-trung-cao-diem-tuyen-truyen-bau-cu-dai-bieu-quoc-hoi-khoa-xv-va-dai-bieu-hoi-dong-nhan-dan-cac-cap]
+in APPPATH\Controllers\BaseController.php on line 213.
+ 1 APPPATH\Controllers\BaseController.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\BaiDangController.php(140): App\Controllers\BaseController->template()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->show_bai_dang_id()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 213.
+ 1 APPPATH\Controllers\BaseController.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: sitemap]
+in APPPATH\Controllers\BaseController.php on line 213.
+ 1 APPPATH\Controllers\BaseController.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\HomeController.php(56): App\Controllers\BaseController->template()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->sitemap()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:28 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 213.
+ 1 APPPATH\Controllers\BaseController.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 213.
+ 1 APPPATH\Controllers\BaseController.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:46 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 213.
+ 1 APPPATH\Controllers\BaseController.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:06:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: /]
+in APPPATH\Controllers\BaseController.php on line 213.
+ 1 APPPATH\Controllers\BaseController.php(213): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:07:04 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:07:15 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:07:20 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin]
+in APPPATH\Controllers\BaseController.php on line 275.
+ 1 APPPATH\Controllers\BaseController.php(275): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:07:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin]
+in APPPATH\Controllers\BaseController.php on line 275.
+ 1 APPPATH\Controllers\BaseController.php(275): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:07:26 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: admin]
+in APPPATH\Controllers\BaseController.php on line 275.
+ 1 APPPATH\Controllers\BaseController.php(275): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:07:45 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: admin]
+in APPPATH\Views\admin_template\layout.php on line 12.
+ 1 APPPATH\Views\admin_template\layout.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin_template\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(277): view()
+ 6 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:09:54 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: admin]
+in APPPATH\Views\admin_template\layout.php on line 93.
+ 1 APPPATH\Views\admin_template\layout.php(93): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin_template\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(277): view()
+ 6 APPPATH\Controllers\UserController.php(30): App\Controllers\BaseController->template_admin()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:10:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:10:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:12:46 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 293.
+ 1 APPPATH\Controllers\BaseController.php(293): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:12:49 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 293.
+ 1 APPPATH\Controllers\BaseController.php(293): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:12:52 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 293.
+ 1 APPPATH\Controllers\BaseController.php(293): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:15:48 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 301.
+ 1 APPPATH\Controllers\BaseController.php(301): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:15:49 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 301.
+ 1 APPPATH\Controllers\BaseController.php(301): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:15:50 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 301.
+ 1 APPPATH\Controllers\BaseController.php(301): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:15:51 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 301.
+ 1 APPPATH\Controllers\BaseController.php(301): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:15:51 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 301.
+ 1 APPPATH\Controllers\BaseController.php(301): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:16:39 --> ErrorException: Undefined array key 1
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Controllers\BaseController.php on line 306.
+ 1 APPPATH\Controllers\BaseController.php(306): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\ThongTinWebController.php(32): App\Controllers\BaseController->convertJsonToArray()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2024-05-07 18:17:47 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 79.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 18:21:26 --> ErrorException: Array to string conversion
+[Method: GET, Route: admin/thongtinweb]
+in APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php on line 85.
+ 1 APPPATH\Views\admin\cauhinhthongtinweb\thongtinweb.php(85): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\admin\\cauhinhthongtinweb\\thongtinweb.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\ThongTinWebController.php(35): view()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ThongTinWebController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 18:21:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:25:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 18:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:44:55 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:47:34 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:50:08 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:51:08 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:51:11 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:51:11 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:51:40 --> ErrorException: Undefined variable $Chu_chay
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Header2.php on line 9.
+ 1 APPPATH\Views\templates\Header2.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Header2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\templates\Layout.php(100): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\BaseController.php(229): view()
+10 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:51:42 --> ErrorException: Undefined variable $Chu_chay
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Header2.php on line 9.
+ 1 APPPATH\Views\templates\Header2.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Header2.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\templates\Layout.php(100): view()
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\BaseController.php(229): view()
+10 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+14 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 21:52:17 --> ErrorException: Undefined variable $logo
+[Method: GET, Route: /]
+in APPPATH\Views\templates\Layout.php on line 7.
+ 1 APPPATH\Views\templates\Layout.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\OSPanel\\domains\\phunu.cantho.gov.vietnam\\app\\Views\\templates\\Layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\BaseController.php(229): view()
+ 6 APPPATH\Controllers\HomeController.php(32): App\Controllers\BaseController->template()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 21:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:57:24 --> admin
+INFO - 2024-05-07 21:57:24 --> /admin/ds_taikhoan
+INFO - 2024-05-07 21:57:24 --> 1
+INFO - 2024-05-07 21:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:57:33 --> admin
+INFO - 2024-05-07 21:57:33 --> /admin/ds_taikhoan
+INFO - 2024-05-07 21:57:33 --> 1
+INFO - 2024-05-07 21:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:58:05 --> admin
+INFO - 2024-05-07 21:58:05 --> /admin/ds_taikhoan
+INFO - 2024-05-07 21:58:05 --> 1
+INFO - 2024-05-07 21:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 21:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:03:25 --> admin
+INFO - 2024-05-07 22:03:25 --> /admin/ds_taikhoan
+INFO - 2024-05-07 22:03:25 --> 1
+INFO - 2024-05-07 22:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:05:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:11:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-07 22:19:38 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "$urlBaiViet"
+[Method: GET, Route: $urlBaiViet]
+in SYSTEMPATH\Router\Router.php on line 736.
+ 1 SYSTEMPATH\Router\Router.php(203): CodeIgniter\Router\Router->checkDisallowedChars()
+ 2 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+INFO - 2024-05-07 22:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:19:53 --> admin
+INFO - 2024-05-07 22:19:53 --> /admin/sua_panel
+INFO - 2024-05-07 22:19:53 --> 1
+INFO - 2024-05-07 22:19:53 --> update  SlideBanner set urlBaiViet = '', viTri = '1', nguoiDungCapNhat = 'admin', ngayCapNhat = '2024-05-07 22:19:53' where maSlide = '$maSlide';
+INFO - 2024-05-07 22:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:28:13 --> admin
+INFO - 2024-05-07 22:28:13 --> /admin/sua_panel
+INFO - 2024-05-07 22:28:13 --> 1
+INFO - 2024-05-07 22:28:13 --> update  SlideBanner set urlBaiViet = 'http://cantho.gov.vn/', viTri = '2', nguoiDungCapNhat = 'admin', ngayCapNhat = '2024-05-07 22:28:13' where maSlide = 'panel_662e43c218a026.26581650';
+INFO - 2024-05-07 22:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:31:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:33:59 --> admin
+INFO - 2024-05-07 22:33:59 --> /admin/ds_taikhoan
+INFO - 2024-05-07 22:33:59 --> 1
+INFO - 2024-05-07 22:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:03 --> admin
+INFO - 2024-05-07 22:34:03 --> /admin/dstacvu
+INFO - 2024-05-07 22:34:03 --> 1
+INFO - 2024-05-07 22:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:05 --> admin
+INFO - 2024-05-07 22:34:05 --> /admin/ds_taikhoan
+INFO - 2024-05-07 22:34:05 --> 1
+INFO - 2024-05-07 22:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:18 --> admin
+INFO - 2024-05-07 22:34:18 --> /admin/ds_taikhoan
+INFO - 2024-05-07 22:34:18 --> 1
+INFO - 2024-05-07 22:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:35 --> admin
+INFO - 2024-05-07 22:34:35 --> /admin/ds_taikhoan
+INFO - 2024-05-07 22:34:35 --> 1
+INFO - 2024-05-07 22:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:39 --> admin
+INFO - 2024-05-07 22:34:39 --> /admin/ds_taikhoan
+INFO - 2024-05-07 22:34:39 --> 1
+INFO - 2024-05-07 22:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:37:07 --> admin
+INFO - 2024-05-07 22:37:07 --> /admin/ds_taikhoan
+INFO - 2024-05-07 22:37:07 --> 1
+INFO - 2024-05-07 22:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:41:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:41:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:57:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:58:15 --> admin
+INFO - 2024-05-07 22:58:15 --> /admin/ds_taikhoan
+INFO - 2024-05-07 22:58:15 --> 1
+INFO - 2024-05-07 22:58:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 22:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:10:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:45:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-07 23:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,273 @@
+INFO - 2024-09-09 09:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 09:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 09:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 09:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-09-09 09:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-09 09:47:36 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:48:14 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:48:15 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:48:15 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:48:15 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:48:15 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:48:16 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:48:16 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:51:10 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:51:12 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:51:13 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:55:27 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:55:29 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:55:29 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:55:30 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:55:30 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:55:30 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:55:30 --> ErrorException: Undefined array key 0
+[Method: GET, Route: admin/edit_baidang/ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong]
+in APPPATH\Views\admin\baidang\edit_baidang.php on line 9.
+ 1 APPPATH\Views\admin\baidang\edit_baidang.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php', 9)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\admin\\baidang\\edit_baidang.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin\\baidang\\edit_baidang', [], true)
+ 5 APPPATH\Controllers\BaiDangController.php(70): view('admin\\baidang\\edit_baidang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BaiDangController->edit_baidang('ra-mat-mo-hinh-uong-co-trach-nhiem-thuc-hien-an-toan-giao-thong')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BaiDangController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-09 16:26:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-09-09 17:10:00 --> ErrorException: Undefined variable $databaidangtop6new
+[Method: GET, Route: /]
+in APPPATH\Views\Page_TrangChu.php on line 8.
+ 1 APPPATH\Views\Page_TrangChu.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $databaidangtop6new', 'C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\Page_TrangChu.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\web_hoiphunu\\app\\Views\\Page_TrangChu.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Page_TrangChu', [], true)
+ 5 APPPATH\Controllers\HomeController.php(32): view('Page_TrangChu', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\HomeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-09-09 17:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,311 @@
+/* .header{
+	background: url('assets/template/images/header.png') top center no-repeat;
+	width:100%;
+	height: 505px;
+	background-size: contain;
+} */
+.mainmenu, .mainmenu > ul{
+	width: 100%;
+	margin: 0;
+	padding:0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	text-transform: uppercase;
+	background-color: #013c6f;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0.95em;
+	text-align: center;
+}
+#primary-menu > li{
+	/*border: 5px solid #1c5728;*/
+	padding: 0;
+	margin:0;
+	text-align: left;
+	/*margin-right: -10px;*/
+}
+#primary-menu > li > a{
+	padding: 10px 17.2px 10px 0;
+	color: #fff;
+	font-weight: bold;
+}
+.image-sp-link{
+
+	display: inline-block;
+	margin: 30px 30px 20px 30px;
+}
+.image-sp-link img{
+	
+
+	height: 200px;
+	
+	
+	border: 5px solid #1c5728;
+	border-radius: 10px;
+}
+#carousel_slide, #carousel_sp, #carousel_video{
+	/*border-bottom: 5px solid #1c5728;*/
+	padding-bottom: 10px;
+}
+
+#footer{
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	
+}
+#footer{
+	background: url('../../../assets/template/images/bg-footer.jpg');
+	padding: 10px;
+	color: #fafafa;
+
+}
+#footer h5{
+	padding: 20px 0 10px 0;
+}
+#footer a{
+	color: #C3C3C3;
+}
+
+/*#footer > div.col-md-3{
+	border-right: 5px solid #1c5728;
+	
+}*/
+
+#img_bocongthuong{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width:260px;
+
+}
+
+@media (min-width: 768px) {
+
+	/* show 3 items */
+	#carousel_sp .carousel-inner .active,
+	#carousel_sp .carousel-inner .active + .carousel-item,
+	#carousel_sp .carousel-inner .active + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+		display: block;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	#carousel_sp .carousel-inner img{
+		width: 100%;
+		height: 200px;
+		border: 5px solid #1c5728;
+	}
+	
+	#carousel_sp .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+	#carousel_sp .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+	#carousel_sp .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+		transition: none;
+	}
+	
+	#carousel_sp .carousel-inner .carousel-item-next,
+	#carousel_sp .carousel-inner .carousel-item-prev {
+	  position: relative;
+	  transform: translate3d(0, 0, 0);
+	}
+	
+	#carousel_sp .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: absolute;
+		top: 0;
+		right: -25%;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+	
+	/* left or forward direction */
+	#carousel_sp .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+	#carousel_sp .carousel-item-next.carousel-item-left + .carousel-item,
+	#carousel_sp .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	}
+	
+	/* farthest right hidden item must be abso position for animations */
+	#carousel_sp .carousel-inner .carousel-item-prev.carousel-item-right {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+	
+	/* right or prev direction */
+	#carousel_sp .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+	#carousel_sp .carousel-item-prev.carousel-item-right + .carousel-item,
+	#carousel_sp .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+	#carousel_sp .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(100%, 0, 0);
+		visibility: visible;
+		display: block;
+		visibility: visible;
+	}
+
+	/* show 3 items */
+	#carousel_video .carousel-inner .active,
+	#carousel_video .carousel-inner .active + .carousel-item,
+	#carousel_video .carousel-inner .active + .carousel-item + .carousel-item,
+	#carousel_video .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+		display: block;
+		height: 200px;
+		overflow: hidden;
+	}
+
+	#carousel_video .carousel-inner img{
+		width: 100%;
+		height: 200px;
+		border: 5px solid #1c5728;
+	}
+	
+	#carousel_video .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+	#carousel_video .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+	#carousel_video .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+	#carousel_video .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+		transition: none;
+	}
+	
+	#carousel_video .carousel-inner .carousel-item-next,
+	#carousel_video .carousel-inner .carousel-item-prev {
+	  position: relative;
+	  transform: translate3d(0, 0, 0);
+	}
+	
+	#carousel_video .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: absolute;
+		top: 0;
+		right: -25%;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+	
+	/* left or forward direction */
+	#carousel_video .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+	#carousel_video .carousel-item-next.carousel-item-left + .carousel-item,
+	#carousel_video .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+	#carousel_video .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+	#carousel_video .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	}
+	
+	/* farthest right hidden item must be abso position for animations */
+	#carousel_video .carousel-inner .carousel-item-prev.carousel-item-right {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+	
+	/* right or prev direction */
+	#carousel_video .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+	#carousel_video .carousel-item-prev.carousel-item-right + .carousel-item,
+	#carousel_video .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+	#carousel_video .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+	#carousel_video .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(100%, 0, 0);
+		visibility: visible;
+		display: block;
+		visibility: visible;
+	}
+
+}
+@media only screen and (max-width: 600px) {
+	.header{
+		height: 140px;
+	}
+	.slicknav_menu {
+		margin-top: 0;
+	}
+	#img_bocongthuong{
+		display: none;
+	}
+}
+.content_baiviet p{
+	margin-bottom: 8pt;
+	line-height: 150%;
+}
+
+.content_tieude h3{
+	padding-bottom: 10px;
+}
+.span_ngaydang, .span_chuyenmuc{
+	font-style: italic;
+	font-size: 0.8em;
+	margin-bottom: 15px;
+	color: #ccc;
+}
+.content_noidung{
+	overflow: hidden;
+	word-break: break-word;
+}
+.content_noidung img{
+	max-width: 100%;
+}
+
+.img_anhminhhoa{
+	width: 100%;
+}
+.menubar{
+	/*border-bottom: 1px solid #eee;*/
+	
+	/*position: fixed;
+	top:0;*/
+	width: 100%;
+	z-index: 9999;
+	}
+.menubar .menu_shadow{
+	/*width: 100%;*/
+	background: #ffffff;
+	box-shadow: #2b2b2b 0 -8px 11px;
+}
+body{
+	/*padding-top: 43px;*/
+	background-color: #fefefe;
+}
+#logo_in_menu{
+	margin-left: 10px;
+	margin-top: 3px;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	background: url('../../../assets/template/images/logo.png') center left no-repeat;
+}
+.wrapper{
+	background: #ffffff;
+}
+.carousel-control-next, .carousel-control-prev{
+	width:5%;
+	opacity: .9;
+	
+}
+.carousel-control-next span, .carousel-control-prev span{
+	/*border: 1px solid #f00;*/
+}
+
+.form-control, .btn{
+	font-size: 1rem;
+}
+
+
+#footer p{
+	color: #C3C3C3;
+	font-size: 0.8rem;
+}
