@@ -3,8 +3,8 @@
 /*
  * CKFinder
  * ========
- * https://ckeditor.com/ckeditor-4/ckfinder/
- * Copyright (c) 2007-2019, CKSource - Frederico Knabben. All rights reserved.
+ * https://ckeditor.com/ckfinder/
+ * Copyright (c) 2007-2022, CKSource Holding sp. z o.o. All rights reserved.
  *
  * The software, this file and its contents are subject to the CKFinder
  * License. Please read the license.txt file before using, installing, copying,
@@ -20,25 +20,26 @@ use CKSource\CKFinder\Filesystem\Path;
 
 class GetFolders extends CommandAbstract
 {
-    protected $requires = array(Permission::FOLDER_VIEW);
+    protected $requires = [Permission::FOLDER_VIEW];
 
     public function execute(WorkingFolder $workingFolder)
     {
         $directories = $workingFolder->listDirectories();
 
         $data = new \stdClass();
-        $data->folders = array();
+        $data->folders = [];
 
         $backend = $workingFolder->getBackend();
 
         $resourceType = $workingFolder->getResourceType();
 
         foreach ($directories as $directory) {
-            $data->folders[] = array(
-                'name'        => $directory['basename'],
-                'hasChildren' => $backend->containsDirectories($resourceType, Path::combine($workingFolder->getClientCurrentFolder(), $directory['basename'])),
-                'acl'         => $directory['acl']
-            );
+            $basename = pathinfo($directory['directory']['path'], PATHINFO_BASENAME);
+            $data->folders[] = [
+                'name' => $basename,
+                'hasChildren' => $backend->containsDirectories($resourceType, Path::combine($workingFolder->getClientCurrentFolder(), $basename)),
+                'acl' => $directory['acl'],
+            ];
         }
 
         // Sort folders

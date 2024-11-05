@@ -3,8 +3,8 @@
 /*
  * CKFinder
  * ========
- * https://ckeditor.com/ckeditor-4/ckfinder/
- * Copyright (c) 2007-2019, CKSource - Frederico Knabben. All rights reserved.
+ * https://ckeditor.com/ckfinder/
+ * Copyright (c) 2007-2022, CKSource Holding sp. z o.o. All rights reserved.
  *
  * The software, this file and its contents are subject to the CKFinder
  * License. Please read the license.txt file before using, installing, copying,
@@ -17,24 +17,27 @@ namespace CKSource\CKFinder\Command;
 use CKSource\CKFinder\Acl\Permission;
 use CKSource\CKFinder\Filesystem\Folder\WorkingFolder;
 use CKSource\CKFinder\Utils;
+use League\Flysystem\FileAttributes;
 
 class GetFiles extends CommandAbstract
 {
-    protected $requires = array(Permission::FILE_VIEW);
+    protected $requires = [Permission::FILE_VIEW];
 
     public function execute(WorkingFolder $workingFolder)
     {
         $data = new \stdClass();
         $files = $workingFolder->listFiles();
 
-        $data->files = array();
+        $data->files = [];
 
+        /** @var FileAttributes $file */
         foreach ($files as $file) {
-            $fileObject = array(
-                'name' => $file['basename'],
-                'date' => Utils::formatDate($file['timestamp']),
-                'size' => Utils::formatSize($file['size'])
-            );
+            $path_parts = pathinfo($file->path());
+            $fileObject = [
+                'name' => $path_parts['basename'],
+                'date' => Utils::formatDate($file->lastModified()),
+                'size' => Utils::formatSize($file->fileSize()),
+            ];
 
             $data->files[] = $fileObject;
         }

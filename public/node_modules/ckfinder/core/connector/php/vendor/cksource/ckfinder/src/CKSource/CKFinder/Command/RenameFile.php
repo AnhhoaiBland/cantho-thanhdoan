@@ -3,8 +3,8 @@
 /*
  * CKFinder
  * ========
- * https://ckeditor.com/ckeditor-4/ckfinder/
- * Copyright (c) 2007-2019, CKSource - Frederico Knabben. All rights reserved.
+ * https://ckeditor.com/ckfinder/
+ * Copyright (c) 2007-2022, CKSource Holding sp. z o.o. All rights reserved.
  *
  * The software, this file and its contents are subject to the CKFinder
  * License. Please read the license.txt file before using, installing, copying,
@@ -17,10 +17,11 @@ namespace CKSource\CKFinder\Command;
 use CKSource\CKFinder\Acl\Permission;
 use CKSource\CKFinder\Event\CKFinderEvent;
 use CKSource\CKFinder\Event\RenameFileEvent;
-use CKSource\CKFinder\Exception\AccessDeniedException;
 use CKSource\CKFinder\Exception\InvalidNameException;
 use CKSource\CKFinder\Filesystem\File\RenamedFile;
 use CKSource\CKFinder\Filesystem\Folder\WorkingFolder;
+use Exception;
+use League\Flysystem\FilesystemException;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 
@@ -28,9 +29,13 @@ class RenameFile extends CommandAbstract
 {
     protected $requestMethod = Request::METHOD_POST;
 
-    protected $requires = array(Permission::FILE_RENAME);
+    protected $requires = [Permission::FILE_RENAME];
 
-    public function execute(Request $request, WorkingFolder $workingFolder, EventDispatcher $dispatcher)
+    /**
+     * @throws InvalidNameException
+     * @throws Exception|FilesystemException
+     */
+    public function execute(Request $request, WorkingFolder $workingFolder, EventDispatcher $dispatcher): array
     {
         $fileName = (string) $request->query->get('fileName');
         $newFileName = (string) $request->query->get('newFileName');
@@ -52,17 +57,17 @@ class RenameFile extends CommandAbstract
         if ($renamedFile->isValid()) {
             $renamedFileEvent = new RenameFileEvent($this->app, $renamedFile);
 
-            $dispatcher->dispatch(CKFinderEvent::RENAME_FILE, $renamedFileEvent);
+            $dispatcher->dispatch($renamedFileEvent, CKFinderEvent::RENAME_FILE);
 
             if (!$renamedFileEvent->isPropagationStopped()) {
                 $renamed = $renamedFile->doRename();
             }
         }
 
-        return array(
-            'name'    => $fileName,
+        return [
+            'name' => $fileName,
             'newName' => $renamedFile->getNewFileName(),
-            'renamed' => (int) $renamed
-        );
+            'renamed' => (int) $renamed,
+        ];
     }
 }

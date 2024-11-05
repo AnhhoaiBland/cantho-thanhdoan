@@ -3,8 +3,8 @@
 /*
  * CKFinder
  * ========
- * https://ckeditor.com/ckeditor-4/ckfinder/
- * Copyright (c) 2007-2019, CKSource - Frederico Knabben. All rights reserved.
+ * https://ckeditor.com/ckfinder/
+ * Copyright (c) 2007-2022, CKSource Holding sp. z o.o. All rights reserved.
  *
  * The software, this file and its contents are subject to the CKFinder
  * License. Please read the license.txt file before using, installing, copying,
@@ -14,23 +14,24 @@
 
 namespace CKSource\CKFinder\Backend;
 
+use Aws\S3\S3Client;
 use CKSource\CKFinder\Acl\AclInterface;
-use CKSource\CKFinder\Backend\Adapter\Local as LocalFilesystemAdapter;
-use CKSource\CKFinder\Backend\Adapter\Dropbox as DropboxAdapter;
+use CKSource\CKFinder\Backend\Adapter\AwsS3;
+use CKSource\CKFinder\Backend\Adapter\Azure;
+use CKSource\CKFinder\Backend\Adapter\Dropbox\Dropbox as DropboxAdapter;
+use CKSource\CKFinder\Backend\Adapter\Dropbox\DropboxTokenManager;
+use CKSource\CKFinder\Backend\Adapter\Local;
 use CKSource\CKFinder\CKFinder;
 use CKSource\CKFinder\Config;
 use CKSource\CKFinder\ContainerAwareInterface;
 use CKSource\CKFinder\Exception\CKFinderException;
 use CKSource\CKFinder\Filesystem\Path;
-use League\Flysystem\AdapterInterface;
-use League\Flysystem\Cached\CachedAdapter;
-use League\Flysystem\Cached\CacheInterface;
-use CKSource\CKFinder\Backend\Adapter\Ftp as FtpAdapter;
-use CKSource\CKFinder\Backend\Adapter\AwsS3 as AwsS3Adapter;
-use CKSource\CKFinder\Backend\Adapter\Azure as AzureAdapter;
-use Aws\S3\S3Client;
-use CKSource\CKFinder\Backend\Adapter\Cache\Storage\Memory as MemoryCache;
-use MicrosoftAzure\Storage\Common\ServicesBuilder;
+use InvalidArgumentException;
+use League\Flysystem\FilesystemAdapter;
+use League\Flysystem\FilesystemException;
+use League\Flysystem\Ftp\FtpAdapter;
+use League\Flysystem\Ftp\FtpConnectionOptions;
+use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 use Spatie\Dropbox\Client as DropboxClient;
 
 /**
@@ -45,49 +46,47 @@ class BackendFactory
      *
      * @var array
      */
-    protected $backends = array();
+    protected $backends = [];
 
     /**
      * Registered adapter types.
      *
      * @var array
      */
-    protected $registeredAdapters = array();
+    protected $registeredAdapters = [];
 
     /**
      * The list of operations that should be tracked for a given backend type.
      *
      * @var array
      */
-    protected static $trackedOperations = array(
-        's3' => array('RenameFolder')
-    );
+    protected static $trackedOperations = [
+        's3' => ['RenameFolder'],
+    ];
 
     /**
      * The CKFinder application container.
      *
-     * @var CKFinder $app
+     * @var CKFinder
      */
     protected $app;
 
     /**
      * Access Control Lists.
      *
-     * @var AclInterface $acl
+     * @var AclInterface
      */
     protected $acl;
 
     /**
      * Configuration.
      *
-     * @var Config $config
+     * @var Config
      */
     protected $config;
 
     /**
      * Constructor.
-     *
-     * @param CKFinder $app
      */
     public function __construct(CKFinder $app)
     {
@@ -98,111 +97,34 @@ class BackendFactory
         $this->registerDefaultAdapters();
     }
 
-    protected function registerDefaultAdapters()
-    {
-        $this->registerAdapter('local', function ($backendConfig) {
-            return $this->createBackend($backendConfig, new LocalFilesystemAdapter($backendConfig));
-        });
-
-        $this->registerAdapter('ftp', function ($backendConfig) {
-            $configurable = array('host', 'port', 'username', 'password', 'ssl', 'timeout', 'root', 'permPrivate', 'permPublic', 'passive');
-
-            $config = array_intersect_key($backendConfig, array_flip($configurable));
-
-            return $this->createBackend($backendConfig, new FtpAdapter($config));
-        });
-
-        $this->registerAdapter('dropbox', function ($backendConfig) {
-            $client = new DropboxClient($backendConfig['token']);
-            $adapter = new DropboxAdapter($client, $backendConfig);
-
-            return $this->createBackend($backendConfig, $adapter);
-        });
-
-        $this->registerAdapter('s3', function ($backendConfig) {
-            $clientConfig = array(
-                'credentials' => array(
-                    'key'    => $backendConfig['key'],
-                    'secret' => $backendConfig['secret']
-                ),
-                'signature_version' => isset($backendConfig['signature']) ? $backendConfig['signature'] : 'v4',
-                'version' => isset($backendConfig['version']) ? $backendConfig['version'] : 'latest'
-            );
-
-            if (isset($backendConfig['region'])) {
-                $clientConfig['region'] = $backendConfig['region'];
-            }
-
-            $client = new S3Client($clientConfig);
-
-            $filesystemConfig = array(
-                'visibility' => isset($backendConfig['visibility']) ? $backendConfig['visibility'] : 'private'
-            );
-
-            $prefix = isset($backendConfig['root']) ? trim($backendConfig['root'], '/ ') : null;
-
-            return $this->createBackend($backendConfig, new AwsS3Adapter($client, $backendConfig['bucket'], $prefix), $filesystemConfig);
-        });
-
-        $this->registerAdapter('azure', function ($backendConfig) {
-            $endpoint = sprintf('DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s', $backendConfig['account'], $backendConfig['key']);
-            $blobRestProxy = ServicesBuilder::getInstance()->createBlobService($endpoint);
-
-            $prefix = isset($backendConfig['root']) ? trim($backendConfig['root'], '/ ') : null;
-
-            return $this->createBackend($backendConfig, new AzureAdapter($blobRestProxy, $backendConfig['container'], $prefix));
-        });
-    }
-
-    /**
-     * @param string   $adapterName
-     * @param callable $instantiationCallback
-     */
-    public function registerAdapter($adapterName, callable $instantiationCallback)
+    public function registerAdapter(string $adapterName, callable $instantiationCallback)
     {
         $this->registeredAdapters[$adapterName] = $instantiationCallback;
     }
 
     /**
      * Creates a backend file system.
-     *
-     * @param array               $backendConfig
-     * @param AdapterInterface    $adapter
-     * @param array|null          $filesystemConfig
-     * @param CacheInterface|null $cache
-     *
-     * @return Backend
      */
-    public function createBackend(array $backendConfig, AdapterInterface $adapter, array $filesystemConfig = null, CacheInterface $cache = null)
+    public function createBackend(array $backendConfig, FilesystemAdapter $adapter, array $filesystemConfig = []): Backend
     {
         if ($adapter instanceof ContainerAwareInterface) {
             $adapter->setContainer($this->app);
         }
 
-        if (null === $cache) {
-            $cache = new MemoryCache();
-        }
-
-        $cachedAdapter = new CachedAdapter($adapter, $cache);
-
-        if (array_key_exists($backendConfig['adapter'], static::$trackedOperations)) {
+        if (\array_key_exists($backendConfig['adapter'], static::$trackedOperations)) {
             $backendConfig['trackedOperations'] = static::$trackedOperations[$backendConfig['adapter']];
         }
 
-        return new Backend($backendConfig, $this->app, $cachedAdapter, $filesystemConfig);
+        return new Backend($backendConfig, $this->app, $adapter, $filesystemConfig);
     }
 
     /**
      * Returns the backend object by name.
      *
-     * @param string $backendName
-     *
-     * @return Backend
-     *
-     * @throws \InvalidArgumentException
      * @throws CKFinderException
+     * @throws InvalidArgumentException
      */
-    public function getBackend($backendName)
+    public function getBackend(string $backendName): Backend
     {
         if (isset($this->backends[$backendName])) {
             return $this->backends[$backendName];
@@ -212,14 +134,14 @@ class BackendFactory
         $adapterName = $backendConfig['adapter'];
 
         if (!isset($this->registeredAdapters[$adapterName])) {
-            throw new \InvalidArgumentException(sprintf('Backends adapter "%s" not found. Please check configuration file.', $adapterName));
+            throw new InvalidArgumentException(sprintf('Backends adapter "%s" not found. Please check configuration file.', $adapterName));
         }
 
-        if (!is_callable($this->registeredAdapters[$adapterName])) {
-            throw new \InvalidArgumentException(sprintf('Backend instantiation callback for adapter "%s" is not a callable.', $adapterName));
+        if (!\is_callable($this->registeredAdapters[$adapterName])) {
+            throw new InvalidArgumentException(sprintf('Backend instantiation callback for adapter "%s" is not a callable.', $adapterName));
         }
 
-        $backend = call_user_func($this->registeredAdapters[$adapterName], $backendConfig);
+        $backend = \call_user_func($this->registeredAdapters[$adapterName], $backendConfig);
 
         if (!$backend instanceof Backend) {
             throw new CKFinderException(sprintf('The instantiation callback for adapter "%s" didn\'t return a valid Backend object.', $adapterName));
@@ -236,20 +158,23 @@ class BackendFactory
      * @param string $privateDirIdentifier
      *
      * @return Backend
+     *
+     * @throws FilesystemException
+     * @throws CKFinderException
      */
     public function getPrivateDirBackend($privateDirIdentifier)
     {
         $privateDirConfig = $this->config->get('privateDir');
 
-        if (!array_key_exists($privateDirIdentifier, $privateDirConfig)) {
-            throw new \InvalidArgumentException(sprintf('Private dir with identifier %s not found. Please check configuration file.', $privateDirIdentifier));
+        if (!\array_key_exists($privateDirIdentifier, $privateDirConfig)) {
+            throw new InvalidArgumentException(sprintf('Private dir with identifier %s not found. Please check configuration file.', $privateDirIdentifier));
         }
 
         $privateDir = $privateDirConfig[$privateDirIdentifier];
 
         $backend = null;
 
-        if (is_array($privateDir) && array_key_exists('backend', $privateDir)) {
+        if (\is_array($privateDir) && \array_key_exists('backend', $privateDir)) {
             $backend = $this->getBackend($privateDir['backend']);
         } else {
             $backend = $this->getBackend($privateDirConfig['backend']);
@@ -263,5 +188,80 @@ class BackendFactory
         }
 
         return $backend;
+    }
+
+    protected function registerDefaultAdapters()
+    {
+        $this->registerAdapter('local', function ($backendConfig) {
+            return $this->createBackend($backendConfig, new Local($backendConfig));
+        });
+
+        $this->registerAdapter('ftp', function ($backendConfig) {
+            $config = FtpConnectionOptions::fromArray([
+                'host' => $backendConfig['host'],
+                'root' => $backendConfig['root'] ?? '',
+                'username' => $backendConfig['username'],
+                'password' => $backendConfig['password'],
+                'port' => $backendConfig['port'] ?? 21,
+                'ssl' => $backendConfig['ssl'] ?? false,
+                'timeout' => $backendConfig['timeout'] ?? 90,
+                'utf8' => $backendConfig['utf8'] ?? false,
+                'passive' => $backendConfig['passive'] ?? true,
+                'transferMode' => $backendConfig['transferMode'] ?? FTP_BINARY,
+                'systemType' => $backendConfig['systemType'] ?? null,
+                'ignorePassiveAddress' => $backendConfig['ignorePassiveAddress'] ?? null,
+                'timestampsOnUnixListingsEnabled' => $backendConfig['timestampsOnUnixListingsEnabled'] ?? false,
+                'recurseManually' => $backendConfig['recurseManually'] ?? true,
+            ]);
+
+            return $this->createBackend($backendConfig, new FtpAdapter($config));
+        });
+
+        $this->registerAdapter('dropbox', function ($backendConfig) {
+            $tokenManager = new DropboxTokenManager(
+                $backendConfig['appKey'],
+                $backendConfig['appSecret'],
+                $backendConfig['accessCode'],
+                $this->app['cache'],
+            );
+
+            $client = new DropboxClient($tokenManager);
+
+            return $this->createBackend($backendConfig, new DropboxAdapter($client, $backendConfig));
+        });
+
+        $this->registerAdapter('s3', function ($backendConfig) {
+            $clientConfig = [
+                'credentials' => [
+                    'key' => $backendConfig['key'],
+                    'secret' => $backendConfig['secret'],
+                ],
+                'signature_version' => $backendConfig['signature'] ?? 'v4',
+                'version' => $backendConfig['version'] ?? 'latest',
+            ];
+
+            if (isset($backendConfig['region'])) {
+                $clientConfig['region'] = $backendConfig['region'];
+            }
+
+            $client = new S3Client($clientConfig);
+
+            $filesystemConfig = [
+                'visibility' => $backendConfig['visibility'] ?? 'private',
+            ];
+
+            $prefix = isset($backendConfig['root']) ? trim($backendConfig['root'], '/ ') : null;
+
+            return $this->createBackend($backendConfig, new AwsS3($client, $backendConfig['bucket'], $prefix), $filesystemConfig);
+        });
+
+        $this->registerAdapter('azure', function ($backendConfig) {
+            $endpoint = sprintf('DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s', $backendConfig['account'], $backendConfig['key']);
+            $blobRestProxy = BlobRestProxy::createBlobService($endpoint);
+
+            $prefix = isset($backendConfig['root']) ? trim($backendConfig['root'], '/ ') : null;
+
+            return $this->createBackend($backendConfig, new Azure($blobRestProxy, $backendConfig['container'], $prefix));
+        });
     }
 }

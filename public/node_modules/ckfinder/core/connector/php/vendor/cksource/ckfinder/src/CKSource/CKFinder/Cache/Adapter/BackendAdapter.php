@@ -3,8 +3,8 @@
 /*
  * CKFinder
  * ========
- * https://ckeditor.com/ckeditor-4/ckfinder/
- * Copyright (c) 2007-2019, CKSource - Frederico Knabben. All rights reserved.
+ * https://ckeditor.com/ckfinder/
+ * Copyright (c) 2007-2022, CKSource Holding sp. z o.o. All rights reserved.
  *
  * The software, this file and its contents are subject to the CKFinder
  * License. Please read the license.txt file before using, installing, copying,
@@ -16,66 +16,59 @@ namespace CKSource\CKFinder\Cache\Adapter;
 
 use CKSource\CKFinder\Backend\Backend;
 use CKSource\CKFinder\Filesystem\Path;
+use League\Flysystem\FilesystemException;
 
 /**
  * The BackendAdapter class.
  */
 class BackendAdapter implements AdapterInterface
 {
-    /**
-     * @var Backend
-     */
-    protected $backend;
+    protected Backend $backend;
 
-    /**
-     * @var string
-     */
-    protected $cachePath;
+    protected ?string $cachePath;
 
     /**
      * Constructor.
-     *
-     * @param Backend     $backend
-     * @param string|null $path
      */
-    public function __construct(Backend $backend, $path = null)
+    public function __construct(Backend $backend, ?string $path = null)
     {
         $this->backend = $backend;
         $this->cachePath = $path;
     }
 
     /**
-     * Creates backend-relative path for cache file for given key
-     *
-     * @param string $key
-     * @param bool   $prefix
-     *
-     * @return string
+     * Creates backend-relative path for cache file for given key.
      */
-    public function createCachePath($key, $prefix = false)
+    public function createCachePath(string $key, bool $prefix = false): string
     {
-        return Path::combine($this->cachePath, trim($key, '/') . ($prefix ? '' : '.cache'));
+        return Path::combine($this->cachePath, trim($key, '/').($prefix ? '' : '.cache'));
     }
 
     /**
-     * Sets the value in cache under given key
+     * Sets the value in cache under given key.
      *
      * @param string $key
      * @param mixed  $value
      *
      * @return bool true if successful
      */
-    public function set($key, $value)
+    public function set($key, $value): bool
     {
-        return $this->backend->put($this->createCachePath($key), serialize($value));
+        try {
+            $this->backend->write($this->createCachePath($key), serialize($value));
+        } catch (FilesystemException $e) {
+            return false;
+        }
+
+        return true;
     }
 
     /**
-     * Returns value under given key from cache
+     * Returns value under given key from cache.
      *
      * @param string $key
      *
-     * @return null|array
+     * @throws FilesystemException
      */
     public function get($key)
     {
@@ -89,13 +82,15 @@ class BackendAdapter implements AdapterInterface
     }
 
     /**
-     * Deletes value under given key  from cache
+     * Deletes value under given key  from cache.
      *
      * @param string $key
      *
      * @return bool true if successful
+     *
+     * @throws FilesystemException
      */
-    public function delete($key)
+    public function delete($key): bool
     {
         $cachePath = $this->createCachePath($key);
 
@@ -103,9 +98,13 @@ class BackendAdapter implements AdapterInterface
             return false;
         }
 
-        $this->backend->delete($cachePath);
+        try {
+            $this->backend->delete($cachePath);
+        } catch (FilesystemException $e) {
+            return false;
+        }
 
-        $dirs = explode('/', dirname($cachePath));
+        $dirs = explode('/', \dirname($cachePath));
 
         do {
             $dirPath = implode('/', $dirs);
@@ -115,37 +114,50 @@ class BackendAdapter implements AdapterInterface
                 break;
             }
 
-            $this->backend->deleteDir($dirPath);
+            try {
+                $this->backend->deleteDirectory($dirPath);
+            } catch (FilesystemException $e) {
+                return false;
+            }
+
             array_pop($dirs);
         } while (!empty($dirs));
+
+        return true;
     }
 
     /**
-     * Deletes all cache entries with given key prefix
+     * Deletes all cache entries with given key prefix.
      *
      * @param string $keyPrefix
      *
      * @return bool true if successful
      */
-    public function deleteByPrefix($keyPrefix)
+    public function deleteByPrefix($keyPrefix): bool
     {
         $cachePath = $this->createCachePath($keyPrefix, true);
         if ($this->backend->hasDirectory($cachePath)) {
-            return $this->backend->deleteDir($cachePath);
+            try {
+                $this->backend->deleteDirectory($cachePath);
+            } catch (FilesystemException $e) {
+                return false;
+            }
         }
 
-        return false;
+        return true;
     }
 
     /**
-     * Changes prefix for all entries given key prefix
+     * Changes prefix for all entries given key prefix.
      *
      * @param string $sourcePrefix
      * @param string $targetPrefix
      *
      * @return bool true if successful
+     *
+     * @throws FilesystemException
      */
-    public function changePrefix($sourcePrefix, $targetPrefix)
+    public function changePrefix($sourcePrefix, $targetPrefix): bool
     {
         $sourceCachePath = $this->createCachePath($sourcePrefix, true);
 

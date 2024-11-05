@@ -4,7 +4,7 @@
  * CKFinder
  * ========
  * https://ckeditor.com/ckeditor-4/ckfinder/
- * Copyright (c) 2007-2019, CKSource - Frederico Knabben. All rights reserved.
+ * Copyright (c) 2007-2022, CKSource Holding sp. z o.o. All rights reserved.
  *
  * The software, this file and its contents are subject to the CKFinder
  * License. Please read the license.txt file before using, installing, copying,
@@ -16,14 +16,14 @@ namespace CKSource\CKFinder\Command;
 
 use CKSource\CKFinder\Cache\CacheManager;
 use CKSource\CKFinder\CKFinder;
-use CKSource\CKFinder\Filesystem\Folder\WorkingFolder;
 use CKSource\CKFinder\Config;
+use CKSource\CKFinder\Filesystem\Folder\WorkingFolder;
 use CKSource\CKFinder\Response\JsonResponse;
 use CKSource\CKFinder\Thumbnail\ThumbnailRepository;
 use Symfony\Component\EventDispatcher\EventDispatcher;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
+use Symfony\Component\HttpKernel\Event\ResponseEvent;
 use Symfony\Component\HttpKernel\KernelEvents;
 
 class QuickUpload extends FileUpload
@@ -32,7 +32,7 @@ class QuickUpload extends FileUpload
     {
         parent::__construct($app);
 
-        $app->on(KernelEvents::RESPONSE, array($this, 'onQuickUploadResponse'));
+        $app->on(KernelEvents::RESPONSE, [$this, 'onQuickUploadResponse']);
     }
 
     public function execute(Request $request, WorkingFolder $workingFolder, EventDispatcher $dispatcher, Config $config, CacheManager $cache, ThumbnailRepository $thumbsRepository)
@@ -50,11 +50,11 @@ class QuickUpload extends FileUpload
         return $responseData;
     }
 
-    public function onQuickUploadResponse(FilterResponseEvent $event)
+    public function onQuickUploadResponse(ResponseEvent $event)
     {
         $request = $event->getRequest();
 
-        if ($request->get('responseType') === 'json') {
+        if ('json' === $request->get('responseType')) {
             return;
         }
 
@@ -66,8 +66,8 @@ class QuickUpload extends FileUpload
         if ($response instanceof JsonResponse) {
             $responseData = $response->getData();
 
-            $fileUrl = isset($responseData['url']) ? $responseData['url'] : '';
-            $errorMessage = isset($responseData['error']['message']) ? $responseData['error']['message'] : '';
+            $fileUrl = $responseData['url'] ?? null;
+            $errorMessage = $responseData['error']['message'] ?? '';
 
             ob_start();
             ?>
@@ -76,7 +76,7 @@ class QuickUpload extends FileUpload
 </script>
             <?php
 
-            $event->setResponse(Response::create(ob_get_clean()));
+            $event->setResponse(new Response(ob_get_clean()));
         }
     }
 }
