@@ -188,3 +188,17 @@ $routes->get('admin/tai_lieu_tham_khao/restoreFolder/(:num)', 'TaiLieuThamKhaoCo
 $routes->get('admin/tai_lieu_tham_khao/permanentlyDeleteFile/(:num)', 'TaiLieuThamKhaoController::permanentlyDeleteFile/$1');
 $routes->get('admin/tai_lieu_tham_khao/permanentlyDeleteFolder/(:num)', 'TaiLieuThamKhaoController::permanentlyDeleteFolder/$1');
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$routes->get('/admin/baidangthanhdoan', 'BaiDangThanhDoanController::index');
+$routes->get('/admin/baidangthanhdoan/create', 'BaiDangThanhDoanController::create');
+$routes->post('/admin/baidangthanhdoan/store', 'BaiDangThanhDoanController::store');
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$routes->get('/admin/dmbaidang_thanhdoan', 'DanhMuc_BaiDang_ThanhDoanController::index');
+$routes->get('/admin/dmbaidang_thanhdoan/create', 'DanhMuc_BaiDang_ThanhDoanController::create');
+$routes->post('/admin/dmbaidang_thanhdoan/store', 'DanhMuc_BaiDang_ThanhDoanController::store');
+
+
+

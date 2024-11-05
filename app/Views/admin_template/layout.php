@@ -411,7 +411,7 @@
 						</a>
 						
 					</li-->
-
+						<!-- 
 						<?php foreach ($danhSachChucNang as $ChucNang) {
 							if ($ChucNang['urlChucNang'] == '/admin/ds_category') { ?>
 
@@ -426,11 +426,11 @@
 								</li>
 							<?php break;
 							} ?>
-						<?php } ?>
+						<?php } ?> -->
 
 
-						<?php foreach ($danhSachChucNang as $ChucNang) {
-							if ($ChucNang['urlChucNang'] == '/admin/ds_baidang') { ?>
+						<!-- <?php foreach ($danhSachChucNang as $ChucNang) {
+									if ($ChucNang['urlChucNang'] == '/admin/ds_baidang') { ?>
 								<li class="nav-item has-treeview">
 									<a href="admin/ds_baidang" class="nav-link">
 										<i class="nav-icon fa fa-file-text-o"></i>
@@ -441,8 +441,8 @@
 
 								</li>
 							<?php break;
-							} ?>
-						<?php } ?>
+									} ?>
+						<?php } ?> -->
 
 						<!-- <li class="nav-item has-treeview">
 							<a href="admin/ds_baiviet_theo_thang" class="nav-link">
@@ -454,8 +454,8 @@
 
 						</li> -->
 
-						<?php foreach ($danhSachChucNang as $ChucNang) {
-							if ($ChucNang['urlChucNang'] == '/admin/vanban') { ?>
+						<!-- <?php foreach ($danhSachChucNang as $ChucNang) {
+									if ($ChucNang['urlChucNang'] == '/admin/vanban') { ?>
 								<li class="nav-item has-treeview">
 									<a href="admin/vanban/" class="nav-link">
 										<i class="nav-icon fa fa-file-o "></i>
@@ -526,10 +526,39 @@
 								</li>
 							<?php break;
 							} ?>
-						<?php } ?>
+						<?php } ?> -->
 
 						<?php foreach ($danhSachChucNang as $ChucNang) {
-							if ($ChucNang['urlChucNang'] == '/admin/daphuongtien') { ?>
+							if ($ChucNang['urlChucNang'] == '/admin/baidangthanhdoan') { ?>
+
+								<li class="nav-item has-treeview">
+									<a href="/admin/baidangthanhdoan" class="nav-link">
+										<i class="nav-icon fa fa-book"></i>
+										<p>
+											Bài Đăng Thành Đoàn
+										</p>
+									</a>
+								</li>
+
+							<?php break;
+							} ?>
+						<?php } ?>
+						<?php foreach ($danhSachChucNang as $ChucNang) {
+							if ($ChucNang['urlChucNang'] == '/admin/dmbaidang_thanhdoan') { ?>
+								<li class="nav-item has-treeview">
+									<a href="/admin/dmbaidang_thanhdoan" class="nav-link">
+										<i class="nav-icon fa fa-table"></i>
+										<p>
+											Danh Mục Bài Đăng Thành Đoàn
+										</p>
+									</a>
+								</li>
+							<?php break;
+							} ?>
+						<?php } ?>
+
+						<!-- <?php foreach ($danhSachChucNang as $ChucNang) {
+									if ($ChucNang['urlChucNang'] == '/admin/daphuongtien') { ?>
 								<li class="nav-item has-treeview">
 									<a href="admin/daphuongtien" class="nav-link">
 										<i class="nav-icon fa fa-image"></i>
@@ -540,8 +569,8 @@
 
 								</li>
 							<?php break;
-							} ?>
-						<?php } ?>
+									} ?>
+						<?php } ?> -->
 
 
 					</ul>
