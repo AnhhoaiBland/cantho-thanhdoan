@@ -125,7 +125,7 @@
         </div>
 
         <div class="form-group">
-            <label for="category_id">Danh Mục<span class="text-red">(*)</span></label>
+            <label for="category_id">Danh Mục</label>
             <select id="category_id" name="category_id" onchange="fetchRelatedPosts()" required>
                 <option value="">Chọn danh mục</option>
                 <?php foreach ($ds_danh_muc as $danh_muc): ?>
@@ -176,7 +176,7 @@
 
 </html>
 
-
+<!-- Lặp những bài viết liên quan đến danh mục -->
 <script>
     function fetchRelatedPosts() {
         const categoryId = document.getElementById('category_id').value;
@@ -196,6 +196,8 @@
         }
     }
 </script>
+
+<!-- CKEDITOR -->
 <script>
     $(document).ready(function() {
         $('input[required], select[required], textarea[required]').each(function() {

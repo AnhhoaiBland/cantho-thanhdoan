@@ -17,20 +17,44 @@ class BaiDangThanhDoanController extends BaseController
         $this->danhMucModel = new DanhMucThanhDoanModel();
     }
 
-    public function index()
+    public function index($page = 1)
     {
-        // Lấy dữ liệu bài đăng cùng với danh mục liên kết
-        $data['bai_dang'] = $this->baiDangModel
-            ->select('news.*, category.title AS category_title')
-            ->join('category', 'news.category_id = category.cat_id')
-            ->orderBy('news.date_add', 'DESC')
+        $categoriesPerPage = 10;
+        $offset = ($page - 1) * $categoriesPerPage;
+    
+        // Step 1: Retrieve 10 categories for the current page
+        $categories = $this->danhMucModel
+            ->select('cat_id, title AS category_title')
+            ->orderBy('title', 'ASC')
+            ->limit($categoriesPerPage, $offset)
             ->findAll();
-        $data['ds_loai'] = []; // Define if required
-        $data['ds_cap'] = [];  // Define if required
-        $data['checkQuyen'] = $this->check_nhom_quyen('nhomQ6721906c39cef4.74944927'); // Check user permissions
+    
+        // Step 2: Retrieve posts for these categories
+        $groupedPosts = [];
+        foreach ($categories as $category) {
+            $posts = $this->baiDangModel
+                ->where('category_id', $category['cat_id'])
+                ->orderBy('date_add', 'DESC')
+                ->findAll();
+    
+            if (!empty($posts)) {
+                $groupedPosts[$category['category_title']] = $posts;
+            }
+        }
+    
+        // Step 3: Count total categories for pagination
+        $totalCategories = $this->danhMucModel->countAllResults();
+        $totalPages = ceil($totalCategories / $categoriesPerPage);
+    
+        // Pass data to the view
+        $data['groupedPosts'] = $groupedPosts;
+        $data['currentPage'] = $page;
+        $data['totalPages'] = $totalPages;
+    
         return $this->template_admin(view("admin/baidangthanhdoan/ds_baidangthanhdoan", $data));
     }
-
+    
+    
     public function create()
     {
         // Lấy danh sách danh mục và bài đăng để hiển thị trong form
@@ -134,5 +158,4 @@ class BaiDangThanhDoanController extends BaseController
             return redirect()->to('/admin/baidangthanhdoan');
         }
     }
-    
 }

@@ -197,6 +197,8 @@ $routes->post('/admin/baidangthanhdoan/store', 'BaiDangThanhDoanController::stor
 $routes->get('/admin/baidangthanhdoan/edit/(:num)', 'BaiDangThanhDoanController::edit/$1');
 $routes->post('/admin/baidangthanhdoan/update/(:num)', 'BaiDangThanhDoanController::update/$1');
 $routes->get('/admin/baidangthanhdoan/delete/(:num)', 'BaiDangThanhDoanController::delete/$1');
+$routes->get('admin/baidangthanhdoan/(:num)', 'BaiDangThanhDoanController::index/$1');
+
 
 
 
