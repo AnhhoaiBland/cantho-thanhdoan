@@ -33,6 +33,7 @@
             border-collapse: collapse;
             background-color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
 
         th,
@@ -56,14 +57,9 @@
             background-color: #e9f5e9;
         }
 
-        .toggle-button {
-            cursor: pointer;
-            color: #333;
-            font-weight: bold;
-        }
-
         .nested {
             display: none;
+            background-color: #e8f0f2;
         }
 
         .status {
@@ -82,13 +78,37 @@
             background-color: #ffebee;
         }
 
+        /* Thêm các thụt lề theo cấp */
+        .level-0 {
+            background-color: #f9fbfc;
+        }
+
+        .level-1 {
+            padding-left: 20px;
+            background-color: #eef7f9;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .level-2 {
+            padding-left: 40px;
+            background-color: #e0f0f2;
+            color: #555;
+        }
+
+        .toggle-button {
+            cursor: pointer;
+            font-weight: bold;
+            color: #333;
+        }
+
         .toggle-button i {
-            margin-right: 5px;
+            margin-right: 8px;
             transition: transform 0.2s;
+            font-size: 1.2em;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMLMO/IFjHg0DQhlS/8Rkv3LZXH+4ImiKkj/1nF" crossorigin="anonymous">
-
 </head>
 
 <body>
@@ -109,19 +129,19 @@
         </tr>
 
         <?php foreach ($ds_danh_muc as $row): ?>
-            <tr class="<?= $row['parent_id'] ? 'nested nested-' . $row['parent_id'] : '' ?>" data-parent-id="<?= $row['parent_id'] ?>" data-cat-id="<?= $row['cat_id'] ?>">
+            <tr class="<?= $row['parent_id'] ? 'nested nested-' . $row['parent_id'] : '' ?> level-<?= $row['level'] ?>" data-parent-id="<?= $row['parent_id'] ?>" data-cat-id="<?= $row['cat_id'] ?>">
                 <td><?= $row['cat_id'] ?></td>
                 <td><?= $row['parent_id'] ?></td>
                 <td>
-                    <?php if ($row['level'] > 0): ?>
-                        <?= str_repeat('&nbsp;&nbsp;', $row['level']) ?>
-                    <?php endif; ?>
                     <span class="toggle-button">
-                        <i class="fas fa-caret-right"></i> <!-- Icon mũi tên -->
+                        <?php if ($row['level'] == 0): ?>
+                            <i class="fas fa-folder"></i> <!-- Icon thư mục cha -->
+                        <?php else: ?>
+                            <i class="fas fa-folder"></i> <!-- Icon thư mục con -->
+                        <?php endif; ?>
                         <?= htmlspecialchars($row['title']) ?>
                     </span>
                 </td>
-
                 <td><?= htmlspecialchars($row['alias']) ?></td>
                 <td><?= date('d-m-Y', $row['date_add']) ?></td>
                 <td><?= date('d-m-Y', $row['date_modify']) ?></td>
@@ -137,7 +157,6 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            // Thêm sự kiện click cho các nút toggle
             const toggleButtons = document.querySelectorAll(".toggle-button");
 
             toggleButtons.forEach(button => {
@@ -150,12 +169,12 @@
                     nestedRows.forEach(nestedRow => {
                         if (nestedRow.style.display === "table-row") {
                             nestedRow.style.display = "none";
-                            icon.classList.remove("fa-caret-down");
-                            icon.classList.add("fa-caret-right");
+                            icon.classList.remove("fa-folder-open");
+                            icon.classList.add("fa-folder");
                         } else {
                             nestedRow.style.display = "table-row";
-                            icon.classList.remove("fa-caret-right");
-                            icon.classList.add("fa-caret-down");
+                            icon.classList.remove("fa-folder");
+                            icon.classList.add("fa-folder-open");
                         }
                     });
                 });
