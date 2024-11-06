@@ -81,7 +81,7 @@ class BaiDangModel extends BaseModel
 
     public function layDanhSachtop6new()
     {
-        return $this->executeQuery("SELECT *, (SELECT tenDangNhap FROM NguoiDung WHERE BaiDang.maNguoiDung = NguoiDung.maNguoiDung) AS tenNguoiDung, (SELECT tenChuyenMuc FROM ChuyenMuc WHERE ChuyenMuc.maChuyenMuc = BaiDang.maChuyenMuc) AS tenChuyenMuc FROM BaiDang WHERE trangThai = '2' ORDER BY ngayDang DESC LIMIT 6 ;");
+        return $this->executeQuery("SELECT *, (SELECT tenDangNhap FROM NguoiDung WHERE BaiDang.maNguoiDung = NguoiDung.maNguoiDung) AS tenNguoiDung, (SELECT tenChuyenMuc FROM ChuyenMuc WHERE ChuyenMuc.maChuyenMuc = BaiDang.maChuyenMuc) AS tenChuyenMuc FROM BaiDang WHERE trangThai = '2' ORDER BY ngayDang DESC LIMIT 9 ;");
     }
 
     public function layTongSoDongBaiViet($urlChuenMuc)
