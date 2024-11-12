@@ -207,6 +207,9 @@ $routes->get('admin/baidangthanhdoan/(:num)', 'BaiDangThanhDoanController::index
 $routes->get('/admin/dmbaidang_thanhdoan', 'DanhMuc_BaiDang_ThanhDoanController::index');
 $routes->get('/admin/dmbaidang_thanhdoan/create', 'DanhMuc_BaiDang_ThanhDoanController::create');
 $routes->post('/admin/dmbaidang_thanhdoan/store', 'DanhMuc_BaiDang_ThanhDoanController::store');
+$routes->get('/admin/dmbaidang_thanhdoan/edit/(:num)', 'DanhMuc_BaiDang_ThanhDoanController::edit/$1');
+$routes->post('/admin/dmbaidang_thanhdoan/update/(:num)', 'DanhMuc_BaiDang_ThanhDoanController::update/$1');
+$routes->get('/admin/dmbaidang_thanhdoan/delete/(:num)', 'DanhMuc_BaiDang_ThanhDoanController::delete/$1');
 
 
 

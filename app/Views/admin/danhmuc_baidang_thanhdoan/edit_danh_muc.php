@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thêm Danh Mục Mới</title>
+    <title>Chỉnh Sửa Danh Mục</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* CSS tùy chỉnh cho giao diện */
         body {
@@ -29,7 +30,6 @@
         }
 
         input[type="text"],
-        input[type="number"],
         textarea,
         select {
             width: 100%;
@@ -42,13 +42,13 @@
             color: #555;
         }
 
-        .submit {
+        button {
             width: 100%;
             padding: 12px;
             font-size: 16px;
             font-weight: bold;
             color: #fff;
-            background-color: #4CAF50;
+            background-color: #007bff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -56,7 +56,7 @@
         }
 
         button:hover {
-            background-color: #45a049;
+            background-color: #0056b3;
         }
 
         .form-note {
@@ -64,13 +64,6 @@
             color: #777;
             font-size: 14px;
             margin-top: 20px;
-        }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            .form-container {
-                padding: 20px;
-            }
         }
 
         /* Thêm kiểu cho dấu (*) yêu cầu */
@@ -82,27 +75,20 @@
 </head>
 
 <body>
-    <button class="btn btn-danger " onclick="window.location.href='/admin/dmbaidang_thanhdoan'">Quay Về</button>
-    <div>
-        <h2>Thêm Danh Mục Mới</h2>
-        <!-- Hiển thị thông báo lỗi nếu có -->
-        <?php if (session()->getFlashdata('error')): ?>
-            <div class="alert alert-danger">
-                <?= session()->getFlashdata('error') ?>
-            </div>
-        <?php endif; ?>
+    <div class="container">
+        <h2>Chỉnh Sửa Danh Mục</h2>
 
-        <form action="/admin/dmbaidang_thanhdoan/store" method="post">
-            <!-- Bảo vệ CSRF nếu cần -->
+        <form action="/admin/dmbaidang_thanhdoan/update/<?= $category['cat_id'] ?>" method="post">
+            <!-- Bảo vệ CSRF -->
             <?= csrf_field() ?>
 
             <div class="form-group">
                 <label for="parent_id">Danh Mục Cha:</label>
-                <select id="parent_id" name="parent_id" class="form-control">
+                <select id="parent_id" name="parent_id" class="form-select">
                     <option value="0">-- Không có danh mục cha --</option>
-                    <?php foreach ($categories as $category): ?>
-                        <option value="<?= $category['cat_id'] ?>" <?= ($category['cat_id'] == old('parent_id')) ? 'selected' : '' ?>>
-                            <?= str_repeat('--', $category['depth']) . ' ' . htmlspecialchars($category['title']) ?>
+                    <?php foreach ($categories as $cat): ?>
+                        <option value="<?= $cat['cat_id'] ?>" <?= ($cat['cat_id'] == old('parent_id', $category['parent_id'])) ? 'selected' : '' ?>>
+                            <?= str_repeat('--', $cat['depth']) . ' ' . htmlspecialchars($cat['title']) ?>
                         </option>
                     <?php endforeach; ?>
                 </select>
@@ -110,30 +96,30 @@
 
             <div class="form-group">
                 <label for="title">Tiêu Đề:<span class="required-star">*</span></label>
-                <input type="text" id="title" name="title" placeholder="Nhập tiêu đề danh mục" value="<?= old('title') ?>" required>
+                <input type="text" id="title" name="title" placeholder="Nhập tiêu đề danh mục" value="<?= old('title', htmlspecialchars($category['title'])) ?>" required>
             </div>
 
             <div class="form-group">
                 <label for="alias">Alias (Đường dẫn):<span class="required-star">*</span></label>
-                <input type="text" id="alias" name="alias" placeholder="Nhập alias" value="<?= old('alias') ?>" required>
+                <input type="text" id="alias" name="alias" placeholder="Nhập alias" value="<?= old('alias', htmlspecialchars($category['alias'])) ?>" required>
             </div>
 
             <div class="form-group">
                 <label for="description">Mô Tả:</label>
-                <textarea id="description" name="description" placeholder="Nhập mô tả"><?= old('description') ?></textarea>
+                <textarea id="description" name="description" placeholder="Nhập mô tả"><?= old('description', htmlspecialchars($category['description'])) ?></textarea>
             </div>
 
             <div class="form-group">
                 <label for="enabled">Trạng Thái:</label>
-                <select id="enabled" name="enabled" class="form-control">
-                    <option value="1" <?= (old('enabled') === '1') ? 'selected' : '' ?>>Kích hoạt</option>
-                    <option value="0" <?= (old('enabled') === '0') ? 'selected' : '' ?>>Vô hiệu hóa</option>
+                <select id="enabled" name="enabled" class="form-select">
+                    <option value="1" <?= (old('enabled', $category['enabled']) === '1') ? 'selected' : '' ?>>Kích hoạt</option>
+                    <option value="0" <?= (old('enabled', $category['enabled']) === '0') ? 'selected' : '' ?>>Vô hiệu hóa</option>
                 </select>
             </div>
 
-            <button class="submit" type="submit">Thêm Danh Mục</button>
+            <button type="submit">Cập Nhật Danh Mục</button>
         </form>
-        <div class="form-note">Vui lòng điền đầy đủ thông tin trước khi thêm danh mục</div>
+        <div class="form-note">Vui lòng điền đầy đủ thông tin trước khi cập nhật danh mục</div>
     </div>
 
     <!-- Thêm các thư viện cần thiết -->
@@ -146,30 +132,29 @@
         // Hàm slugify để chuyển đổi chuỗi thành slug
         function slugify(text) {
             return text.toString().toLowerCase()
-                .normalize('NFD') // Chuyển các ký tự có dấu sang dạng chuẩn hóa
-                .replace(/[\u0300-\u036f]/g, '') // Loại bỏ dấu
-                .replace(/[^a-z0-9 -]/g, '') // Loại bỏ ký tự không phải chữ, số, dấu cách hoặc dấu -
-                .replace(/\s+/g, '-') // Thay thế khoảng trắng bằng dấu -
-                .replace(/-+/g, '-') // Thay thế nhiều dấu - thành một
-                .trim(); // Loại bỏ khoảng trắng ở đầu và cuối
+                .normalize('NFD')                   // Chuyển các ký tự có dấu sang dạng chuẩn hóa
+                .replace(/[\u0300-\u036f]/g, '')   // Loại bỏ dấu
+                .replace(/[^a-z0-9 -]/g, '')       // Loại bỏ ký tự không phải chữ, số, dấu cách hoặc dấu -
+                .replace(/\s+/g, '-')               // Thay thế khoảng trắng bằng dấu -
+                .replace(/-+/g, '-')                // Thay thế nhiều dấu - thành một
+                .trim();                            // Loại bỏ khoảng trắng ở đầu và cuối
         }
 
         document.addEventListener('DOMContentLoaded', function() {
             const tieuDe = document.getElementById('title');
             const duongDan = document.getElementById('alias');
+            let aliasManuallyEdited = false;
+
+            // Nếu alias được chỉnh sửa thủ công, không tự động cập nhật
+            duongDan.addEventListener('input', function() {
+                aliasManuallyEdited = true;
+            });
 
             tieuDe.addEventListener('input', function(e) {
                 let vl = e.target.value;
-                if (vl != null && vl.length > 0) {
+                if (vl != null && vl.length > 0 && !aliasManuallyEdited) {
                     duongDan.value = slugify(vl);
-                } else {
-                    duongDan.value = '';
                 }
-            });
-
-            // Nếu người dùng thay đổi alias thủ công, không tự động cập nhật
-            duongDan.addEventListener('input', function(e) {
-                // Có thể thêm logic nếu cần
             });
         });
     </script>

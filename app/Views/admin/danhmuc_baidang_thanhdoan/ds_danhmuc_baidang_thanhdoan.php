@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danh Sách Danh Mục Bài Đăng Thành Đoàn</title>
     <style>
         /* Định dạng chung */
@@ -76,6 +78,37 @@
             color: #c62828;
             background-color: #ffebee;
         }
+
+        /* Định dạng nút hành động */
+        .action-buttons {
+            margin-left: 10px;
+        }
+
+        .action-buttons a {
+            margin-right: 5px;
+            text-decoration: none;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+
+        .action-buttons a.edit {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .action-buttons a.delete {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .action-buttons a.edit:hover {
+            background-color: #0056b3;
+        }
+
+        .action-buttons a.delete:hover {
+            background-color: #c82333;
+        }
     </style>
     <!-- Thư viện Font Awesome cho các icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -89,42 +122,18 @@
     <a class="btn-primary" href="/admin/dmbaidang_thanhdoan/create">Thêm Danh Mục Mới</a>
 
     <?php
-    // Giả sử $ds_danh_muc là mảng chứa danh sách danh mục của bạn
-    // Ví dụ:
-    /*
-    $ds_danh_muc = [
-        ['cat_id' => 1, 'parent_id' => 0, 'title' => 'Danh Mục 1', 'alias' => 'danh-muc-1', 'date_add' => strtotime('2023-01-01'), 'date_modify' => strtotime('2023-01-05'), 'num_view' => 100, 'enabled' => true],
-        ['cat_id' => 2, 'parent_id' => 1, 'title' => 'Danh Mục 1.1', 'alias' => 'danh-muc-1-1', 'date_add' => strtotime('2023-02-01'), 'date_modify' => strtotime('2023-02-05'), 'num_view' => 50, 'enabled' => true],
-        // Thêm các danh mục khác...
-    ];
-    */
-
-    // Bước 1: Xây dựng cây danh mục
-    function buildTree(array $elements, $parentId = 0) {
-        $branch = array();
-
-        foreach ($elements as $element) {
-            if ($element['parent_id'] == $parentId) {
-                $children = buildTree($elements, $element['cat_id']);
-                if ($children) {
-                    $element['children'] = $children;
-                }
-                $branch[] = $element;
-            }
-        }
-
-        return $branch;
-    }
-
-    $tree = buildTree($ds_danh_muc);
-
-    // Bước 2: Hiển thị cây danh mục
-    function renderTree($tree) {
+    /**
+     * Hiển thị cây danh mục từ cấu trúc cây đã được xây dựng bởi Controller
+     *
+     * @param array $tree Cấu trúc cây danh mục
+     */
+    function renderTree($tree)
+    {
         echo '<ul>';
         foreach ($tree as $node) {
             echo '<li>';
             echo '<div class="toggle-button">';
-            if (isset($node['children'])) {
+            if (isset($node['children']) && !empty($node['children'])) {
                 echo '<i class="fas fa-folder"></i>';
             } else {
                 echo '<i class="fas fa-file"></i>';
@@ -134,6 +143,17 @@
             echo '<span class="status ' . ($node['enabled'] ? 'enabled' : 'disabled') . '">';
             echo $node['enabled'] ? 'Kích hoạt' : 'Vô hiệu hóa';
             echo '</span>';
+
+            // Thêm nút hành động
+            echo '<span class="action-buttons">';
+            echo '<a href="/admin/dmbaidang_thanhdoan/edit/' . $node['cat_id'] . '" class="edit" title="Chỉnh Sửa">';
+            echo '<i class="fas fa-edit"></i> Chỉnh Sửa';
+            echo '</a>';
+            echo '<a href="/admin/dmbaidang_thanhdoan/delete/' . $node['cat_id'] . '" class="delete" title="Xóa" onclick="return confirm(\'Bạn có chắc chắn muốn xóa danh mục này không?\')">';
+            echo '<i class="fas fa-trash-alt"></i> Xóa';
+            echo '</a>';
+            echo '</span>';
+
             echo '</div>';
             // Hiển thị thông tin chi tiết
             echo '<div class="node-details">';
@@ -143,7 +163,7 @@
             echo 'Ngày Sửa: ' . date('d-m-Y', $node['date_modify']) . ' | ';
             echo 'Số Lượt Xem: ' . $node['num_view'];
             echo '</div>';
-            if (isset($node['children'])) {
+            if (isset($node['children']) && !empty($node['children'])) {
                 // Mặc định ẩn các danh mục con
                 echo '<div class="children hidden">';
                 renderTree($node['children']);
@@ -154,7 +174,8 @@
         echo '</ul>';
     }
 
-    renderTree($tree);
+    // Gọi hàm renderTree với cây danh mục từ Controller
+    renderTree($ds_danh_muc);
     ?>
 
     <!-- JavaScript xử lý thu gọn/mở rộng danh mục -->
@@ -163,7 +184,12 @@
             const toggleButtons = document.querySelectorAll(".toggle-button");
 
             toggleButtons.forEach(button => {
-                button.addEventListener("click", function () {
+                button.addEventListener("click", function (event) {
+                    // Nếu nhấp vào nút Chỉnh Sửa hoặc Xóa, không xử lý toggle
+                    if (event.target.closest('.action-buttons')) {
+                        return;
+                    }
+
                     const parentLi = button.parentElement;
                     const childDiv = parentLi.querySelector(":scope > .children");
                     const icon = button.querySelector("i");
