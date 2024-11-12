@@ -137,15 +137,8 @@
         </div>
 
         <div class="form-group">
-            <label for="assoc_id">Nội Dung Liên Quan</label>
-            <select id="assoc_id" name="assoc_id" class=" select2 styled-select">
-                <option value="">Chọn bài viết liên quan</option>
-                <?php foreach ($ds_bai_dang as $bai_dang_item): ?>
-                    <option value="<?= $bai_dang_item['news_id'] ?>" <?= $bai_dang_item['news_id'] == $bai_dang['assoc_id'] ? 'selected' : '' ?>>
-                        <?= htmlspecialchars($bai_dang_item['title']) ?>
-                    </option>
-                <?php endforeach; ?>
-            </select>
+            <label for="hashtags">Hashtags <span class="text-red">(Bắt đầu bằng dấu #)</span></label>
+            <input type="text" id="hashtags" name="hashtags" placeholder="Nhập hashtag, phân tách bằng dấu phẩy" value="<?= htmlspecialchars($bai_dang['hashtags']) ?>" >
         </div>
 
         <div class="form-group">

@@ -1,9 +1,9 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
     <title>Thêm Bài Đăng Thành Đoàn</title>
     <style>
@@ -135,22 +135,17 @@
         </div>
 
         <div class="form-group">
-            <label for="assoc_id">Nội Dung Liên Quan</label>
-            <select id="assoc_id" name="assoc_id" class="select2 styled-select">
-                <option value="">Chọn bài viết liên quan</option>
-                <!-- Options will be populated dynamically -->
-            </select>
+            <label for="hashtags">Hashtags <span class="text-red">(Bắt đầu bằng dấu #)</label>
+            <input type="text" id="hashtags" name="hashtags" placeholder="Nhập hashtag, phân tách bằng dấu phẩy">
         </div>
 
-
-
         <div class="form-group">
-            <label for="description">Mô Tả</label>
+            <label for="description">Mô Tả (Hiện ở trang danh sách)</label>
             <textarea id="description" name="description" rows="4"></textarea>
         </div>
 
         <div class="form-group">
-            <label for="content">Nội Dung Chi Tiết</label>
+            <label for="content">Nội Dung Chi Tiết (Nội dung ở bên trong)</label>
             <textarea id="content" name="content" rows="6"></textarea>
         </div>
 

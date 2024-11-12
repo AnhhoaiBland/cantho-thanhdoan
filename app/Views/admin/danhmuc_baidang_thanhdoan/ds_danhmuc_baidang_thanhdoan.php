@@ -4,6 +4,7 @@
 <head>
     <title>Danh Sách Danh Mục Bài Đăng Thành Đoàn</title>
     <style>
+        /* Định dạng chung */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f6f9;
@@ -28,44 +29,42 @@
             text-align: center;
         }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
+        /* Định dạng danh sách dạng cây */
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
         }
 
-        th,
-        td {
-            padding: 15px;
-            text-align: left;
+        li {
+            margin: 5px 0;
         }
 
-        th {
-            background-color: #4CAF50;
-            color: white;
-            font-weight: bold;
-            text-transform: uppercase;
+        .toggle-button {
+            cursor: pointer;
+            user-select: none;
+            display: flex;
+            align-items: center;
         }
 
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
+        .toggle-button i {
+            margin-right: 5px;
         }
 
-        tr:hover {
-            background-color: #e9f5e9;
+        .node-details {
+            margin-left: 25px;
+            color: #555;
         }
 
-        .nested {
+        .hidden {
             display: none;
-            background-color: #e8f0f2;
         }
 
+        /* Định dạng trạng thái */
         .status {
             font-weight: bold;
-            padding: 5px 10px;
-            border-radius: 5px;
+            padding: 2px 6px;
+            border-radius: 3px;
+            margin-left: 10px;
         }
 
         .enabled {
@@ -77,38 +76,10 @@
             color: #c62828;
             background-color: #ffebee;
         }
-
-        /* Thêm các thụt lề theo cấp */
-        .level-0 {
-            background-color: #f9fbfc;
-        }
-
-        .level-1 {
-            padding-left: 20px;
-            background-color: #eef7f9;
-            font-weight: bold;
-            color: #333;
-        }
-
-        .level-2 {
-            padding-left: 40px;
-            background-color: #e0f0f2;
-            color: #555;
-        }
-
-        .toggle-button {
-            cursor: pointer;
-            font-weight: bold;
-            color: #333;
-        }
-
-        .toggle-button i {
-            margin-right: 8px;
-            transition: transform 0.2s;
-            font-size: 1.2em;
-        }
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMLMO/IFjHg0DQhlS/8Rkv3LZXH+4ImiKkj/1nF" crossorigin="anonymous">
+    <!-- Thư viện Font Awesome cho các icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMLMO/IFjHg0DQhlS/8Rkv3LZXH+4ImiKkj/1nF" crossorigin="anonymous">
 </head>
 
 <body>
@@ -116,67 +87,98 @@
     <h2>Danh Sách Danh Mục Bài Đăng Thành Đoàn</h2>
 
     <a class="btn-primary" href="/admin/dmbaidang_thanhdoan/create">Thêm Danh Mục Mới</a>
-    <table>
-        <tr>
-            <th>ID</th>
-            <th>Danh Mục Cha</th>
-            <th>Tiêu Đề</th>
-            <th>Alias</th>
-            <th>Ngày Thêm</th>
-            <th>Ngày Sửa</th>
-            <th>Số Lượt Xem</th>
-            <th>Trạng Thái</th>
-        </tr>
 
-        <?php foreach ($ds_danh_muc as $row): ?>
-            <tr class="<?= $row['parent_id'] ? 'nested nested-' . $row['parent_id'] : '' ?> level-<?= $row['level'] ?>" data-parent-id="<?= $row['parent_id'] ?>" data-cat-id="<?= $row['cat_id'] ?>">
-                <td><?= $row['cat_id'] ?></td>
-                <td><?= $row['parent_id'] ?></td>
-                <td>
-                    <span class="toggle-button">
-                        <?php if ($row['level'] == 0): ?>
-                            <i class="fas fa-folder"></i> <!-- Icon thư mục cha -->
-                        <?php else: ?>
-                            <i class="fas fa-folder"></i> <!-- Icon thư mục con -->
-                        <?php endif; ?>
-                        <?= htmlspecialchars($row['title']) ?>
-                    </span>
-                </td>
-                <td><?= htmlspecialchars($row['alias']) ?></td>
-                <td><?= date('d-m-Y', $row['date_add']) ?></td>
-                <td><?= date('d-m-Y', $row['date_modify']) ?></td>
-                <td><?= $row['num_view'] ?></td>
-                <td>
-                    <span class="status <?= $row['enabled'] ? 'enabled' : 'disabled' ?>">
-                        <?= $row['enabled'] ? 'Kích hoạt' : 'Vô hiệu hóa' ?>
-                    </span>
-                </td>
-            </tr>
-        <?php endforeach; ?>
-    </table>
+    <?php
+    // Giả sử $ds_danh_muc là mảng chứa danh sách danh mục của bạn
+    // Ví dụ:
+    /*
+    $ds_danh_muc = [
+        ['cat_id' => 1, 'parent_id' => 0, 'title' => 'Danh Mục 1', 'alias' => 'danh-muc-1', 'date_add' => strtotime('2023-01-01'), 'date_modify' => strtotime('2023-01-05'), 'num_view' => 100, 'enabled' => true],
+        ['cat_id' => 2, 'parent_id' => 1, 'title' => 'Danh Mục 1.1', 'alias' => 'danh-muc-1-1', 'date_add' => strtotime('2023-02-01'), 'date_modify' => strtotime('2023-02-05'), 'num_view' => 50, 'enabled' => true],
+        // Thêm các danh mục khác...
+    ];
+    */
 
+    // Bước 1: Xây dựng cây danh mục
+    function buildTree(array $elements, $parentId = 0) {
+        $branch = array();
+
+        foreach ($elements as $element) {
+            if ($element['parent_id'] == $parentId) {
+                $children = buildTree($elements, $element['cat_id']);
+                if ($children) {
+                    $element['children'] = $children;
+                }
+                $branch[] = $element;
+            }
+        }
+
+        return $branch;
+    }
+
+    $tree = buildTree($ds_danh_muc);
+
+    // Bước 2: Hiển thị cây danh mục
+    function renderTree($tree) {
+        echo '<ul>';
+        foreach ($tree as $node) {
+            echo '<li>';
+            echo '<div class="toggle-button">';
+            if (isset($node['children'])) {
+                echo '<i class="fas fa-folder"></i>';
+            } else {
+                echo '<i class="fas fa-file"></i>';
+            }
+            echo '<span>' . htmlspecialchars($node['title']) . '</span>';
+            // Hiển thị trạng thái
+            echo '<span class="status ' . ($node['enabled'] ? 'enabled' : 'disabled') . '">';
+            echo $node['enabled'] ? 'Kích hoạt' : 'Vô hiệu hóa';
+            echo '</span>';
+            echo '</div>';
+            // Hiển thị thông tin chi tiết
+            echo '<div class="node-details">';
+            echo 'ID: ' . $node['cat_id'] . ' | ';
+            echo 'Alias: ' . htmlspecialchars($node['alias']) . ' | ';
+            echo 'Ngày Thêm: ' . date('d-m-Y', $node['date_add']) . ' | ';
+            echo 'Ngày Sửa: ' . date('d-m-Y', $node['date_modify']) . ' | ';
+            echo 'Số Lượt Xem: ' . $node['num_view'];
+            echo '</div>';
+            if (isset($node['children'])) {
+                // Mặc định ẩn các danh mục con
+                echo '<div class="children hidden">';
+                renderTree($node['children']);
+                echo '</div>';
+            }
+            echo '</li>';
+        }
+        echo '</ul>';
+    }
+
+    renderTree($tree);
+    ?>
+
+    <!-- JavaScript xử lý thu gọn/mở rộng danh mục -->
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
             const toggleButtons = document.querySelectorAll(".toggle-button");
 
             toggleButtons.forEach(button => {
-                button.addEventListener("click", function() {
-                    const row = button.closest("tr");
-                    const catId = row.getAttribute("data-cat-id");
-                    const nestedRows = document.querySelectorAll(`.nested-${catId}`);
+                button.addEventListener("click", function () {
+                    const parentLi = button.parentElement;
+                    const childDiv = parentLi.querySelector(":scope > .children");
                     const icon = button.querySelector("i");
 
-                    nestedRows.forEach(nestedRow => {
-                        if (nestedRow.style.display === "table-row") {
-                            nestedRow.style.display = "none";
-                            icon.classList.remove("fa-folder-open");
-                            icon.classList.add("fa-folder");
-                        } else {
-                            nestedRow.style.display = "table-row";
+                    if (childDiv) {
+                        if (childDiv.classList.contains("hidden")) {
+                            childDiv.classList.remove("hidden");
                             icon.classList.remove("fa-folder");
                             icon.classList.add("fa-folder-open");
+                        } else {
+                            childDiv.classList.add("hidden");
+                            icon.classList.remove("fa-folder-open");
+                            icon.classList.add("fa-folder");
                         }
-                    });
+                    }
                 });
             });
         });

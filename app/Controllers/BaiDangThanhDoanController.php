@@ -21,40 +21,45 @@ class BaiDangThanhDoanController extends BaseController
     {
         $categoriesPerPage = 10;
         $offset = ($page - 1) * $categoriesPerPage;
-    
-        // Step 1: Retrieve 10 categories for the current page
-        $categories = $this->danhMucModel
-            ->select('cat_id, title AS category_title')
-            ->orderBy('title', 'ASC')
-            ->limit($categoriesPerPage, $offset)
-            ->findAll();
-    
-        // Step 2: Retrieve posts for these categories
-        $groupedPosts = [];
-        foreach ($categories as $category) {
-            $posts = $this->baiDangModel
-                ->where('category_id', $category['cat_id'])
-                ->orderBy('date_add', 'DESC')
-                ->findAll();
-    
-            if (!empty($posts)) {
-                $groupedPosts[$category['category_title']] = $posts;
-            }
+        $search = $this->request->getGet('search') ?? '';
+        $start_date = $this->request->getGet('start_date') ?? '';
+        $end_date = $this->request->getGet('end_date') ?? '';
+        $category_id = $this->request->getGet('category_id') ?? '';
+
+        // Fetch categories with depth for hierarchical display
+        $data['ds_danh_muc'] = $this->danhMucModel->getCategoriesWithDepth();
+
+        if ($category_id) {
+            // Fetch selected category for display
+            $selected_category = $this->danhMucModel->find($category_id);
+            $selected_category_title = $selected_category ? $selected_category['title'] : '';
+            $data['selected_category_title'] = $selected_category_title;
+        } else {
+            $data['selected_category_title'] = '';
         }
-    
-        // Step 3: Count total categories for pagination
+
+        if ($search || $start_date || $end_date || $category_id) {
+            // Sử dụng phương thức mới từ Model để lấy bài đăng nhóm theo danh mục
+            $groupedPosts = $this->baiDangModel->getGroupedPosts($search, $start_date, $end_date, $category_id);
+        } else {
+            // Sử dụng phương thức mới từ Model để lấy bài đăng mặc định
+            $groupedPosts = $this->baiDangModel->getDefaultGroupedPosts($categoriesPerPage, $offset);
+        }
+
         $totalCategories = $this->danhMucModel->countAllResults();
         $totalPages = ceil($totalCategories / $categoriesPerPage);
-    
-        // Pass data to the view
         $data['groupedPosts'] = $groupedPosts;
         $data['currentPage'] = $page;
         $data['totalPages'] = $totalPages;
-    
+        $data['search'] = $search;
+        $data['start_date'] = $start_date;
+        $data['end_date'] = $end_date;
+        $data['category_id'] = $category_id;
+
         return $this->template_admin(view("admin/baidangthanhdoan/ds_baidangthanhdoan", $data));
     }
-    
-    
+
+
     public function create()
     {
         // Lấy danh sách danh mục và bài đăng để hiển thị trong form
@@ -77,14 +82,14 @@ class BaiDangThanhDoanController extends BaseController
             'date_modify' => time(),
             'enabled' => $this->request->getPost('enabled'),
             'num_view' => 0,
-            'assoc_id' => $this->request->getPost('assoc_id') // Add assoc_id here
+            'hashtags' => $this->request->getPost('hashtags')
         ];
 
         // Xử lý file upload nếu có
         $img_file = $this->request->getFile('img_file');
         if ($img_file && $img_file->isValid() && !$img_file->hasMoved()) {
             $newName = $img_file->getRandomName();
-            $img_file->move(WRITEPATH . 'uploads', $newName);
+            $img_file->move(FCPATH . 'uploads', $newName); // Save to public/uploads
             $data['img_file'] = '/uploads/' . $newName;
         }
 
@@ -95,6 +100,7 @@ class BaiDangThanhDoanController extends BaseController
             return redirect()->back()->with('error', 'Có lỗi xảy ra khi thêm bài đăng');
         }
     }
+
     public function edit($id)
     {
         // Fetch the post and category data for editing
@@ -121,14 +127,14 @@ class BaiDangThanhDoanController extends BaseController
             'content' => $this->request->getPost('content'),
             'date_modify' => time(),
             'enabled' => $this->request->getPost('enabled'),
-            'assoc_id' => $this->request->getPost('assoc_id')
+            'hashtags' => $this->request->getPost('hashtags')
         ];
 
         // Handle file upload if a new image is provided
         $img_file = $this->request->getFile('img_file');
         if ($img_file && $img_file->isValid() && !$img_file->hasMoved()) {
             $newName = $img_file->getRandomName();
-            $img_file->move(WRITEPATH . 'uploads', $newName);
+            $img_file->move(FCPATH . 'uploads', $newName); // Save to public/uploads
             $data['img_file'] = '/uploads/' . $newName;
         }
 
@@ -157,5 +163,21 @@ class BaiDangThanhDoanController extends BaseController
             session()->setFlashdata('error', 'Có lỗi xảy ra khi xóa bài đăng');
             return redirect()->to('/admin/baidangthanhdoan');
         }
+    }
+    private function getCategoriesWithDepth()
+    {
+        $categories = $this->danhMucModel->orderBy('left', 'ASC')->findAll();
+        $ds_danh_muc = [];
+        $stack = [];
+        foreach ($categories as $category) {
+            while (!empty($stack) && end($stack)['right'] < $category['right']) {
+                array_pop($stack);
+            }
+            $depth = count($stack);
+            $category['depth'] = $depth;
+            $ds_danh_muc[] = $category;
+            $stack[] = $category;
+        }
+        return $ds_danh_muc;
     }
 }
