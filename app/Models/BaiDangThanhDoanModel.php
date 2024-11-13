@@ -12,23 +12,22 @@ class BaiDangThanhDoanModel extends Model
     public function getFilteredPosts($search = '', $start_date = '', $end_date = '', $category_id = '')
     {
         $builder = $this;
-
+    
         if ($search) {
             $builder = $builder->like('title', $search);
         }
-
+    
         if ($start_date) {
             $start_timestamp = strtotime($start_date);
             $builder = $builder->where('date_add >=', $start_timestamp);
         }
-
+    
         if ($end_date) {
             $end_timestamp = strtotime($end_date . ' 23:59:59');
             $builder = $builder->where('date_add <=', $end_timestamp);
         }
-
+    
         if ($category_id) {
-            // Lấy danh sách các category con
             $danhMucModel = new DanhMucThanhDoanModel();
             $selected_category = $danhMucModel->find($category_id);
             if ($selected_category) {
@@ -42,9 +41,11 @@ class BaiDangThanhDoanModel extends Model
                 $builder = $builder->whereIn('category_id', $category_ids);
             }
         }
-
-        return $builder->orderBy('category_id', 'ASC')->findAll();
+    
+        // Sắp xếp bài đăng theo ngày thêm mới hoặc ngày chỉnh sửa
+        return $builder->orderBy('date_modify', 'DESC')->orderBy('date_add', 'DESC')->findAll();
     }
+    
 
     /**
      * Lấy bài đăng nhóm theo danh mục

@@ -25,10 +25,10 @@ class BaiDangThanhDoanController extends BaseController
         $start_date = $this->request->getGet('start_date') ?? '';
         $end_date = $this->request->getGet('end_date') ?? '';
         $category_id = $this->request->getGet('category_id') ?? '';
-
-        // Fetch categories with depth for hierarchical display
-        $data['ds_danh_muc'] = $this->danhMucModel->getCategoriesWithDepth();
-
+    
+        // Fetch categories with depth for hierarchical display and sort by desired order
+        $data['ds_danh_muc'] = $this->danhMucModel->orderBy('title', 'ASC')->getCategoriesWithDepth();
+    
         if ($category_id) {
             // Fetch selected category for display
             $selected_category = $this->danhMucModel->find($category_id);
@@ -37,15 +37,16 @@ class BaiDangThanhDoanController extends BaseController
         } else {
             $data['selected_category_title'] = '';
         }
-
+    
         if ($search || $start_date || $end_date || $category_id) {
-            // Sử dụng phương thức mới từ Model để lấy bài đăng nhóm theo danh mục
+            // Lấy bài đăng có bộ lọc
             $groupedPosts = $this->baiDangModel->getGroupedPosts($search, $start_date, $end_date, $category_id);
         } else {
-            // Sử dụng phương thức mới từ Model để lấy bài đăng mặc định
+            // Lấy bài đăng mặc định
             $groupedPosts = $this->baiDangModel->getDefaultGroupedPosts($categoriesPerPage, $offset);
         }
-
+    
+        // Pagination details
         $totalCategories = $this->danhMucModel->countAllResults();
         $totalPages = ceil($totalCategories / $categoriesPerPage);
         $data['groupedPosts'] = $groupedPosts;
@@ -55,9 +56,10 @@ class BaiDangThanhDoanController extends BaseController
         $data['start_date'] = $start_date;
         $data['end_date'] = $end_date;
         $data['category_id'] = $category_id;
-
+    
         return $this->template_admin(view("admin/baidangthanhdoan/ds_baidangthanhdoan", $data));
     }
+    
 
 
     public function create()

@@ -210,6 +210,7 @@ $routes->post('/admin/dmbaidang_thanhdoan/store', 'DanhMuc_BaiDang_ThanhDoanCont
 $routes->get('/admin/dmbaidang_thanhdoan/edit/(:num)', 'DanhMuc_BaiDang_ThanhDoanController::edit/$1');
 $routes->post('/admin/dmbaidang_thanhdoan/update/(:num)', 'DanhMuc_BaiDang_ThanhDoanController::update/$1');
 $routes->get('/admin/dmbaidang_thanhdoan/delete/(:num)', 'DanhMuc_BaiDang_ThanhDoanController::delete/$1');
+$routes->get('/admin/dmbaidang_thanhdoan/search', 'DanhMuc_BaiDang_ThanhDoanController::search');
 
 
 

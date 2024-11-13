@@ -190,7 +190,7 @@
 
         <div class="d-flex justify-content-between align-items-center mb-4">
             <a class="btn btn-primary btn-primary-nut" href="/admin/baidangthanhdoan/create">
-                <i class="fas fa-plus"></i> Thêm Bài Viết Mới
+                <i class="fas fa-plus"></i> Thêm Bài Đăng Mới
             </a>
         </div>
 
@@ -206,6 +206,9 @@
 
         <!-- Search form -->
         <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+                Tìm kiếm bài đăng
+            </div>
             <div class="card-body">
                 <form action="" method="get" class="row g-3">
                     <div class="col-md-3">
@@ -236,7 +239,7 @@
                             value="<?= htmlspecialchars($end_date ?? '') ?>">
                     </div>
                     <div class="col-md-2 align-self-end">
-                        <button class="btn btn-success w-100" type="submit">
+                        <button class="btn btn-primary w-100" type="submit">
                             <i class="fas fa-search"></i> Tìm kiếm
                         </button>
                     </div>
