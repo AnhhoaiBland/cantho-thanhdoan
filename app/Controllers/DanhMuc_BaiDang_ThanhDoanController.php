@@ -189,4 +189,27 @@ class DanhMuc_BaiDang_ThanhDoanController extends BaseController
             return redirect()->back()->with('error', 'Có lỗi xảy ra khi xóa danh mục.');
         }
     }
+    public function search()
+    {
+        // Lấy từ khóa tìm kiếm từ yêu cầu
+        $searchTerm = $this->request->getGet('search');
+        $dateFrom = $this->request->getGet('date_from');
+        $dateTo = $this->request->getGet('date_to');
+
+        // Sử dụng phương thức tìm kiếm theo tên và ngày trong model
+        $categories = $this->danhMucModel->searchCategories($searchTerm, $dateFrom, $dateTo);
+
+        // Xây dựng cây danh mục nếu cần
+        $tree = $this->danhMucModel->buildTree($categories);
+
+        // Truyền dữ liệu cho view
+        $data['ds_danh_muc'] = $tree;
+        $data['search'] = [
+            'searchTerm' => $searchTerm,
+            'dateFrom' => $dateFrom,
+            'dateTo' => $dateTo
+        ];
+
+        return $this->template_admin(view("admin/danhmuc_baidang_thanhdoan/ds_danhmuc_baidang_thanhdoan", $data));
+    }
 }

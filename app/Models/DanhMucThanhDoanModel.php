@@ -24,8 +24,8 @@ class DanhMucThanhDoanModel extends Model
         }
 
         $categories = $this->orderBy('parent_id', 'ASC')
-                           ->orderBy($sortBy, 'DESC') // Sắp xếp theo ngày sửa giảm dần
-                           ->findAll();
+            ->orderBy($sortBy, 'DESC') // Sắp xếp theo ngày sửa giảm dần
+            ->findAll();
         $tree = $this->buildTree($categories);
         return $tree;
     }
@@ -68,7 +68,7 @@ class DanhMucThanhDoanModel extends Model
         $idsToRemove = $this->getAllChildrenIds($categories, $currentId);
         $idsToRemove[] = $currentId;
 
-        return array_filter($categories, function($category) use ($idsToRemove) {
+        return array_filter($categories, function ($category) use ($idsToRemove) {
             return !in_array($category['cat_id'], $idsToRemove);
         });
     }
@@ -90,5 +90,29 @@ class DanhMucThanhDoanModel extends Model
             }
         }
         return $children;
+    }
+    public function searchCategories($name, $dateFrom, $dateTo)
+    {
+        $builder = $this->builder();
+
+        if (!empty($name)) {
+            $builder->like('title', $name);
+        }
+
+        if (!empty($dateFrom)) {
+            // Giả sử bạn muốn tìm theo ngày thêm, bạn có thể thay đổi thành 'date_modify' nếu muốn
+            $builder->where('date_add >=', strtotime($dateFrom . ' 00:00:00'));
+        }
+
+        if (!empty($dateTo)) {
+            $builder->where('date_add <=', strtotime($dateTo . ' 23:59:59'));
+        }
+
+        $builder->orderBy('parent_id', 'ASC');
+        $builder->orderBy('date_modify', 'DESC'); // Sắp xếp theo ngày sửa giảm dần
+
+        $categories = $builder->get()->getResultArray();
+
+        return $this->buildTree($categories);
     }
 }
