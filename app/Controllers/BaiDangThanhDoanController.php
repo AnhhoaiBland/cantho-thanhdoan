@@ -53,8 +53,8 @@ class BaiDangThanhDoanController extends BaseController
     
         return $this->template_admin(view("admin/baidangthanhdoan/ds_baidangthanhdoan", $data));
     }
-    
-    
+
+ 
     public function create()
     {
         // Lấy danh sách danh mục và bài đăng để hiển thị trong form
@@ -158,4 +158,5 @@ class BaiDangThanhDoanController extends BaseController
             return redirect()->to('/admin/baidangthanhdoan');
         }
     }
+    
 }

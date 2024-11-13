@@ -5,6 +5,7 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -26,7 +27,7 @@
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #FFFFFF;
-  --dark: #1E2024;
+  --dark: #031a47;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -34,6 +35,7 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: "Montserrat", sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-family-brush-script: 'Lobster', cursive;
 }
 
 *,
@@ -625,7 +627,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1140px;
+    max-width: 1500px;
   }
 }
 
@@ -6164,7 +6166,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #1E2024 !important;
+  background-color: #031a47 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9678,15 +9680,13 @@ h6,
 
 .title-nem{
   color: #ffff;
-}
-.horizontal-images {
   display: flex;
-  justify-content: space-between;
-  padding: 0 5px;
-  
+  align-items: center;
+  padding-top: 10px;
 }
+
 .horizontal-images img {
-  width: 48%; /* Adjust the width as needed */
+  width: 30%; /* Adjust the width as needed */
 }
 .fixed-size-img {
   width: 100px; /* Set your desired width */
@@ -9710,4 +9710,9 @@ h6,
 .font-small {
   font-size: 14px; 
   font-weight: 600;
+}
+.different-font {
+    font-family: var(--font-family-brush-script);
+    letter-spacing: 0.05em; 
+    font-size: 1.5em;
 }
