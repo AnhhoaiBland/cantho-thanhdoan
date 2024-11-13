@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danh Sách Danh Mục Bài Đăng Thành Đoàn</title>
-
+    
     <!-- Bao gồm Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    
     <!-- Bao gồm Font Awesome cho các icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMLMO/IFjHg0DQhlS/8Rkv3LZXH+4ImiKkj/1nF" crossorigin="anonymous">
-
+    
     <style>
         /* Định dạng chung */
         body {
@@ -139,8 +139,9 @@
             <div class="card-body">
                 <form action="/admin/dmbaidang_thanhdoan/search" method="get" class="row g-3">
                     <div class="col-md-4">
-                        <label for="search" class="form-label">Tìm theo tên danh mục :</label>
-                        <input type="text" name="search" id="search" class="form-control" placeholder="có thể nhập nhiều từ khóa, phân cách bởi dấu phẩy" value="<?= htmlspecialchars($searchTerm ?? '') ?>">
+                        <label for="search" class="form-label">Tìm kiếm theo tên danh mục:</label>
+                        <input type="text" name="search" id="search" class="form-control" placeholder="Nhập tên danh mục..."
+                            value="<?= htmlspecialchars($searchTerm ?? '') ?>">
                     </div>
                     <div class="col-md-4">
                         <label for="date_from" class="form-label">Từ ngày:</label>
