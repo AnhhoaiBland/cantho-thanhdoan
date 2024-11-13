@@ -24,3 +24,4 @@ echo view('block/block_chuyenMuc', $databaidangtop6new);
 <div class="white-background">
     <?= $this->include('templates/noidung') ?>
 </div>
+

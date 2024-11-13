@@ -90,17 +90,25 @@ class BaiDangModel extends BaseModel
         $result = $this->executeQuery($strSQL);
         return $result[0]['total'];
     }
-
-    // public function layDanhSachBaiViet_ChuyenMuc_PhanTrang($urlChuenMuc, $start, $limit)
-    // {
-    //     $strSQL = "SELECT maBaiDang, noiDung, maNguoiDung, maChuyenMuc, maNguoiDungCapNhatCuoi, tieuDe, anhTieuDe, ngayDang, ngayCapNhat, trangThai, urlBaiDang FROM baidang WHERE maChuyenMuc = (SELECT maChuyenMuc FROM ChuyenMuc WHERE urlChuenMuc = '$urlChuenMuc') AND trangThai = '1' LIMIT $start, $limit;";
-    //     return $this->executeQuery($strSQL);
-    // }
+    
     public function layDanhSachBaiViet_ChuyenMuc_PhanTrang($urlChuenMuc, $start, $limit)
     {
         $strSQL = "WITH RECURSIVE SubCategories AS ( SELECT maChuyenMuc FROM ChuyenMuc WHERE urlChuenMuc = '$urlChuenMuc' UNION ALL SELECT c.maChuyenMuc FROM ChuyenMuc c INNER JOIN SubCategories sc ON c.maChuyenMucCha = sc.maChuyenMuc ) SELECT b.* FROM BaiDang b INNER JOIN SubCategories sc ON b.maChuyenMuc = sc.maChuyenMuc WHERE b.trangThai = '2' LIMIT $start, $limit;";
         return $this->executeQuery($strSQL);
     }
+
+   
+    public function layDuLieuBaiDangVaNews()
+    {
+        $sql = "INSERT INTO combined_data (title, img_file, content)
+                SELECT tieuDe AS title, anhTieuDe AS img_file, noiDung AS content 
+                FROM BaiDang 
+                WHERE trangThai = '2'
+                UNION
+                SELECT title, img_file, content 
+                FROM news 
+                WHERE enabled = '1';";
+        return $this->executeQuery($sql);
+    }
 }
 
-//SELECT maBoSuuTap, tenBoSuuTap, loai, ngayTao, trangThai,ngayDuyet,moTa, ngayDuyet FROM BoSuuTap WHERE trangThai = '2' LIMIT $start, $limit;

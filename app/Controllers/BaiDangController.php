@@ -148,6 +148,15 @@ class BaiDangController extends BaseController
         }
     }
 
+
+
+   public function show_bai_dang_New($url)
+    {
+        $dataBaiDang['baiDang'] = $this->BaiDangModel->layDuLieuBaiDangVaNews($url);
+        return $this->template(view('noidung', $dataBaiDang));
+    }
+
+
     public function show_bai_dang_url($url)
     {
         $dataBaiDang['baiDang'] = $this->BaiDangModel->lay_bai_dang_url($url);
