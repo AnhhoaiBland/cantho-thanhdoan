@@ -132,6 +132,7 @@ $routes->post('admin/save_update_baidang/(:any)', 'BaiDangController::save_updat
 $routes->get('admin/delete_baidang/(:any)', 'BaiDangController::delete_baidang/$1');
 $routes->post('admin/duyet_baidang', 'BaiDangController::duyet_baidang');
 $routes->post('admin/huy_duyet_baidang', 'BaiDangController::huy_duyet_baidang');
+$routes->get('admin/show_bai_vietAdmin/(:any)', 'BaiDangController::show_bai_vietAdmin/$1');
 
 // Feedback Management
 $routes->get('admin/thu_gopy', 'ThuGopYController::hopthu');

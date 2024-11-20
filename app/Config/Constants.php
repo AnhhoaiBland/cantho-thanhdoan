@@ -43,8 +43,8 @@ defined('YEAR')   || define('YEAR', 31_536_000);
 defined('DECADE') || define('DECADE', 315_360_000);
 
 define('BASEPATH', 'whatever');
-define('WEB_TITLE', 'TT Công Nghệ Thông Tin & Truyền Thông'); 
-define('WEB_TITLE_UPPER', 'TRUNG TÂM CÔNG NGHỆ THÔNG TIN & TRUYỀN THÔNG THÀNH PHỐ CẦN THƠ'); 
+define('WEB_TITLE', 'Đoàn TNCS Hồ Chí Minh Thành phố Cần Thơ'); 
+define('WEB_TITLE_UPPER', 'ĐOÀN TNCS HỒ CHÍ MINH THÀNH PHỐ CẦN THƠ'); 
 /*
  | --------------------------------------------------------------------------
  | Exit Status Codes

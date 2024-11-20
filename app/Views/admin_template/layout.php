@@ -411,7 +411,7 @@
 						</a>
 						
 					</li-->
-						<!-- 
+						
 						<?php foreach ($danhSachChucNang as $ChucNang) {
 							if ($ChucNang['urlChucNang'] == '/admin/ds_category') { ?>
 
@@ -426,10 +426,10 @@
 								</li>
 							<?php break;
 							} ?>
-						<?php } ?> -->
+						<?php } ?>
 
 
-						<!-- <?php foreach ($danhSachChucNang as $ChucNang) {
+						<?php foreach ($danhSachChucNang as $ChucNang) {
 									if ($ChucNang['urlChucNang'] == '/admin/ds_baidang') { ?>
 								<li class="nav-item has-treeview">
 									<a href="admin/ds_baidang" class="nav-link">
@@ -442,7 +442,7 @@
 								</li>
 							<?php break;
 									} ?>
-						<?php } ?> -->
+						<?php } ?>
 
 						<!-- <li class="nav-item has-treeview">
 							<a href="admin/ds_baiviet_theo_thang" class="nav-link">

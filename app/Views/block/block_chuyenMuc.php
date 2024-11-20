@@ -38,74 +38,58 @@
         </div>
 
         <div class="col-lg-5 px-0">
-            <div class="row mx-0">
-                <?php
-                $count = 0;
-                foreach ($ds_baiDang as $baiDang) :
-                    if ($baiDang['tenChuyenMuc'] === 'Tin tức - Sự kiện') :
-                        if ($count >= 2) break;
-                        $count++;
-                ?>
-                <div class="col-md-6 px-0">
-                    <div class="position-relative overflow-hidden" style="height: 250px;">
-                        <img class="img-fluid w-100 h-100"
-                            src="<?= base_url('upload/media/images/' . ($baiDang['anhTieuDe'] != NULL ? $baiDang['anhTieuDe'] : 'image_blank.jpg')) ?>"
-                            alt="<?= esc($baiDang['tieuDe']) ?>" style="object-fit: cover;">
-                        <div class="overlay">
-                            <div class="mb-2">
-                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                    href=""><?= esc($baiDang['tenChuyenMuc']) ?></a>
-                                <a class="text-white"
-                                    href=""><small><?= date('d-m-Y', strtotime($baiDang['ngayDang'])) ?></small></a>
-                            </div>
-                            <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold"
-                                href="<?= base_url('/bv/' . ($baiDang['urlBaiDang'] ?? $baiDang['maBaiDang'])) ?>">
-                                <?= esc($baiDang['tieuDe']) ?>
-                            </a>
+            <?php
+function renderBaiDang($baiDang, $height = 250) {
+    ?>
+            <div class="col-md-6 px-0">
+                <div class="position-relative overflow-hidden" style="height: <?= $height ?>px;">
+                    <img class="img-fluid w-100 h-100"
+                        src="<?= base_url('upload/media/images/' . ($baiDang['anhTieuDe'] != NULL ? $baiDang['anhTieuDe'] : 'image_blank.jpg')) ?>"
+                        alt="<?= esc($baiDang['tieuDe']) ?>" style="object-fit: cover;">
+                    <div class="overlay">
+                        <div class="mb-2">
+                            <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
+                                href=""><?= esc($baiDang['tenChuyenMuc']) ?></a>
+                            <a class="text-white"
+                                href=""><small><?= date('d-m-Y', strtotime($baiDang['ngayDang'])) ?></small></a>
                         </div>
+                        <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold"
+                            href="<?= base_url('/bv/' . ($baiDang['urlBaiDang'] ?? $baiDang['maBaiDang'])) ?>">
+                            <?= esc($baiDang['tieuDe']) ?>
+                        </a>
                     </div>
                 </div>
-                <?php
-                    endif;
-                endforeach;
-                ?>
             </div>
-            <div class="row mx-0">
-                <?php
-                $count = 0;
-                foreach ($ds_baiDang as $baiDang) :
-                    if ($baiDang['tenChuyenMuc'] === 'Tin tức tổng hợp') :
-                        if ($count >= 2) break;
-                        $count++;
-                       
-                ?>
-                <div class="col-md-6 px-0">
-                    <div class="position-relative overflow-hidden" style="height: 250px;">
-                        <img class="img-fluid w-100 h-100"
-                            src="<?= base_url('upload/media/images/' . ($baiDang['anhTieuDe'] != NULL ? $baiDang['anhTieuDe'] : 'image_blank.jpg')) ?>"
-                            alt="<?= esc($baiDang['tieuDe']) ?>" style="object-fit: cover;">
-                        <div class="overlay">
-                            <div class="mb-2">
-                                <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"
-                                    href=""><?= esc($baiDang['tenChuyenMuc']) ?></a>
-                                <a class="text-white"
-                                    href=""><small><?= date('d-m-Y', strtotime($baiDang['ngayDang'])) ?></small></a>
-                            </div>
-                            <a class="h6 m-0 text-white text-uppercase font-weight-semi-bold"
-                                href="<?= base_url('/bv/' . ($baiDang['urlBaiDang'] ?? $baiDang['maBaiDang'])) ?>">
-                                <?= esc($baiDang['tieuDe']) ?>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <?php
-                    endif;
-                endforeach;
-                ?>
-            </div>
+            <?php
+}
+
+// Lọc bài đăng có thời gian trong tháng hiện tại
+$currentMonth = date('m');
+$currentYear = date('Y');
+
+$filteredBaiDang = array_filter($ds_baiDang, function($baiDang) use ($currentMonth, $currentYear) {
+    $ngayDang = date('Y-m-d', strtotime($baiDang['ngayDang']));
+    return date('m', strtotime($ngayDang)) == $currentMonth && date('Y', strtotime($ngayDang)) == $currentYear;
+});
+
+// Sắp xếp mảng theo ngày cập nhật giảm dần
+usort($filteredBaiDang, function($a, $b) {
+    return strtotime($b['ngayCapNhat']) - strtotime($a['ngayCapNhat']);
+});
+
+// Hiển thị các bài đăng đã lọc
+foreach ($filteredBaiDang as $baiDang) {
+    renderBaiDang($baiDang);
+}
+?>
+
+
         </div>
+
+
     </div>
 </div>
+
 <!-- Main News Slider End -->
 
 <!-- Breaking News Start -->
@@ -114,8 +98,7 @@
         <div class="row align-items-center bg-dark">
             <div class="col-12">
                 <div class="d-flex justify-content-between">
-                    <div class="bg-primary text-dark text-center font-weight-medium py-2"
-                        style="width: 170px;">
+                    <div class="bg-primary text-dark text-center font-weight-medium py-2" style="width: 170px;">
                         Breaking News
                     </div>
                     <div class="owl-carousel tranding-carousel position-relative d-inline-flex align-items-center ml-3"

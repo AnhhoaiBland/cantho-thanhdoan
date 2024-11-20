@@ -10,7 +10,10 @@
 
 
 <?php
-$databaidangtop6new['title'] = "TIN TỨC";
+
+use App\Controllers\BaiDangController;
+
+
 $databaidangtop6new['ds_baiDang'] =  $baidangtop6new;
 echo view('block/block_chuyenMuc', $databaidangtop6new);
 ?>
@@ -19,6 +22,7 @@ echo view('block/block_chuyenMuc', $databaidangtop6new);
 <div class="white-background">
     <?= $this->include('templates/tintucnoibac') ?>
 </div>
+
 
 
 <div class="white-background">

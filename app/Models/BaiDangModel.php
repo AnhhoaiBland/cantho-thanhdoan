@@ -110,5 +110,7 @@ class BaiDangModel extends BaseModel
                 WHERE enabled = '1';";
         return $this->executeQuery($sql);
     }
+
+   
 }
 

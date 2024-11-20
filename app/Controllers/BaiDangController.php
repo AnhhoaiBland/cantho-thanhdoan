@@ -363,4 +363,33 @@ class BaiDangController extends BaseController
             return $this->template(view('block/show_baiviet_theo_category_v2', $dataList),null,'v2');
         }
     }
+    
+   
+   
+   
+    public function show_bai_vietAdmin($maBaiDang) {
+        $check = $this->check_co_trong_chuoi("baiDang_", $maBaiDang);
+        if ($check == true) {
+            $baiDang = $this->BaiDangModel->lay_bai_dang_id($maBaiDang);
+            if (isset($baiDang[0]['maBaiDang'])) {
+                $dataBaiDang['baiDang'] = $baiDang;
+                return $this->template(view('admin/baidang/xem_baidang', $dataBaiDang));
+            } else {
+                http_response_code(404);
+                echo "Bài viết không tồn tại.";
+            }
+        } else if ($check == false) {
+            $baiDang = $this->BaiDangModel->lay_bai_dang_url($maBaiDang);
+            if (isset($baiDang[0]['maBaiDang'])) {
+                $dataBaiDang['baiDang'] = $baiDang;
+                return $this->template(view('admin/baidang/xem_baidang', $dataBaiDang));
+            } else {
+                http_response_code(404);
+                echo "Bài viết không tồn tại.";
+            }
+        } else {
+            http_response_code(404);
+            echo "Bài viết không tồn tại.";
+        }
+    }
 }
