@@ -150,11 +150,7 @@ class BaiDangController extends BaseController
 
 
 
-   public function show_bai_dang_New($url)
-    {
-        $dataBaiDang['baiDang'] = $this->BaiDangModel->layDuLieuBaiDangVaNews($url);
-        return $this->template(view('noidung', $dataBaiDang));
-    }
+  
 
 
     public function show_bai_dang_url($url)
@@ -163,6 +159,7 @@ class BaiDangController extends BaseController
         return $this->template(view('show_baiviet', $dataBaiDang));
     }
 
+    
     public function show_blog_danh_muc($id)
     {
         $request = service('request');
@@ -171,19 +168,18 @@ class BaiDangController extends BaseController
         $mang_url = explode('/', $url_new);
         $giaTriCuoiCung = end($mang_url);
         //echo print_r($giaTriCuoiCung); exit('');
-
-
+    
         $chuyenMuc = $this->ChuyenMucModels->lay_chuyen_muc_byurl_chuyenMuc($giaTriCuoiCung);
         $dataList['chuyenMuc'] = $chuyenMuc;
         $check = $this->check_co_trong_chuoi("cate_", $giaTriCuoiCung);
-
+    
         if ($check == true) {
             // lấy theo id
             $result = $this->BaiDangModel->lay_ds_bai_dang_by_id_ChuyenMuc($giaTriCuoiCung);
-
+    
             if (isset($result[0]['maBaiDang'])) {
                 $dataList['ds_baiDang'] = $result;
-
+    
                 return $this->template(view('block/show_baiviet_theo_category', $dataList));
             } else {
                 $dataList['ds_baiDang'] = [];
@@ -201,7 +197,6 @@ class BaiDangController extends BaseController
             }
         } else {
             // lấy theo url
-
             return view("page_404");
         }
     }
@@ -392,4 +387,11 @@ class BaiDangController extends BaseController
             echo "Bài viết không tồn tại.";
         }
     }
+
+    
+   
+
+
+    
+
 }

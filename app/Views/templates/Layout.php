@@ -29,37 +29,13 @@
 
     <?php echo $page ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    </div>
-    </div>
-    </div>
     <!-- News With Sidebar End -->
-
 
     <!-- Footer Start -->
     <?php include 'footer.php'; ?>
 
-
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

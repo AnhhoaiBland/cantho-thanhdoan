@@ -9716,3 +9716,23 @@ h6,
     letter-spacing: 0.05em; 
     font-size: 1.5em;
 }
+.truncate-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  max-width: 100%;
+  position: relative;
+}
+
+.truncate-title:hover::after {
+  content: attr(title);
+  white-space: normal;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+  z-index: 10;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

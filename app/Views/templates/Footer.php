@@ -6,16 +6,7 @@
                 <p class="font-weight-medium"><i class="fa fa-map-marker-alt mr-2"></i>số 79 đường Trần Văn Hoài, phường Xuân Khánh, quận Ninh Kiều, Can Tho, Vietnam</p>
                 <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>0292 3830 824</p>
                 <p class="font-weight-medium"><i class="fa fa-envelope mr-2"></i>tuyengiaotdct@gmail.com</p>
-                <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Follow Us</h6>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-lg btn-secondary btn-lg-square mr-2" href="#"><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="fab fa-youtube"></i></a>
-                </div>
+               
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h5 class="mb-4 text-white text-uppercase font-weight-bold">Bài viết mới</h5>

@@ -6,6 +6,7 @@
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
+    font-family: 'Arial', sans-serif; /* Use a more readable font */
 }
 
 /* Title Section */
@@ -57,7 +58,7 @@
 }
 
 .content_noidung p {
-    margin-bottom: 15px;
+    margin-bottom: 20px; /* Increase spacing between paragraphs */
 }
 
 /* Buttons or Links in Content */
@@ -85,24 +86,23 @@
     }
 
     .img_anhminhhoa {
-        height: 250px; /* Adjust image height for smaller screens */
+        height: 200px; /* Adjust image height for smaller screens */
     }
 }
-
-
 </style>
+
 <div class="w-100 bg-body" style="min-height: 1000px;">
-	<div class="content_baiviet">
-		<div class="content_tieude">
-			<h3><?= $baiDang[0]['tieuDe'] ?></h3>
-			<span class="span_ngaydang">Ngày đăng: <?php echo date("d-m-Y", strtotime($baiDang[0]['ngayDang'])); ?></span> -
-			<span class="span_chuyenmuc"> <?= $baiDang[0]['tenChuyenMuc'] ?></span>
-		</div>
-		<div class="mt-2 mb-2">
-			<img class="img_anhminhhoa text-center" src=<?= base_url("upload/media/images/{$baiDang[0]['anhTieuDe']}") ?> alt="Ảnh minh họa" title="Ảnh minh họa" />
-		</div>
-		<div class="content_noidung">
-			<?= $baiDang[0]['noiDung'] ?>
-		</div>
-	</div>
+    <div class="content_baiviet">
+        <div class="content_tieude">
+            <h3><?= $baiDang[0]['tieuDe'] ?></h3>
+            <span class="span_ngaydang">Ngày đăng: <?php echo date("d-m-Y", strtotime($baiDang[0]['ngayDang'])); ?></span> -
+            <span class="span_chuyenmuc"> <?= $baiDang[0]['tenChuyenMuc'] ?></span>
+        </div>
+        <div class="mt-2 mb-2">
+            <img class="img_anhminhhoa text-center" src=<?= base_url("upload/media/images/{$baiDang[0]['anhTieuDe']}") ?> alt="Ảnh minh họa" title="Ảnh minh họa" />
+        </div>
+        <div class="content_noidung">
+            <?= $baiDang[0]['noiDung'] ?>
+        </div>
+    </div>
 </div>

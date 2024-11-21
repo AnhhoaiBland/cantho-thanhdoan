@@ -16,6 +16,7 @@ $routes->get('upload/media/videos/(:segment)', 'FileController::show_videos/$1')
 $routes->get('upload/document/(:segment)', 'FileController::show_file/$1');
 $routes->post('/file/timTaiLieu', 'TaiLieuController::timTaiLieu');
 $routes->get('/bv/(:any)', 'BaiDangController::show_bai_dang_id/$1');
+$routes->get('/bai-dang/chuyen-muc', 'BaiDangController::hienThiBaiDangTheoChuyenMuc');
 $routes->get('/cate/(:any)', 'BaiDangController::show_blog_danh_mucPlus/$1');
 $routes->get('/cate_v2/(:any)', 'BaiDangController::show_blog_danh_mucPlus_v2/$1');
 $routes->get('/thu-vien-anh', 'DaPhuongTienController::thu_vien_anh');
@@ -29,7 +30,7 @@ $routes->get('/gioi-thieu', 'GioiThieuController::index');
 $routes->get('/chuc-nang-nhiem-vu', 'GioiThieuController::ChucNangNV');
 $routes->get('/co-cau-to-chuc', 'GioiThieuController::CoCauToChuc');
 $routes->get('/linh-vuc-hoat-dong', 'GioiThieuController::LinhVucHD');
-$routes->get('/tai-lieu', 'TaiLieuThamKhaoController::indexGD');  // Shows folders only
+$routes->get('/tai-lieu', 'TaiLieuThamKhaoController::indexGD'); 
 
 
 

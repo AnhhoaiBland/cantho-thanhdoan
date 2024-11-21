@@ -18,18 +18,21 @@ class HomeController extends BaseController
         $this->BaiDangModel = new BaiDangModel();
     }
 
-    public function index()
+        public function index()
     {
-        // $data = $this->ChuyenMucModels->getList_chuyen_muc_cha();
-        // return $this->template(view('Page_TrangChu'), $data);
-        $baidangtop6new = $this->BaiDangModel->layDanhSachtop6new();
-        $baiDangChuyenMucTinDiaPhuong = $this->BaiDangModel->lay_ds_bai_dang_by_url_ChuyenMuc_top("tin-hoat-dong-dia-phuong",9);
-        $baiDangCHuyenMucChinhSachVanBan = $this->BaiDangModel->lay_ds_bai_dang_by_url_ChuyenMuc_top("thong-tin-chi-dao-dieu-hanh",9);
-        $data['baidangtop6new'] = $baidangtop6new;
-        $data['baiDangChuyenMucTinDiaPhuong'] = $baiDangChuyenMucTinDiaPhuong;
-        $data['baiDangCHuyenMucChinhSachVanBan'] = $baiDangCHuyenMucChinhSachVanBan;
+        // Fetch data from the model
+        $baidanglichlamviec = $this->BaiDangModel->layDanhSachLichLamViec();
+        $data['baidanglichlamviec'] = $baidanglichlamviec;
 
-        return $this->template(view('Page_TrangChu', $data),null,'v1');
+        $baidangtintuc = $this->BaiDangModel->layDanhSachTinTuc();
+        $data['baidangtintuc'] = $baidangtintuc;
+        
+        $baidangtuoitretaydo = $this->BaiDangModel->layDanhSachTuoiTreTayDo();
+        $data['baidangtuoitretaydo'] = $baidangtuoitretaydo;
+        
+
+        // Pass the data to the main template
+        return $this->template(view('Page_TrangChu', $data), null, 'v1');
     }
 
     public function index_v2()
@@ -54,15 +57,15 @@ class HomeController extends BaseController
         return json_encode($data);
     }
 
-    public function show_top6_bai_view()
-    {
-        $baidangtop6new = $this->BaiDangModel->layDanhSachtop6new();
-        $baiDangChuyenMucTinDiaPhuong = $this->BaiDangModel->lay_ds_bai_dang_by_url_ChuyenMuc_top("tin-hoat-dong-dia-phuong",9);
-        $baiDangCHuyenMucChinhSachVanBan = $this->BaiDangModel->lay_ds_bai_dang_by_url_ChuyenMuc_top("van-ban",9);
-        $data['baidangtop6new'] = $baidangtop6new;
-        $data['baiDangChuyenMucTinDiaPhuong'] = $baiDangChuyenMucTinDiaPhuong;
-        $data['baiDangCHuyenMucChinhSachVanBan'] = $baiDangCHuyenMucChinhSachVanBan;
-    }
+    // public function show_top6_bai_view()
+    // {
+    //     $baidangtop6new = $this->BaiDangModel->layDanhSachtop6new();
+    //     $baiDangChuyenMucTinDiaPhuong = $this->BaiDangModel->lay_ds_bai_dang_by_url_ChuyenMuc_top("tin-hoat-dong-dia-phuong",9);
+    //     $baiDangCHuyenMucChinhSachVanBan = $this->BaiDangModel->lay_ds_bai_dang_by_url_ChuyenMuc_top("van-ban",9);
+    //     $data['baidangtop6new'] = $baidangtop6new;
+    //     $data['baiDangChuyenMucTinDiaPhuong'] = $baiDangChuyenMucTinDiaPhuong;
+    //     $data['baiDangCHuyenMucChinhSachVanBan'] = $baiDangCHuyenMucChinhSachVanBan;
+    // }
 
     public function sitemap() {
         $categoryTree = $this->getCategoryTree();

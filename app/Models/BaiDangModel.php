@@ -79,10 +79,41 @@ class BaiDangModel extends BaseModel
         return $this->executeQueryBoolean($strSQl);
     }
 
-    public function layDanhSachtop6new()
+   
+    public function layDanhSachLichLamViec()
     {
-        return $this->executeQuery("SELECT *, (SELECT tenDangNhap FROM NguoiDung WHERE BaiDang.maNguoiDung = NguoiDung.maNguoiDung) AS tenNguoiDung, (SELECT tenChuyenMuc FROM ChuyenMuc WHERE ChuyenMuc.maChuyenMuc = BaiDang.maChuyenMuc) AS tenChuyenMuc FROM BaiDang WHERE trangThai = '2' ORDER BY ngayDang DESC LIMIT 9 ;");
+        return $this->executeQuery("SELECT *, (SELECT tenDangNhap FROM NguoiDung WHERE BaiDang.maNguoiDung = NguoiDung.maNguoiDung) AS tenNguoiDung, 
+                                        (SELECT tenChuyenMuc FROM ChuyenMuc WHERE ChuyenMuc.maChuyenMuc = BaiDang.maChuyenMuc) AS tenChuyenMuc 
+                                    FROM BaiDang 
+                                    WHERE trangThai = '2' AND maChuyenMuc = 305 
+                                    ORDER BY ngayCapNhat DESC 
+                                    LIMIT 9;");
     }
+    
+    public function layDanhSachTinTuc() 
+    {
+        return $this->executeQuery("SELECT *, 
+                                        (SELECT tenDangNhap FROM NguoiDung WHERE BaiDang.maNguoiDung = NguoiDung.maNguoiDung) AS tenNguoiDung, 
+                                        (SELECT tenChuyenMuc FROM ChuyenMuc WHERE ChuyenMuc.maChuyenMuc = BaiDang.maChuyenMuc) AS tenChuyenMuc 
+                                    FROM BaiDang 
+                                    WHERE trangThai = '2' AND maChuyenMuc IN (290, 503) 
+                                    ORDER BY ngayCapNhat DESC;");
+    }
+
+   
+    public function layDanhSachTuoiTreTayDo() 
+    {
+        return $this->executeQuery("SELECT *, 
+                                        (SELECT tenDangNhap FROM NguoiDung WHERE BaiDang.maNguoiDung = NguoiDung.maNguoiDung) AS tenNguoiDung, 
+                                        (SELECT tenChuyenMuc FROM ChuyenMuc WHERE ChuyenMuc.maChuyenMuc = BaiDang.maChuyenMuc) AS tenChuyenMuc 
+                                    FROM BaiDang 
+                                    WHERE trangThai = '2' AND maChuyenMuc = 502 
+                                    ORDER BY ngayCapNhat DESC;");
+    }
+   
+    
+
+
 
     public function layTongSoDongBaiViet($urlChuenMuc)
     {
@@ -97,20 +128,8 @@ class BaiDangModel extends BaseModel
         return $this->executeQuery($strSQL);
     }
 
-   
-    public function layDuLieuBaiDangVaNews()
-    {
-        $sql = "INSERT INTO combined_data (title, img_file, content)
-                SELECT tieuDe AS title, anhTieuDe AS img_file, noiDung AS content 
-                FROM BaiDang 
-                WHERE trangThai = '2'
-                UNION
-                SELECT title, img_file, content 
-                FROM news 
-                WHERE enabled = '1';";
-        return $this->executeQuery($sql);
-    }
 
+  
+   
    
 }
-
