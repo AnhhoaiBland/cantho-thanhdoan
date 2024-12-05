@@ -13,7 +13,7 @@ class ChuyenMucModels extends BaseModel
 
     public function getList_chuyen_muc_cha()
     {
-        return $this->executeQuery(' SELECT * from ChuyenMuc WHERE maChuyenMucCha IS NULL;');
+        return $this->executeQuery(' SELECT * from ChuyenMuc WHERE maChuyenMucCha = 0;');
     }
 
     public function getList_chuyen_muc_con($id_cate_cha)
@@ -110,6 +110,12 @@ class ChuyenMucModels extends BaseModel
         $result = $this->executeQuery($strSQL);
         return $result[0]['checkCMCha'];
     }
+
+    public function lay_menu_cha()
+    {
+        return $this->executeQuery(' SELECT * from menus WHERE parent_id = 0; ');
+    }
+ 
 
     
 }

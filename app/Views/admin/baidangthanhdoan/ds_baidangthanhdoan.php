@@ -222,7 +222,7 @@
                             <option value="">-- Chọn danh mục --</option>
                             <?php foreach ($ds_danh_muc as $danh_muc): ?>
                                 <option value="<?= $danh_muc['cat_id'] ?>" <?= ($category_id == $danh_muc['cat_id']) ? 'selected' : '' ?>>
-                                    <?= str_repeat('--', $danh_muc['depth']) . ' ' . htmlspecialchars($danh_muc['tieuDe']) ?>
+                                    <?= str_repeat('--', $danh_muc['depth']) . ' ' . htmlspecialchars($danh_muc['title']) ?>
                                 </option>
                             <?php endforeach; ?>
                         </select>
@@ -292,7 +292,7 @@
                                     <td><?= $post['news_id'] ?></td>
                                     <td class="col-title">
                                         <a href="/admin/baidangthanhdoan/edit/<?= $post['news_id'] ?>">
-                                            <?= htmlspecialchars($post['tieuDe']) ?>
+                                            <?= htmlspecialchars($post['title']) ?>
                                         </a>
                                     </td>
                                     <td><?= date('d-m-Y', $post['date_add']) ?></td>

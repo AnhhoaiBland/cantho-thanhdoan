@@ -282,7 +282,7 @@ endfor;
                 </div>
                 <!-- hashtag -->
                 <div class="white-background">
-                    <?= $this->include('templates/hashtag') ?>
+                    <?= $this->include('templates/menudoc') ?>
                 </div>
                 <!-- video -->
                 <div class="white-background">

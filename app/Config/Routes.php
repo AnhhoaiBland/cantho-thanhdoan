@@ -200,9 +200,6 @@ $routes->post('/admin/baidangthanhdoan/update/(:num)', 'BaiDangThanhDoanControll
 $routes->get('/admin/baidangthanhdoan/delete/(:num)', 'BaiDangThanhDoanController::delete/$1');
 $routes->get('admin/baidangthanhdoan/(:num)', 'BaiDangThanhDoanController::index/$1');
 
-
-
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 $routes->get('/admin/dmbaidang_thanhdoan', 'DanhMuc_BaiDang_ThanhDoanController::index');
@@ -212,6 +209,20 @@ $routes->get('/admin/dmbaidang_thanhdoan/edit/(:num)', 'DanhMuc_BaiDang_ThanhDoa
 $routes->post('/admin/dmbaidang_thanhdoan/update/(:num)', 'DanhMuc_BaiDang_ThanhDoanController::update/$1');
 $routes->get('/admin/dmbaidang_thanhdoan/delete/(:num)', 'DanhMuc_BaiDang_ThanhDoanController::delete/$1');
 $routes->get('/admin/dmbaidang_thanhdoan/search', 'DanhMuc_BaiDang_ThanhDoanController::search');
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$routes->get('/admin/menuthanhdoan', 'MenuThanhDoanController::index');
+$routes->get('/admin/menuthanhdoan/createMenu', 'MenuThanhDoanController::createMenu');
+$routes->post('/admin/menuthanhdoan/addMenu', 'MenuThanhDoanController::addMenu');
+$routes->get('/admin/menuthanhdoan/editMenu/(:any)', 'MenuThanhDoanController::editMenu/$1');
+$routes->post('/admin/menuthanhdoan/updateMenu/(:any)', 'MenuThanhDoanController::updateMenu/$1'); // Thêm ID vào route update
+$routes->get('/admin/menuthanhdoan/getSubcategories/(:segment)', 'MenuThanhDoanController::getSubcategories/$1');
+$routes->post('/admin/menuthanhdoan/deleteMenu', 'MenuThanhDoanController::deleteMenu');
+
+
+
+
 
 
 

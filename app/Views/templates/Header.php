@@ -37,14 +37,14 @@
         </div>
     </div>
     <div class="row align-items-center bg-white py-3 px-lg-5 gradient-background">
-    <div class="col-lg-3 text-left horizontal-images">
-    <a href="">
-        <img class="img-fluid small-image" src="../../../public/assets/images/Huy_Hiệu_Đoàn.png" alt="">
-    </a>
-    <a href="">
-        <img class="img-fluid small-image" src="../../../public/assets/images/thanh nien Viet Nam.png" alt="">
-    </a>
-</div>
+        <div class="col-lg-3 text-left horizontal-images">
+            <a href="">
+                <img class="img-fluid small-image" src="../../../public/assets/images/Huy_Hiệu_Đoàn.png" alt="">
+            </a>
+            <a href="">
+                <img class="img-fluid small-image" src="../../../public/assets/images/thanh nien Viet Nam.png" alt="">
+            </a>
+        </div>
         <div class="col-lg-6 text-center">
             <a href="/" class="navbar-brand p-0 d-none d-lg-block">
                 <h1 class="m-0 display-4 text-uppercase text-primary">TUỔI TRẺ <span
@@ -60,14 +60,33 @@
 <!-- Navbar Start -->
 <div class="container-fluid p-0">
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-2 py-lg-0 px-lg-5">
-        
+
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between px-0 px-lg-3" id="navbarCollapse">
             <div class="navbar-nav mr-auto py-0">
                 <a href="/" class="nav-item nav-link active">Trang chủ</a>
-                <a href="/gioi-thieu" class="nav-item nav-link">Lịch làm việc</a>
+                <?php if (isset($laydanhsachmenu[1])): ?>
+                    <?php foreach ($laydanhsachmenu[1] as $parentId => $parentMenus): ?>
+                        <!-- Kiểm tra nếu menu có parent -->
+                        <?php if ($parentId == 0): ?>
+                            <?php foreach ($parentMenus as $menu): ?>
+                                <div class="nav-item dropdown">
+                                    <a href="<?= base_url($menu['title']); ?>" class="nav-link dropdown-toggle" data-toggle="dropdown"><?= $menu['title']; ?></a>
+                                    
+                                    <div class="dropdown-menu rounded-0 m-0">
+                                    <?php foreach ($laydanhsachmenu[1][$menu['id']] as $subMenu): ?>
+                                        <a href="<?= base_url($subMenu['title']); ?>" class="dropdown-item"><?= $subMenu['title']; ?></a>
+                                        <?php endforeach; ?>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+
+                <!-- <a href="" class="nav-item nav-link">Lịch làm việc</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hệ thống văn bản</a>
                     <div class="dropdown-menu rounded-0 m-0">
@@ -91,7 +110,7 @@
                         <a href="#" class="dropdown-item">Menu item 2</a>
                         <a href="#" class="dropdown-item">Menu item 3</a>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="input-group ml-auto d-none d-lg-flex" style="width: 100%; max-width: 300px;">
                 <input type="text" class="form-control border-0" placeholder="Tìm kiếm...">

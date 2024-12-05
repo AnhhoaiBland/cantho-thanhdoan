@@ -12,6 +12,7 @@ use Psr\Log\LoggerInterface;
 use App\Models\UserModel;
 use App\Models\ChuyenMucModels;
 use App\Models\ThuGopYModel;
+use App\Models\MenuModel;
 
 /**
  * Class BaseController
@@ -32,7 +33,8 @@ abstract class BaseController extends Controller
      */
     protected $request;
     protected $UserModel, $ChuyenMucModels, $PanelModel, $ThuGopYModel;
-
+    protected $db;
+    protected $menuModel;
     /**
      * An array of helpers to be loaded automatically upon
      * class instantiation. These helpers will be available
@@ -55,12 +57,13 @@ abstract class BaseController extends Controller
     {
         // Do Not Edit This Line
         parent::initController($request, $response, $logger);
-
+        $this->db = \Config\Database::connect();
         // Preload any models, libraries, etc, here.
         $this->UserModel = new UserModel();
         $this->ChuyenMucModels = new ChuyenMucModels();
         $this->PanelModel = new PanelModel();
         $this->ThuGopYModel = new ThuGopYModel();
+        $this->menuModel = new MenuModel();
         // E.g.: $this->session = \Config\Services::session();
     }
 
@@ -90,7 +93,7 @@ abstract class BaseController extends Controller
         $data_template = $this->initializeTemplateData($page);
 
         $this->demTruyCap();
-
+        $data_template["laydanhsachmenu"] = $this->laydanhsachmenu();
         $data_template["luoc_truy_cap"] = $this->getTruyCapData();
         $data_template = array_merge($data_template, $this->getWebsiteInfo());
 
@@ -101,6 +104,39 @@ abstract class BaseController extends Controller
         } else {
             return view("Page_404");
         }
+    }
+    public function laydanhsachmenu()
+    {
+        // Lấy tất cả danh sách menu từ bảng `menus`
+        $menus = $this->db->table('menus')
+            ->select('id, title, parent_id, enabled, created_at, updated_at, group')
+            ->get()
+            ->getResultArray();
+
+        // Tổ chức dữ liệu theo cấu trúc cha-con và nhóm (group)
+        $structuredMenus = [
+            1 => [], // Menu ngang
+            2 => [], // Menu dọc
+            3 => [], // Menu footer
+        ];
+
+        // Đưa tất cả menu vào mảng theo group và parent_id
+        foreach ($menus as $menu) {
+            if (!isset($structuredMenus[$menu['group']])) {
+                continue; // Nếu không phải nhóm 1, 2, 3 thì bỏ qua
+            }
+
+            // Nếu chưa có parent_id trong mảng, tạo mới mảng
+            if (!isset($structuredMenus[$menu['group']][$menu['parent_id']])) {
+                $structuredMenus[$menu['group']][$menu['parent_id']] = [];
+            }
+
+            // Thêm menu vào đúng mảng theo group và parent_id
+            $structuredMenus[$menu['group']][$menu['parent_id']][] = $menu;
+        }
+
+        // Truyền dữ liệu qua view
+        return $structuredMenus;
     }
 
     private function initializeTemplateData($page)

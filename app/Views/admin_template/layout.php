@@ -411,7 +411,7 @@
 						</a>
 						
 					</li-->
-						
+
 						<?php foreach ($danhSachChucNang as $ChucNang) {
 							if ($ChucNang['urlChucNang'] == '/admin/ds_category') { ?>
 
@@ -430,7 +430,7 @@
 
 
 						<?php foreach ($danhSachChucNang as $ChucNang) {
-									if ($ChucNang['urlChucNang'] == '/admin/ds_baidang') { ?>
+							if ($ChucNang['urlChucNang'] == '/admin/ds_baidang') { ?>
 								<li class="nav-item has-treeview">
 									<a href="admin/ds_baidang" class="nav-link">
 										<i class="nav-icon fa fa-file-text-o"></i>
@@ -441,7 +441,7 @@
 
 								</li>
 							<?php break;
-									} ?>
+							} ?>
 						<?php } ?>
 
 						<!-- <li class="nav-item has-treeview">
@@ -556,6 +556,20 @@
 							<?php break;
 							} ?>
 						<?php } ?>
+						<?php foreach ($danhSachChucNang as $ChucNang) {
+							if ($ChucNang['urlChucNang'] == '/admin/menuthanhdoan') { ?>
+								<li class="nav-item has-treeview">
+									<a href="/admin/menuthanhdoan" class="nav-link">
+										<i class="nav-icon fa fa-list"></i> <!-- Changed icon class here -->
+										<p>
+											Quản lý menu
+										</p>
+									</a>
+								</li>
+							<?php break;
+							} ?>
+						<?php } ?>
+
 
 						<!-- <?php foreach ($danhSachChucNang as $ChucNang) {
 									if ($ChucNang['urlChucNang'] == '/admin/daphuongtien') { ?>
